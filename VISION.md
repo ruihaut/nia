@@ -1,6 +1,6 @@
 # Vision — NĪĀ
 
-> Statut : validée au gate ① par le mainteneur (2026-10-23). Toute modification repasse par le DG.
+> Statut : validée au gate ① par le mainteneur (2026-10-23) ; complétée le même jour à partir des notes du fondateur (`docs/notes/2026-10-23-excursionnistes-diamond-cut.md`) après questions au mainteneur. Toute modification repasse par le DG.
 > Langue des artefacts projet : français. La mécanique r-stack (CLAUDE.md, commandes, skills) reste en anglais.
 
 **L'eau de coco de Polynésie, réinventée.**
@@ -12,7 +12,7 @@ La Polynésie française possède une ressource emblématique, la noix de coco, 
 
 **Pour qui.**
 - Cible finale : les restaurants, hôtels et bars de Polynésie (CHR) et, à travers eux, leurs clients polynésiens et visiteurs.
-- Palier 1 : les opérateurs d'excursion (lagon, 4x4, tours d'île) qui servent des cocos à leurs passagers, touristes en priorité.
+- Palier 1 : les opérateurs d'excursion (lagon, 4x4, tours d'île) qui servent des cocos à leurs passagers, touristes en priorité. **Modèle : la coco est incluse dans l'excursion**, l'opérateur l'achète à NĪĀ et la sert sans la facturer à part ; il n'y a pas de revente au touriste.
 - Au-delà : les Polynésiens, à qui la marque doit donner une raison d'être fiers d'une ressource qu'ils connaissent déjà.
 
 ## Finalité (définition du succès)
@@ -48,7 +48,7 @@ Ce repo est d'abord un **espace de réflexion et de pilotage** du projet : faire
 - **Pas d'export international** tant que la marque n'est pas établie en Polynésie.
 - **Pas de grande distribution** : CHR et circuits sélectifs uniquement.
 - **Pas de vente en ligne B2C** dans un premier temps.
-- **Pas de cocoteraie en propre** : on achète les cocos jeunes aux producteurs. Les machines de découpe et d'extraction, elles, peuvent être à nous (décision buy or make à instruire).
+- **Pas de cocoteraie en propre et pas de récolte par nous** : la cocoteraie partenaire sélectionne et récolte selon notre critère de stade nīā, NĪĀ achète et contrôle à réception (check-list qualité). Les machines de découpe et d'extraction, elles, peuvent être à nous (décision buy or make à instruire).
 - Pas de code ni d'outil digital tant qu'un besoin concret du palier 1 ne le justifie pas.
 
 ## Contraintes
@@ -56,7 +56,7 @@ Ce repo est d'abord un **espace de réflexion et de pilotage** du projet : faire
 - **Horizon** : premières livraisons diamond cut sous 6 mois ; pilote eau de coco premium à 6–12 mois.
 - **Équipe humaine** : un fondateur seul, profil tech / produit. Le métier (filière coco, agroalimentaire, restauration) est à apprendre ou à recruter. Le financement est à lever et l'équipe terrain à constituer : ce sont des chantiers du projet, pas des acquis.
 - **Budget** : rien d'acquis aujourd'hui. Le palier 1 doit s'autofinancer au plus vite ; les machines sont financées par le cash du palier 1 et/ou par la levée.
-- **Géographie** : Tahiti d'abord (producteurs, opérateurs d'excursion, CHR), îles ensuite.
+- **Géographie** : Tahiti d'abord (producteurs, opérateurs d'excursion, CHR). Des opérateurs d'excursion visés sont aussi sur d'autres îles (Moorea en premier) : les flux inter-îles (bateau, avion, froid pendant le transport) font partie du palier 1, pas d'un « ensuite ».
 - **Réalité physique** : chaîne d'approvisionnement, périssabilité, logistique inter-sites, normes alimentaires. Toute décision du repo a un effet dans le monde réel.
 - **Stack** : aucune pour l'instant ; markdown et équipe d'agents r-stack. Un choix de stack ne sera fait que lorsqu'un besoin du second temps l'imposera.
 
@@ -75,10 +75,13 @@ Ce repo est d'abord un **espace de réflexion et de pilotage** du projet : faire
 
 ## Risques
 
-- **Approvisionnement en cocos jeunes** : volume, régularité, qualité (bon stade nīā) et prix auprès des producteurs ; dépendance à quelques fournisseurs.
+- **Approvisionnement en cocos jeunes** : volume, régularité des livraisons, qualité (bon stade nīā) et prix auprès des cocoteraies partenaires ; dépendance à quelques fournisseurs.
 - **Machines et savoir-faire d'extraction** : choix, coût, import, maintenance et maîtrise des machines de découpe et d'extraction ; arbitrage buy or make non instruit.
 - **Acceptation du prix premium** : que les établissements et leurs clients acceptent de payer cher un produit perçu comme banal et gratuit au bord de la route.
-- **Conservation et sécurité alimentaire** (non cité comme risque majeur par le fondateur, mais structurant pour le palier 2) : durée de vie de l'eau extraite, chaîne du froid, agréments.
+- **Conservation et sécurité alimentaire** : au palier 1, la durée de conservation d'une coco découpée en stock réfrigéré est une **intuition non vérifiée (deux semaines max)** à tester sur un lot ; chaîne du froid de bout en bout, y compris chez l'opérateur ; étiquetage et DLC. Au palier 2 : durée de vie de l'eau extraite, agréments.
+- **Logistique inter-îles** : livrer des opérateurs à Moorea ou ailleurs ajoute bateau ou avion, délais et rupture possible de la chaîne du froid.
+- **Internalisation par les clients** : un opérateur d'excursion peut décider de préparer ses cocos lui-même ; la valeur de NĪĀ doit tenir au-delà de la découpe (régularité, qualité du stade, marque, service).
+- **Main-d'œuvre de découpe** : le volume du palier 1 ne remplit pas un temps plein ; risque de précarité ou de dépendance à une personne ; modèle à trouver (temps partiel, à la tâche, cocoteraie partenaire).
 - **Fondateur seul, profil tech** : le métier n'est pas encore dans l'équipe ; risque de sur-investir le digital au détriment du terrain.
 - **Financement à lever** : le calendrier du palier 2 dépend d'un financement non acquis.
 - **Dérive du palier 1** : que le diamond cut devienne une fin en soi et détourne de la finalité premium.

@@ -18,7 +18,8 @@ Dire, chiffres à l'appui, si le palier 1 dégage la marge qui finance les machi
 - Sourcer chaque hypothèse : relevée (terrain), estimée (dire comment), ou supposée (à vérifier).
 
 ## Comment ce rôle travaille ici
-- Monnaie : XPF. Marché : Tahiti, saisonnalité touristique forte.
+- Monnaie : XPF. Marché : Tahiti puis Moorea (coût du transport inter-îles à inclure), saisonnalité touristique forte. Le client paie la coco incluse dans son excursion : le prix se compare à son coût actuel par passager, pas à un prix de revente.
+- La main-d'œuvre de découpe ne remplit pas un temps plein au début : modéliser temps partiel, à la tâche ou sous-traitance à la cocoteraie.
 - Les entrées viennent du terrain : prix relevés par `supply-analyst`, temps mesurés par `process-engineer`, prix acceptés relevés par `market-scout`. Pas de chiffre inventé pour combler un trou : une case vide et marquée « à relever » vaut mieux.
 - Format : tableaux markdown dans le repo, lisibles sans tableur ; un tableur seulement si le DG le demande.
 

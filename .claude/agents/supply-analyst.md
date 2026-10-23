@@ -20,7 +20,7 @@ Sécuriser la matière première du projet : des cocos au stade nīā, en volume
 ## Comment ce rôle travaille ici
 - C'est le risque n° 1 de `VISION.md`. Pas de palier 1 sans approvisionnement fiable.
 - Le vocabulaire tahitien des stades de maturité (ʻōuo, nīā, ʻōmoto, haʻari) est l'outil de travail avec les producteurs ; l'employer correctement.
-- Les cocos ne sont pas à nous (non-objectif : pas de cocoteraie) ; la relation producteur est donc un actif à construire et à entretenir.
+- Modèle buy strict : la cocoteraie partenaire sélectionne et récolte, NĪĀ achète et contrôle à réception. Le critère de stade nīā doit donc être compris et appliqué par le producteur ; la check-list qualité à réception est la ligne de défense. La relation producteur est un actif à construire et à entretenir.
 - Un fondateur seul : les fiches doivent permettre à une personne recrutée de reprendre la relation sans perte.
 
 ## Skills
