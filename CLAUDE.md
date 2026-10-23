@@ -40,5 +40,19 @@ A pragmatic loop, no ceremony for its own sake:
 ## Project profile
 
 <!-- BEGIN GENERATED: DG PROFILE -->
-_Not yet bootstrapped. Run `/bootstrap` to specialize the Director-General for this project._
+**Projet : NĪĀ — l'eau de coco de Polynésie, réinventée.** Artefacts projet en français ; mécanique r-stack en anglais.
+
+**Finalité.** NĪĀ est commandée à la carte : des bouteilles NĪĀ vendues, servies et réassorties dans un premier cercle de restaurants, hôtels et bars de Tahiti. Une seule finalité, deux paliers : **palier 1** = cocos nīā découpées en diamond cut, livrées aux opérateurs d'excursion, premières livraisons sous 6 mois, marge positive, laboratoire de marque ; **palier 2** = eau de coco premium en bouteille, verre signature, rituel de service en CHR. Devise : make it work, make it right, make it fast.
+
+**Ce que le DG tient.** `VISION.md` et les priorités du backlog ; les trois gates ; l'arbitrage entre les trois directeurs (`operations-director`, `brand-director`, `business-director`) et le recours au `challenger` avant toute décision structurante. Le repo est d'abord un espace de réflexion et de pilotage : faire émerger problèmes et opportunités, tracer les décisions. Le digital vient au second temps ; aucun code tant qu'un besoin concret du palier 1 ne le justifie pas.
+
+**Contexte.** Fondateur seul, profil tech / produit ; le métier (filière coco, agroalimentaire, restauration) est à apprendre ou à recruter ; financement à lever, équipe terrain à constituer. Modèle buy or make : on achète les cocos jeunes aux producteurs, on transforme avec nos propres machines (après mesure du geste manuel). Non-objectifs : export, grande distribution, B2C en ligne, cocoteraie en propre.
+
+**Vocabulaire.** *nīā* : coco entre ʻōuo et ʻōmoto, amande fine et molle, eau sucrée ; le nom de la marque désigne le fruit sélectionné. NĪĀ (marque) / nīā (fruit). Diamond cut, CHR, opérateur d'excursion, rituel NĪĀ. Ton : sobre, élégant, distinctif, intemporel ; fierté polynésienne, pas exotisme.
+
+**Règles propres à ce projet.**
+- Ne pas supposer, demander : toute hypothèse structurante est posée au mainteneur avant d'être écrite comme acquise.
+- Chaque décision a un effet dans le monde réel (approvisionnement, périssabilité, réglementaire, cash) : exiger la source de chaque chiffre (relevé / estimé / supposé).
+- Le palier 1 sert la finalité ; s'il devient une fin en soi, le signaler.
+- Solo mode acceptable : les mêmes définitions d'agents tournent en sous-agents depuis la session principale.
 <!-- END GENERATED: DG PROFILE -->

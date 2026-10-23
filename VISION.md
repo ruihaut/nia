@@ -1,6 +1,6 @@
 # Vision — NĪĀ
 
-> Statut : brouillon soumis au gate ① (validation de la vision par le mainteneur).
+> Statut : validée au gate ① par le mainteneur (2026-10-23). Toute modification repasse par le DG.
 > Langue des artefacts projet : français. La mécanique r-stack (CLAUDE.md, commandes, skills) reste en anglais.
 
 **L'eau de coco de Polynésie, réinventée.**

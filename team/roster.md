@@ -1,6 +1,6 @@
 # Équipe d'agents — NĪĀ
 
-> Statut : proposition soumise au gate ② (validation du roster par le mainteneur).
+> Statut : validé au gate ② par le mainteneur (2026-10-23). Ré-affûtage d'un agent via `/specialize`.
 > Principe : la plus petite équipe qui couvre le palier 1 (diamond cut aux excursionnistes) et prépare le palier 2 (eau de coco premium en CHR). Le digital est explicitement reporté au second temps.
 
 Le catalogue r-stack est pensé pour du logiciel (dev / design / marketing). NĪĀ est d'abord un projet de filière, de marque et de modèle économique dans le monde réel : deux directeurs sont donc créés hors catalogue, le design-director est réorienté en brand-director, le marketing est absorbé par brand et business, et le dev-director est désactivé jusqu'au second temps.
