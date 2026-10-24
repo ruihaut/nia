@@ -40,7 +40,7 @@ Produit : **une coco nīā, découpée en diamond cut, froide, marquée NĪĀ, l
 
 1. 100 % des cocos au stade nīā selon la fiche de sélection ; aucune ʻōuo ni ʻōmoto avancée.
 2. Découpe conforme au protocole : facettes régulières, coque interne intacte, aucune fibre, moisissure ni odeur.
-3. Température à cœur ≤ 7 °C à la livraison à l'hôtel, mesurée et consignée sur le bon de livraison ; caisse placée en chambre froide de l'hôtel sous 30 minutes.
+3. Température à cœur ≤ 7 °C à la livraison à l'hôtel, mesurée et consignée sur le bon de livraison ; caisse placée en chambre froide de l'hôtel sous 30 minutes. La température de stockage (2–4 °C dans A2 § 1.1) est à confirmer par le lot test : la littérature sur les cocos parées signale un chilling injury à 4 °C et une tenue de 15 jours à 5–8 °C avec traitement de surface (A10 § 7).
 4. Date de découpe et DLC lisibles sur la caisse ; DLC ≥ J+2 à la livraison ; ouverture sans outil fonctionnelle sur chaque coco.
 5. Quantité livrée = quantité commandée ; cocos refusées remplacées ou non facturées.
 6. Marquage NĪĀ présent et propre sur chaque coco.
