@@ -3,6 +3,19 @@
 > Rédigée le 2026-10-24 par le Director-General, à chaud, pour la soutenance PMBOK + Agile (CSC Tahiti, 20 à 30 min en binôme, trois documents et une démo, fil rouge NPS et CSAT). Règle de langue adoptée partout : **le coco**, un coco, le NĪĀ. Les documents du collègue sont versés dans `docs/notes/2026-10-24-collegue/`.
 > Lecture : **✅ convergent** (on garde), **⚖️ à trancher** (les deux versions diffèrent, recommandation donnée), **➕ apport du collègue** (absent du dépôt, à intégrer).
 
+## 0. La feuille de route en quatre étapes (décision du fondateur, 24 octobre, à faire valider par le binôme)
+
+| Étape | Quoi | Client | Ce qu'elle apprend ou apporte | Correspondance avec les deux versions |
+|---|---|---|---|---|
+| **1. Vente au détail à la pointe Vénus** | Le coco nīā diamond cut vendu directement aux touristes au passage des bus de croisière (point stratégique, jours de paquebot) | Le touriste, en direct | Apprendre la filière (approvisionnement, stade, découpe, froid, pertes), premiers retours et premières photos, premier cash ; mesure du prix (800 XPF visé) | Nouveau par rapport aux deux versions : le collègue écrivait « un accueil pour les bus des agences, pas un point de vente » ; le dépôt excluait la vente directe au touriste. C'est donc une **demande de changement** à tracer : autorisation d'occupation du domaine public (commune de Mahina), patente de vente, règles CHSP de la vente ambulante, encaissement, concurrence du coco de rue à 200 XPF, relation avec les vendeurs déjà présents (les associer) |
+| **2. Partenariat avec les agences réceptives** | Accueil des touristes avec leur NĪĀ (stops, aéroport ou hôtel selon le format retenu) | L'agence réceptive, dans son forfait | Volume régulier (≈ 0,8–0,9 N cocos par N arrivées déposées), marge B2B, logistique d'accueil déjà en place ; le décideur hôtelier commence à voir le produit | Le palier 1 des deux versions |
+| **3. Les CHR, expérience NĪĀ classique** | Le coco entier, co-marqué au logo de l'hôtel ou du restaurant, servi à la carte ou en geste d'accueil | Hôtels, restaurants, bars | Premier compte CHR, prix et conditions d'achat du décideur du palier suivant, co-marquage « Hôtel × NĪĀ » qui garde la marque visible | Palier 2 du collègue (hôtels co-marqués), élargi aux restaurants et bars |
+| **4. L'expérience premium NĪĀ** | Les cépages (origines Motu / Mouʻa, variétés) et les verres et bouteilles : l'eau NĪĀ servie comme un grand produit | CHR premium | La finalité de `VISION.md` | Palier 2 du dépôt, palier 3 du collègue |
+
+Ce que cela change dans les documents : `VISION.md` passe de deux paliers à **quatre étapes** (amendement au gate ①) ; la charte et le plan du projet présenté couvrent **l'étape 1 et la préparation de l'étape 2** (le collègue proposait palier 1 + études du palier 2 : même logique) ; chaque étape a sa gate de passage (G0–G4 du collègue à renuméroter : G1 investir dans l'étape 1, G2 premières ventes au détail, G3 première agence, G4 premier CHR, G5 premium) ; les non-objectifs restent (export, grande distribution, vente en ligne, cocoteraie en propre), la vente directe au touriste sur un point fixe devient autorisée pour l'étape 1 seulement, avec le garde-fou du collègue : ne pas dériver vers un point de vente permanent qui concurrence les vendeurs locaux.
+
+**Économie de l'étape 1, pour mémoire** (`docs/04-chiffres-cles.md` § 8) : 400 cocos par mois à 800 XPF = 320 000 de chiffre d'affaires ; marge avant fixes ≈ 122 000 par mois à 150 XPF d'achat (≈ 144 000 à 100, ≈ 55 000 à 300) ; ne couvre pas seule ≈ 100 000 de frais fixes d'atelier, d'où l'intérêt de la mener **sans atelier** (découpe à la maison, glacière, un stand les jours d'escale) comme phase d'apprentissage et de cash, avant que l'étape 2 ne paie les fixes.
+
 ## 1. Ce qui converge ✅
 
 | Sujet | Les deux versions disent |
@@ -21,8 +34,8 @@
 | # | Sujet | Version du collègue | Version du dépôt | Recommandation |
 |---|---|---|---|---|
 | 1 | **Équipe** | Un binôme : sponsor, chef de projet, Product Owner | « Fondateur seul » | ➜ **Binôme.** Charte : A et B, l'un sponsor par intérim et PO, l'autre chef de projet ; à nommer |
-| 2 | **Formats du palier 1** | Deux formats : (1) accueil à l'aéroport, remis avec le collier à la sortie de la douane, livré la veille au dépôt de l'agence ; (2) premier stop du tour de l'île (pointe Vénus, puis Maraa), glacière dans le bus, le guide sert et reprend les cocos vides ; « un accueil, pas un point de vente » | Remise au lobby de l'hôtel après le check-in ; aéroport écarté (score 3,0 : file, bagages, nuit) ; hôtel = veto de fait | ➜ **Pilote = le stop pointe Vénus** (concret, de jour, jours de paquebot connus des mois à l'avance, collecte facile, aucun hôtel à convaincre). **Should** : Maraa, puis aéroport **ou** lobby d'hôtel : les deux analyses s'accordent sur les objections de l'aéroport (nuit, correspondances, liquides, autorisation du terminal) ; garder le lobby d'hôtel comme variante du format aéroport, à tester en G3 |
-| 3 | **Paliers 2 et 3** | Palier 2 = le même coco servi à l'hôtel, co-marqué « Hôtel × NĪĀ » ; palier 3 = la bouteille, « à trancher » | Palier 2 = la bouteille à la carte des CHR (finalité de `VISION.md`) | ➜ **Trois paliers** : la finalité reste la bouteille à la carte ; le coco co-marqué dans les hôtels devient le palier 2 (pont naturel : le décideur hôtelier voit le produit), la bouteille le palier 3. **Décision du mainteneur : amender `VISION.md` (gate ①)** |
+| 2 | **Formats du palier 1** | Deux formats : (1) accueil à l'aéroport, remis avec le collier à la sortie de la douane, livré la veille au dépôt de l'agence ; (2) premier stop du tour de l'île (pointe Vénus, puis Maraa), glacière dans le bus, le guide sert et reprend les cocos vides ; « un accueil, pas un point de vente » | Remise au lobby de l'hôtel après le check-in ; aéroport écarté (score 3,0 : file, bagages, nuit) ; hôtel = veto de fait | ➜ **Tranché par les 4 étapes** : étape 1 = vente au détail à la pointe Vénus (apprentissage, cash, retours) ; étape 2 = les agences, avec le stop en Must et l'aéroport ou le lobby d'hôtel en Should (les deux analyses s'accordent sur les objections de l'aéroport : nuit, correspondances, liquides, autorisation du terminal) |
+| 3 | **Paliers 2 et 3** | Palier 2 = le même coco servi à l'hôtel, co-marqué « Hôtel × NĪĀ » ; palier 3 = la bouteille, « à trancher » | Palier 2 = la bouteille à la carte des CHR (finalité de `VISION.md`) | ➜ **Tranché par les 4 étapes** : étape 3 = CHR avec coco entier co-marqué, étape 4 = premium (cépages, verres, bouteilles) ; la finalité de `VISION.md` reste l'étape 4. **Amendement de `VISION.md` à faire (gate ①)** |
 | 4 | **Prix de vente** | 650 XPF HT (500–800) | 700 (net ≥ 590 après commission) ; message du fondateur ce jour : 800 | ➜ Présenter **650 en base, 500 et 800 en sensibilité** (tableau du collègue) ; c'est cohérent avec « VAN nulle à ≈ 590 » du dépôt ; 800 = cas optimiste, à tester à haute voix |
 | 5 | **Coût par coco** | ≈ 300 (découpe 45 à 1 min 45 par coco, carte 25, paille 15, froid 10, livraison 25, collecte 10, pertes 15) | ≈ 365 (découpe 100 à 3 min, présentation 60) | ➜ Fourchette **300–365**, le temps de découpe (1 min 45 ou 3 min) et la présentation sont à mesurer sur le lot test |
 | 6 | **Volume de base** | 100 cocos par semaine, 400 par mois ; 1 jour de paquebot à 3 bus ≈ 100 cocos | 5 280 la première année (≈ 440 par mois en moyenne, 1 000 en régime) | ➜ **400 par mois en base du pilote** (collègue), 1 000 par mois comme régime à G3 (dépôt) ; ≈ 90 cocotiers pour 5 200 par an, 1 producteur suffit, 2 pour la sécurité |
@@ -51,7 +64,8 @@ Le modèle financier complet (A1, A1b : VAN, TRI, point bas, sensibilités), la 
 | | Valeur | Statut |
 |---|---|---|
 | Arrivées à terre par jour | ≈ 620 ; 1 agence à 10 % ≈ 60 NĪĀ par jour | ISPF, calcul |
-| Base du pilote | 100 cocos par semaine, 400 par mois ; 1 jour de paquebot à 3 bus ≈ 100 cocos | décision binôme |
+| Base du pilote (étape 1, détail pointe Vénus) | 100 cocos par semaine, 400 par mois ; 1 jour de paquebot à 3 bus de 90 ≈ 540 passagers, 100 cocos ≈ 19 % de conversion | décision fondateur |
+| Prix au détail (étape 1) | 800 XPF le coco (coco de rue : 200 ; café de Bora Bora : 600 glacé) | à tester |
 | Achat au producteur | ≈ 150 XPF (100 à 200 ; 300 pessimiste) | à relever |
 | Prix à l'agence | ≈ 650 XPF HT (500 à 800) | à tester |
 | Coût par coco | ≈ 300 à 365 XPF | à mesurer |
@@ -67,15 +81,16 @@ Le modèle financier complet (A1, A1b : VAN, TRI, point bas, sensibilités), la 
 
 ## 6. À trancher aujourd'hui par le binôme
 
-1. Les trois paliers (coco co-marqué à l'hôtel en 2, bouteille en 3) → amendement de `VISION.md`.
-2. Le second format : aéroport (collègue) ou lobby d'hôtel (dépôt), ou les deux en Should.
+1. Valider ensemble les quatre étapes (section 0) → amendement de `VISION.md` et renumérotation des gates.
+2. Pour l'étape 2, le second format : aéroport (collègue) ou lobby d'hôtel (dépôt), ou les deux en Should.
 3. Le prix de base en soutenance : 650.
 4. Qui est sponsor, qui est chef de projet, qui est PO dans le binôme.
-5. Le pilote : 1 agence (Marama Tours à contacter) × pointe Vénus × jours de paquebot × 1 mois × option A.
+5. Le pilote de l'étape 1 : stand NĪĀ à la pointe Vénus × jours de paquebot × 1 mois, sans atelier ; en parallèle, premier contact avec une agence (Marama Tours) pour l'étape 2 ; autorisation de la commune de Mahina et patente avant la première vente.
 
 ## 7. À faire avant la soutenance (fusion des deux listes)
 
 - Contacter une agence réceptive (Marama Tours), prix dit à haute voix ; mairie de Mahina ; devis frigos et cuisine partagée ; 2–3 prix producteurs.
 - Lot test de conservation et protocole de découpe (temps réel par coco ; température 2–4 °C contre 6–8 °C).
-- Mettre à jour `VISION.md`, la charte et le plan : binôme, trois paliers, formats, 15 lots, gates G0–G4, NPS / CSAT, zéro gaspillage.
+- Mettre à jour `VISION.md`, la charte et le plan : binôme, quatre étapes, vente au détail en étape 1, formats de l'étape 2, 15 lots, gates renumérotées, NPS / CSAT, zéro gaspillage.
+- Pour l'étape 1 : mairie de Mahina (occupation du domaine public), patente, CHSP vente ambulante, caisse et monnaie, relation avec les vendeurs présents, calendrier des escales (Port autonome).
 - Préparer la démo (vrais NĪĀ, colliers, cartes avec QR code) et répéter en chronométrant (25 min, alternance A/B).
