@@ -17,8 +17,8 @@
 | Le palier 1 finance-t-il les machines ? | **Non aux volumes réalistes** : ≈ 0,6 M XPF/an d'excédent en année 2, soit une machine de découpe en 2 ans, pas la ligne du palier 2. **Oui en optimiste** (≈ 2 M/an). | — |
 | Machine de découpe : acheter quand ? | **Pas au lancement.** Seuil de bascule ≈ **650 cocos/mois durables (≈ 30/jour)**. Décider en juillet–août 2027 sur volumes observés | Moyenne |
 | VAN à 12 % sur 24 mois, scénario réaliste | **A −0,84 M · B −1,05 M · C −0,89 M · option 0 : 0.** Le palier 1 seul ne se rembourse pas en 24 mois ; il s'équilibre (VAN = 0) à un prix de vente ≈ 570 XPF ou à +50 % de volume | — |
-| Fret inter-îles | Deux variantes : **payant** ≈ 60 XPF/coco [estimé] ou **gratuit « produits agricoles »** ≈ 20 XPF/coco [supposé, à vérifier Lexpol]. Le dispositif connu (arrêté n° 1586 CM) couvre les produits **non transformés**, dans le sens **îles → Tahiti** : il ne couvre probablement pas une coco découpée à Tahiti et expédiée à Moorea, mais ouvre une **opportunité d'achat de cocos brutes dans une île productrice** (§ 1.5) | Faible : préalable à vérifier |
-| Les 3 chiffres qui décident | 1) prix accepté par l'opérateur, 2) prix d'achat de la coco nīā (aucune source, même web), 3) volume (passagers/jour × opérateurs). Puis main-d'œuvre et durée de conservation. Préalable hors sensibilité : les conditions du fret agricole gratuit | — |
+| Fret inter-îles | Deux variantes : **payant** ≈ 60 XPF/coco [estimé] ou **gratuit « produits agricoles »** ≈ 20 XPF/coco [supposé, à vérifier Lexpol]. Le dispositif connu (arrêté n° 1586 CM) couvre les produits **non transformés**, dans le sens **îles → Tahiti** : il ne couvre probablement pas un coco découpé à Tahiti et expédiée à Moorea, mais ouvre une **opportunité d'achat de cocos bruts dans une île productrice** (§ 1.5) | Faible : préalable à vérifier |
+| Les 3 chiffres qui décident | 1) prix accepté par l'opérateur, 2) prix d'achat de le coco nīā (aucune source, même web), 3) volume (passagers/jour × opérateurs). Puis main-d'œuvre et durée de conservation. Préalable hors sensibilité : les conditions du fret agricole gratuit | — |
 
 **Lecture.** Pris isolément, le palier 1 est un petit projet à marge mince qui couvre ses frais à partir d'une vingtaine de cocos par jour et rend quelques dizaines de milliers de XPF par mois ; il ne rémunère pas le fondateur et ne finance pas le palier 2. Sa valeur est ailleurs : apprentissage de la filière, laboratoire de marque, premiers clients, qualification des chiffres qui manquent ici. C'est l'option « continuer » (palier 2), hors de ce chiffrage, qui justifie ou non la mise de 1,8 à 2,5 M XPF. Le signaler est le rôle de cette annexe : si le palier 1 devenait une fin en soi, ces chiffres disent qu'il ne vaut pas la peine.
 
@@ -36,7 +36,7 @@
 | Marquage NĪĀ minimal : film alimentaire, étiquette DLC, bandeau ou tampon | 10 | **25** | 50 | [supposé : dépend du choix de `brand-director` ; un bandeau imprimé localement coûte vite 50 XPF] |
 | Transport Tahiti : tournée en véhicule du fondateur | 15 | **40** | 60 | [estimé : tournée de 40 km, essence ≈ 150 XPF/L → 600 XPF + usure ≈ 1 000 XPF ≈ 1 600 XPF pour 40 cocos] |
 | **Supplément Moorea, variante « fret payant »** : bac sur ferry Aremiti/Terevau + remise au quai de Vaiare | 40 | **60** | 120 | [estimé : passager ≈ 1 500 XPF l'aller, colis/bac fret ≈ 1 500–3 000 XPF le trajet, pour un bac de 40 cocos ; glace supplémentaire ; aucune grille tarifaire fret publique trouvée, devis à demander. Suppose que l'opérateur vient chercher au quai]. **Variante retenue dans le modèle** (prudente) |
-| **Supplément Moorea, variante « fret gratuit produits agricoles »** : seuls restent la glace, le passage au port et la manutention | 10 | **20** | 40 | [supposé, à vérifier Lexpol : prise en charge du fret maritime par le Pays, cf. § 1.5 ; elle ne couvre probablement **ni le sens Tahiti → Moorea ni une coco découpée**] |
+| **Supplément Moorea, variante « fret gratuit produits agricoles »** : seuls restent la glace, le passage au port et la manutention | 10 | **20** | 40 | [supposé, à vérifier Lexpol : prise en charge du fret maritime par le Pays, cf. § 1.5 ; elle ne couvre probablement **ni le sens Tahiti → Moorea ni un coco découpé**] |
 | Perte : cocos hors stade à réception, casse à la découpe, invendus (DLC dépassée) | 8 % | **15 %** | 25 % | [supposé : sans mesure. Les invendus dépendent directement de la durée de conservation, cf. § 6] |
 | Électricité du réfrigérateur | — | (fixe) | — | [estimé : armoire pro 3–4 kWh/jour × ≈ 40 XPF/kWh ≈ 5 000 XPF/mois, comptée dans les fixes pour ne pas la compter deux fois] |
 
@@ -64,13 +64,13 @@ Fourchette du coût variable Tahiti, variante A : **≈ 250 XPF** (tout en bas) 
 
 ### 1.3 Prix de vente cible et marge
 
-Le client ne revend pas la coco : il la sert, incluse dans une excursion vendue 8 000–15 000 XPF par passager [estimé]. Le prix NĪĀ se compare donc à **son coût actuel par passager**.
+Le client ne revend pas le coco : il la sert, incluse dans une excursion vendue 8 000–15 000 XPF par passager [estimé]. Le prix NĪĀ se compare donc à **son coût actuel par passager**.
 
-| Coût actuel de l'opérateur par coco servie | Estimation |
+| Coût actuel de l'opérateur par coco servi | Estimation |
 |---|---|
 | Coco achetée au bord de route, au marché ou à un producteur | 150–250 [estimé] |
 | Ouverture par le guide ou un équipier (2–3 min à ≈ 1 500 XPF/h chargé) | 50–75 [estimé] |
-| Perte (stade raté, casse, cocos jetées) | 10–15 % [supposé] |
+| Perte (stade raté, casse, cocos jetés) | 10–15 % [supposé] |
 | **Total actuel** | **≈ 230–370 XPF** |
 
 | Niveau de prix NĪĀ (HT, livré) | Tahiti | Moorea | Lecture |
@@ -87,7 +87,7 @@ Le client ne revend pas la coco : il la sert, incluse dans une excursion vendue 
 
 **Marge par livraison type** (40 cocos, Tahiti, variante A) : CA 20 000 XPF, coûts variables 14 000 XPF, **marge 6 000 XPF**. Une tournée Tahiti doit grouper au moins 25–30 cocos pour que le transport ne mange pas la marge. À Moorea au même prix : 3 600 XPF par livraison ; **facturer le supplément inter-îles** est nécessaire.
 
-TVA : taux de Polynésie française 5 % / 13 % / 16 % ; le taux applicable à une coco fraîche découpée est [supposé] 5 % (produit alimentaire), à vérifier par `operations-director` (item 5). Neutre en trésorerie si l'entreprise est assujettie ; non modélisée.
+TVA : taux de Polynésie française 5 % / 13 % / 16 % ; le taux applicable à un coco frais découpée est [supposé] 5 % (produit alimentaire), à vérifier par `operations-director` (item 5). Neutre en trésorerie si l'entreprise est assujettie ; non modélisée.
 
 ### 1.4 Coûts fixes mensuels (XPF/mois)
 
@@ -109,8 +109,8 @@ TVA : taux de Polynésie française 5 % / 13 % / 16 % ; le taux applicable à un
 
 | Flux | Variante « fret payant » [estimé] | Variante « fret gratuit produits agricoles » [supposé, à vérifier Lexpol] | Lecture |
 |---|---|---|---|
-| Cocos **découpées à Tahiti → opérateur à Moorea** (flux du modèle) | +60 XPF/coco | +20 XPF/coco **si** le sens Tahiti → Moorea et la coco parée sont éligibles | Deux doutes cumulés : le sens couvert est îles → Tahiti et entre îles ; une coco parée est probablement « transformée ». **Le modèle garde 60 XPF.** Si l'éligibilité agricole se perd à la découpe, **la découpe devrait se faire après le transport**, c'est-à-dire à Moorea (poste de découpe local ou cocoteraie partenaire de Moorea, option C sur place) |
-| Cocos **brutes nīā d'une île productrice → atelier de Tahiti** (opportunité) | ≈ +40–75 XPF/coco de fret [estimé] | **0 XPF de fret** : produit agricole brut, sens îles → Tahiti, NĪĀ inscrite au RCS comme transformateur | Permet d'acheter là où la coco jeune est abondante et moins chère que sur Tahiti ; la coco non ouverte supporte plusieurs jours de transport sans froid [supposé] |
+| Cocos **découpées à Tahiti → opérateur à Moorea** (flux du modèle) | +60 XPF/coco | +20 XPF/coco **si** le sens Tahiti → Moorea et le coco paré sont éligibles | Deux doutes cumulés : le sens couvert est îles → Tahiti et entre îles ; un coco paré est probablement « transformée ». **Le modèle garde 60 XPF.** Si l'éligibilité agricole se perd à la découpe, **la découpe devrait se faire après le transport**, c'est-à-dire à Moorea (poste de découpe local ou cocoteraie partenaire de Moorea, option C sur place) |
+| Cocos **brutes nīā d'une île productrice → atelier de Tahiti** (opportunité) | ≈ +40–75 XPF/coco de fret [estimé] | **0 XPF de fret** : produit agricole brut, sens îles → Tahiti, NĪĀ inscrite au RCS comme transformateur | Permet d'acheter là où le coco jeune est abondante et moins chère que sur Tahiti ; le coco non ouverte supporte plusieurs jours de transport sans froid [supposé] |
 
 **Chiffrage.** Variante gratuite sur le flux Moorea du modèle : marge Moorea 130 au lieu de 90 XPF ; effet sur la VAN A réaliste ≈ +40 × 2 310 cocos Moorea actualisées ≈ **+90 k XPF** (VAN −754 au lieu de −844). Opportunité d'achat dans une île productrice [supposé] : prix d'achat 80 au lieu de 120 XPF, fret 0 → coût de revient −47 XPF/coco (÷ 0,85 de perte) → VAN ≈ **+590 k XPF** (−254) ; c'est le deuxième levier après le prix de vente, **si** la régularité et la qualité à réception tiennent sur un approvisionnement distant, et si la carte CAPL ou l'inscription RCS ouvre le droit. À instruire par `supply-analyst` avec l'item 2 (cartographie des sources : Tahiti, Moorea, Raiatea, Tuamotu).
 
@@ -136,7 +136,7 @@ TVA : taux de Polynésie française 5 % / 13 % / 16 % ; le taux applicable à un
 | Croisiéristes (escales Papeete et Moorea, excursions groupées) | 70 062 × 50 % en excursion [supposé] | ≈ 35 000 cocos/an, mais par pics de 500–2 000 passagers par escale | Hors scénarios : volumes trop irréguliers pour le pilote ; opportunité pour l'année 2 si la conservation ≥ 10 jours permet de constituer un stock |
 | Touristes présents en moyenne un jour donné | 281 227 × séjour ≈ 15 jours ÷ 365 [supposé] | ≈ 11 500 personnes | Le réaliste (≈ 40 cocos/jour en haute saison) touche < 1 % des touristes présents : le marché n'est pas la contrainte, **l'accès aux opérateurs et le prix le sont** |
 
-### 2.2 Calendrier et montée en charge (cocos facturées par mois)
+### 2.2 Calendrier et montée en charge (cocos facturés par mois)
 
 Mois 1 = novembre 2026. Mois 1–3 : préparation (cocoteraie partenaire, protocole de découpe, test de conservation, réglementaire). Mois 4 : échantillons gratuits et dégustations (≈ 60 cocos). **Mois 5 (mars 2027) : premières livraisons payantes**, soit dans les 6 mois.
 
@@ -312,13 +312,13 @@ Flux optimistes utilisés : A (−1 040 ; −625 ; +2 590), B (−1 990 ; −158
 
 ## 6. Sensibilité (option A, scénario réaliste, VAN à 12 %)
 
-Raccourci de calcul : un écart de **Δ XPF de marge par coco** vaut **ΔVAN ≈ Δ × 12,5 k XPF** (4 360 × 0,8929 + 10 800 × 0,7972 ≈ 12 500 cocos actualisées). Base : −844 k.
+Raccourci de calcul : un écart de **Δ XPF de marge par coco** vaut **ΔVAN ≈ Δ × 12,5 k XPF** (4 360 × 0,8929 + 10 800 × 0,7972 ≈ 12 500 cocos actualisés). Base : −844 k.
 
 | Rang | Variable | Base | −20 % | +20 % | ΔVAN à −20 % | ΔVAN à +20 % | VAN à −20 % | VAN à +20 % |
 |---|---|---|---|---|---|---|---|---|
 | **1** | **Prix de vente** | 500 | 400 | 600 | **−1 250** | **+1 250** | −2 094 | **+406** |
 | **2** | **Volume** (toutes années) | 4 360 / 10 800 | −20 % | +20 % | −353 | +353 | −1 197 | −491 |
-| **2 ex.** | **Prix d'achat de la coco** (effet ÷ 0,85 de perte) | 120 | 96 | 144 | +353 | −353 | −491 | −1 197 |
+| **2 ex.** | **Prix d'achat de le coco** (effet ÷ 0,85 de perte) | 120 | 96 | 144 | +353 | −353 | −491 | −1 197 |
 | 4 | Main-d'œuvre de découpe | 100 | 80 | 120 | +294 | −294 | −550 | −1 138 |
 | 4 ex. | Coûts fixes mensuels | 75 k | 60 k | 90 k | +290 | −290 | −554 | −1 134 |
 | 6 | Durée de conservation (rythme de découpe et invendus) | 14 j | 11 j | 17 j | −175 | +60 | −1 019 | −784 |
@@ -355,7 +355,7 @@ Montants et conditions [estimé] ou [supposé] ; tout dispositif public est à *
 | **Financement participatif (don contre récompense, Ulule ou équivalent)** | Laboratoire de marque, petit cash | 0,5–1,5 M | ≈ 8 % de commission + récompenses + temps | 2–3 mois | Pas de prévente B2B ; utile pour tester l'adhésion polynésienne à la marque ; risque d'exposition prématurée |
 | **Préfinancement par un opérateur** | Trésorerie du pilote | 1–3 mois de livraisons, ≈ 0,2–0,5 M | Remise 5–10 % ou exclusivité temporaire | 2–4 semaines | Nécessite la confiance et un pilote écrit ; le plus rapide et le plus parlant pour un sponsor |
 | **Délai fournisseur** | Réduire le BFR | 30 jours de paiement à la cocoteraie ≈ 0,1–0,15 M | Prime au prix possible | Négociation | Peu probable au départ avec un petit producteur |
-| **Prise en charge du fret maritime par le Pays** (arrêté n° 1586 CM, § 1.5) | Aide en nature sur les cocos brutes achetées dans une île | ≈ 40–75 XPF/coco de fret évités, soit 0,1–0,5 M/an selon le volume [estimé] | 0 | Dossier DGAE, carte CAPL ou inscription RCS [à vérifier] | Sens îles → Tahiti, produit non transformé ; ne couvre probablement pas la livraison de cocos découpées vers Moorea |
+| **Prise en charge du fret maritime par le Pays** (arrêté n° 1586 CM, § 1.5) | Aide en nature sur les cocos bruts achetées dans une île | ≈ 40–75 XPF/coco de fret évités, soit 0,1–0,5 M/an selon le volume [estimé] | 0 | Dossier DGAE, carte CAPL ou inscription RCS [à vérifier] | Sens îles → Tahiti, produit non transformé ; ne couvre probablement pas la livraison de cocos découpés vers Moorea |
 
 **Montage suggéré pour A (réaliste)** : apport 2 M + préfinancement d'un opérateur 0,3 M ou microcrédit 0,5 M, pour disposer de ≈ 2,3–2,5 M. **Pour la machine (B ou A → B en 2027–2028)** : AEPE préfinancée par un prêt bancaire ou un leasing, décidés une fois le seuil de 650 cocos/mois observé.
 
@@ -365,10 +365,10 @@ Montants et conditions [estimé] ou [supposé] ; tout dispositif public est à *
 
 | Rang | Chiffre | Impact VAN (±20 %) | Qui | Comment |
 |---|---|---|---|---|
-| **0 — préalable** | **Conditions du fret agricole gratuit** : produits éligibles (coco parée = produit agricole brut ou transformé ?), sens couverts (îles → Tahiti seulement ? Tahiti → Moorea ?), compagnies conventionnées, formalités (carte CAPL, RCS, dossier DGAE) | Pas une sensibilité : décide **où l'on découpe** (avant ou après le transport), **où l'on achète** (île productrice à fret nul : jusqu'à +590 k) et la marge Moorea (+90 k) | supply-analyst, avec operations-director pour le réglementaire | Lire l'arrêté n° 1586 CM et sa modification de 2026 sur Lexpol ; appeler la DGAE ; demander à Aremiti et Terevau la procédure et un devis fret payant |
-| 1 | **Prix accepté par l'opérateur** et son coût actuel par passager (achat, temps d'ouverture, perte) | ±1 250 k | market-scout | 5–8 entretiens avec grille : « combien vous coûte une coco servie aujourd'hui ? » puis test des trois niveaux 400 / 500 / 600 |
-| 2 | **Prix d'achat de la coco nīā** récoltée au stade demandé, par 100, livrée ou à prendre ; prix d'une coco jeune à boire au marché de Papeete comme référence | ±353 k, **et aucune source trouvée, même web** | supply-analyst | 3 cocoteraies (Tahiti, Moorea, une île à fret gratuit), devis écrit, prime de sélection, régularité promise ; relevé au marché de Papeete et au bord de route |
-| 3 | **Volume** : passagers/jour, jours d'activité/mois par saison, part de passagers qui prennent la coco | ±353 k | market-scout | Mêmes entretiens + calendrier d'activité 2026 ; recouper avec les plannings publiés et le bilan ISPF 2025 (§ 2.1) |
+| **0 — préalable** | **Conditions du fret agricole gratuit** : produits éligibles (coco paré = produit agricole brut ou transformé ?), sens couverts (îles → Tahiti seulement ? Tahiti → Moorea ?), compagnies conventionnées, formalités (carte CAPL, RCS, dossier DGAE) | Pas une sensibilité : décide **où l'on découpe** (avant ou après le transport), **où l'on achète** (île productrice à fret nul : jusqu'à +590 k) et la marge Moorea (+90 k) | supply-analyst, avec operations-director pour le réglementaire | Lire l'arrêté n° 1586 CM et sa modification de 2026 sur Lexpol ; appeler la DGAE ; demander à Aremiti et Terevau la procédure et un devis fret payant |
+| 1 | **Prix accepté par l'opérateur** et son coût actuel par passager (achat, temps d'ouverture, perte) | ±1 250 k | market-scout | 5–8 entretiens avec grille : « combien vous coûte un coco servi aujourd'hui ? » puis test des trois niveaux 400 / 500 / 600 |
+| 2 | **Prix d'achat de le coco nīā** récoltée au stade demandé, par 100, livrée ou à prendre ; prix d'un coco jeune à boire au marché de Papeete comme référence | ±353 k, **et aucune source trouvée, même web** | supply-analyst | 3 cocoteraies (Tahiti, Moorea, une île à fret gratuit), devis écrit, prime de sélection, régularité promise ; relevé au marché de Papeete et au bord de route |
+| 3 | **Volume** : passagers/jour, jours d'activité/mois par saison, part de passagers qui prennent le coco | ±353 k | market-scout | Mêmes entretiens + calendrier d'activité 2026 ; recouper avec les plannings publiés et le bilan ISPF 2025 (§ 2.1) |
 | 4 | **Temps de découpe + conditionnement** par coco, en série de 50, par un découpeur formé | ±294 k | process-engineer | Chronométrage sur le lot test (item 4), geste manuel, outils fixés |
 | 5 | **Coût et disponibilité d'un découpeur** à la tâche vs temps partiel (prix demandé, statut, patente) | ±294 k | operations-director / process-engineer | 3 candidats ou prestataires ; cocoteraie pour l'option C |
 | 6 | **Loyer et disponibilité d'un local** de préparation avec froid | ±290 k (via les fixes) | process-engineer | 3 pistes : dépendance, espace chez la cocoteraie, local commercial ; devis ou prêt |

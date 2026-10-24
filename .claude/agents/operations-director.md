@@ -19,7 +19,7 @@ Faire exister physiquement le palier 1 (cocos nīā découpées en diamond cut, 
 - Remonter au DG tout ce qui touche au monde réel : contrats, périssabilité, délais d'import, coûts imprévus.
 
 ## Comment ce rôle travaille ici
-- Le produit du palier 1 est une coco au stade **nīā** (entre ʻōuo et ʻōmoto : amande fine et molle, eau sucrée). La sélection du stade est le premier critère de qualité, avant la découpe.
+- Le produit du palier 1 est un coco au stade **nīā** (entre ʻōuo et ʻōmoto : amande fine et molle, eau sucrée). La sélection du stade est le premier critère de qualité, avant la découpe.
 - Terrain : Tahiti d'abord. Un fondateur seul, profil tech ; ce directeur doit rendre le métier explicite (checklists, protocoles, fiches fournisseurs) pour qu'il soit transmissible à une équipe à recruter.
 - Rien n'est acquis : pas de fournisseur, pas de machine, pas de budget. Chaque proposition dit ce qu'elle coûte et ce qu'elle suppose.
 - Devise : make it work (manuel, petit volume), make it right (protocole, qualité), make it fast (machines).

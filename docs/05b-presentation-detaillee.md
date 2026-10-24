@@ -25,7 +25,7 @@
 **Titre à l'écran** : NĪĀ
 **Sous-titre** : L'eau de coco de Polynésie, réinventée.
 **Ligne basse** : Business plan, charte et plan de management du palier 1 · octobre 2026 · document de travail, chiffres estimés
-**Notes** : fond blanc, le mot NĪĀ seul, très grand. Pas de photo, ou une seule photo sobre d'une coco jeune parée.
+**Notes** : fond blanc, le mot NĪĀ seul, très grand. Pas de photo, ou une seule photo sobre d'un coco jeune parée.
 
 ### Slide 2 — Sommaire
 **À l'écran** : 1. Le concept · 2. Le business plan · 3. La charte · 4. Le plan de management · 5. Décision et prochaines étapes
@@ -42,13 +42,13 @@
 **Source** : brief fondateur, `VISION.md`.
 
 ### Slide 4 — Le nom dit le produit
-**Message clé** : *Nīā* est le mot tahitien du stade exact où l'eau de la coco est la meilleure.
+**Message clé** : *Nīā* est le mot tahitien du stade exact où l'eau de le coco est la meilleure.
 **À l'écran** : ʻōuo → **nīā** → ʻōmoto → haʻari. Définition courte : « noix de coco entre les stades ʻōuo et ʻōmoto ; l'amande s'est formée mais reste fine et molle ; l'eau est sucrée et d'un goût agréable » (dictionnaire officiel français-tahitien).
 **Notes** : la sélection du stade est le premier critère de qualité, et c'est ce que personne ne garantit aujourd'hui. Le nom de la marque désigne le fruit sélectionné : c'est le cœur du récit, il n'a pas besoin d'être surjoué. La littérature agronomique confirme que la maturité domine tous les autres facteurs de goût (plus d'un point de Brix entre ʻōuo et ʻōmoto sur un même arbre). Le premier « cépage » de NĪĀ est le stade.
 **Source** : `VISION.md`, annexe A6.
 
 ### Slide 5 — Le produit du palier 1
-**Message clé** : Une coco nīā, découpée en diamond cut, froide, marquée NĪĀ, prête à être remise et ouverte sans outil.
+**Message clé** : Un coco nīā, découpée en diamond cut, froide, marquée NĪĀ, prête à être remise et ouverte sans outil.
 **À l'écran** : 6 pictos ou mots : stade nīā vérifié · diamond cut, coque fermée jusqu'à la remise · ≤ 7 °C à la livraison · DLC écrite · marquage sobre + fiche d'origine (cocoteraie, île, semaine) · ouverture sans outil, paille.
 **Notes** : caisse consignée de 12, étiquette de lot, hébergée en chambre froide de l'hôtel. Le même produit sert la seconde cible (opérateurs d'excursion) avec un kit de service pour le guide. Pas de bouteille, pas d'eau extraite au palier 1.
 **Source** : annexe A2 § 1.1, A8, A9 § 6.1.
@@ -66,14 +66,14 @@
 **Source** : annexes A3 § 1.2, A8 § 4, A1b § 2.
 
 ### Slide 8 — Pourquoi maintenant : la place est vide
-**Message clé** : Pas d'eau de coco importée, pas de marque locale premium, personne ne livre de coco jeune préparée aux professionnels.
+**Message clé** : Pas d'eau de coco importée, pas de marque locale premium, personne ne livre de coco jeune préparé aux professionnels.
 **À l'écran** : 3 faits : importation d'eau de coco **interdite depuis avril 2023** (arrêté 2822 CM) · ≈ 10 producteurs artisanaux d'eau fraîche, sans marque (≈ 300 000 L/an) · aucun vendeur de diamond cut, aucune coco à l'arrivée dans un hôtel de Tahiti.
-**Notes** : recherche web sur ≈ 45 sources (annexe A10). Le geste d'accueil existant est le collier de fleurs ; Hanahana Tours vend déjà un accueil VIP « collier + bouteille d'eau + serviette fraîche » : le créneau exact de la NĪĀ. La vraie concurrence est en amont, sur la noix : coprah subventionné à 165 XPF le kg, lait de coco. L'absence de concurrent direct ne prouve pas un marché : c'est la question du pré-mortem.
+**Notes** : recherche web sur ≈ 45 sources (annexe A10). Le geste d'accueil existant est le collier de fleurs ; Hanahana Tours vend déjà un accueil VIP « collier + bouteille d'eau + serviette fraîche » : le créneau exact de le NĪĀ. La vraie concurrence est en amont, sur la noix : coprah subventionné à 165 XPF le kg, lait de coco. L'absence de concurrent direct ne prouve pas un marché : c'est la question du pré-mortem.
 **Source** : annexe A10, business case § 1.2 bis.
 
 ### Slide 9 — Le geste d'accueil NĪĀ
-**Message clé** : Le touriste arrive à son hôtel ; l'agent de l'agence lui remet une NĪĀ froide, en une phrase.
-**À l'écran** : frise en 5 étapes : vol long-courrier → transfert par l'agence réceptive → check-in → **remise au lobby : une NĪĀ, « cueillie cette semaine à [cocoteraie], au stade nīā »** → photo, souvenir, coque gérée par l'hôtel.
+**Message clé** : Le touriste arrive à son hôtel ; l'agent de l'agence lui remet un NĪĀ froide, en une phrase.
+**À l'écran** : frise en 5 étapes : vol long-courrier → transfert par l'agence réceptive → check-in → **remise au lobby : un NĪĀ, « cueillie cette semaine à [cocoteraie], au stade nīā »** → photo, souvenir, coque gérée par l'hôtel.
 **Notes** : la remise se fait au lobby après le check-in, à la place du welcome drink de l'hôtel, jamais à l'aéroport (file, bagages, nuit). La caisse de l'agence est hébergée dans la chambre froide de l'hôtel, NĪĀ livre de jour. L'agence paie, l'hôtel consent. Correction honnête : à Tahiti, l'arrivée est souvent une nuit de transit ; la photo de couple au lagon, c'est Moorea, hors pilote. Le pilote mesure donc le geste dans ses conditions les moins favorables.
 **Source** : annexe A8 § 2–3, A9.
 
@@ -98,7 +98,7 @@
 ### Slide 13 — Le pitch en six lignes
 **À l'écran** :
 1. **Problème** : ≈ 770 touristes arrivent chaque jour à Tahiti, accueillis par un collier et un welcome drink ; rien de local à boire ni à nommer.
-2. **Idée** : une coco nīā, au stade exact où l'eau est la meilleure, découpée, froide, marquée NĪĀ, remise à l'arrivée à l'hôtel.
+2. **Idée** : un coco nīā, au stade exact où l'eau est la meilleure, découpée, froide, marquée NĪĀ, remise à l'arrivée à l'hôtel.
 3. **Avantage** : pour l'agence un geste distinctif ; pour l'hôtel un souvenir sans travail et un futur fournisseur ; pour NĪĀ un flux quotidien à marge positive et le décideur du palier 2 qui voit le produit chaque jour.
 4. **Équipe** : un fondateur chef de projet, une cocoteraie qui récolte, un découpeur, une agence cliente, un hôtel partenaire, un sponsor à trouver.
 5. **Coût / bénéfice** : 2,5 M XPF à disposer ; marge ≈ 335 XPF par coco ; VAN +1,6 M sur 24 mois ; retour ≈ 18 mois, si le prix de 700 est obtenu.
@@ -123,13 +123,13 @@
 
 ### Slide 16 — La concurrence
 **Message clé** : Aucun concurrent direct sur les trois segments ; des concurrents indirects partout, et la vraie bataille est sur la noix.
-**À l'écran** : tableau 4 lignes : coco préparée B2B → aucun direct ; coco de rue 200 XPF · geste d'accueil → aucun avec une coco ; collier de fleurs, Hanahana Tours VIP · eau premium en bouteille → aucun ; ≈ 10 artisans ≈ 300 XPF/L, import interdit, Rotui et Brasserie de Tahiti comme entrants possibles · la noix → coprah 165 XPF/kg, lait de coco.
+**À l'écran** : tableau 4 lignes : coco préparé B2B → aucun direct ; coco de rue 200 XPF · geste d'accueil → aucun avec un coco ; collier de fleurs, Hanahana Tours VIP · eau premium en bouteille → aucun ; ≈ 10 artisans ≈ 300 XPF/L, import interdit, Rotui et Brasserie de Tahiti comme entrants possibles · la noix → coprah 165 XPF/kg, lait de coco.
 **Notes** : prix de rue relevés en ligne : 200 XPF place Vaiete, 150–200 à Huahine, ≈ 330 à Moorea, 600 glacée dans un café de Bora Bora. Fournisseurs en gros : une entreprise de Huahine expédie ≈ 4 800 cocos par semaine à Papeete (lait de coco), coopérative de Arue. Cinq vérifications terrain à faire : liste DAG des 10 producteurs, relevé de prix d'une semaine, confirmation DGAE de l'interdiction d'import en 2026, coût réel du geste d'accueil chez trois réceptifs et Hanahana Tours, F&B de trois hôtels.
 **Source** : annexe A10.
 
 ### Slide 17 — Pourquoi ça n'existe pas déjà
-**Message clé** : Parce que la place est prise par des objets légers et que la coco est perçue comme gratuite ; NĪĀ ne vend donc pas une découpe mais ce que personne ne fait.
-**À l'écran** : deux colonnes. **Accueil** : collier et welcome drink codifiés ; la coco est lourde, humide, périssable ; minuit après vingt heures de voyage n'est pas l'heure d'une coco. **Excursion** : le guide coupe la coco à la machette, c'est le spectacle, et elle ne coûte rien. **Réponse NĪĀ** : stade nīā garanti, froid, régularité, hygiène documentée, un nom et une origine.
+**Message clé** : Parce que la place est prise par des objets légers et que le coco est perçue comme gratuite ; NĪĀ ne vend donc pas une découpe mais ce que personne ne fait.
+**À l'écran** : deux colonnes. **Accueil** : collier et welcome drink codifiés ; le coco est lourde, humide, périssable ; minuit après vingt heures de voyage n'est pas l'heure d'un coco. **Excursion** : le guide coupe le coco à la machette, c'est le spectacle, et elle ne coûte rien. **Réponse NĪĀ** : stade nīā garanti, froid, régularité, hygiène documentée, un nom et une origine.
 **Notes** : si l'hypothèse « posée, pas bue » se vérifie, le moment change (hall de jour, chambre, petit-déjeuner) et peut-être le payeur (l'hôtel). Vingt remises réelles observées en novembre tranchent.
 **Source** : annexes A4 § 2, A9 § 2.
 
@@ -140,15 +140,15 @@
 **Source** : annexe A8 § 6, business case § 3.7.
 
 ### Slide 19 — Les prix
-**Message clé** : 700 XPF par passager accueilli, net d'au moins 590 après commission ; 500 XPF la coco en excursion.
-**À l'écran** : tableau : accueil **700** (plancher 500, à tester 600 / 700 / 900, une coco par passager) · excursions **500** (plancher 400) · achat de la coco nīā triée **120** (80–160) · ancrages : coco de rue 200, noix sèche au détail 80–150, coprah ≈ 35–40 par noix.
-**Notes** : une commission de 20 % annule la VAN ; « une coco par dossier » au lieu de « par passager » la ramène à ≈ −0,9 M. Le prix est une hypothèse à tester à haute voix auprès d'un décideur, pas une variable d'ajustement : on note la réponse mot pour mot, on ne baisse pas pour signer.
+**Message clé** : 700 XPF par passager accueilli, net d'au moins 590 après commission ; 500 XPF le coco en excursion.
+**À l'écran** : tableau : accueil **700** (plancher 500, à tester 600 / 700 / 900, un coco par passager) · excursions **500** (plancher 400) · achat de le coco nīā triée **120** (80–160) · ancrages : coco de rue 200, noix sèche au détail 80–150, coprah ≈ 35–40 par noix.
+**Notes** : une commission de 20 % annule la VAN ; « un coco par dossier » au lieu de « par passager » la ramène à ≈ −0,9 M. Le prix est une hypothèse à tester à haute voix auprès d'un décideur, pas une variable d'ajustement : on note la réponse mot pour mot, on ne baisse pas pour signer.
 **Source** : `docs/04-chiffres-cles.md` § 1–2, annexes A1, A1b, A10.
 
 ### Slide 20 — Le coût de revient et la marge
-**Message clé** : ≈ 365 XPF par coco livrée à l'hôtel, ≈ 335 XPF de marge à 700.
+**Message clé** : ≈ 365 XPF par coco livré à l'hôtel, ≈ 335 XPF de marge à 700.
 **À l'écran** : empilement : achat 120 · main-d'œuvre 100 (3 min par coco) · glace 15 · présentation 60 · perte 12 % · transport 30 → **≈ 365** (210–625). Marge ≈ 335 (48 %). Point mort ≈ 285 cocos par mois, ≈ 10 par jour.
-**Notes** : coût complet ≈ 460 à 1 000 cocos par mois (fixes 95 k par mois : local 40 k, électricité, consommables, comptable). En excursion : coût 350, marge 150 (30 %), point mort 500. Tous les postes sont estimés ; les trois plus incertains : prix d'achat de la coco (aucune source), temps de découpe, coût de la présentation hôtelière.
+**Notes** : coût complet ≈ 460 à 1 000 cocos par mois (fixes 95 k par mois : local 40 k, électricité, consommables, comptable). En excursion : coût 350, marge 150 (30 %), point mort 500. Tous les postes sont estimés ; les trois plus incertains : prix d'achat de le coco (aucune source), temps de découpe, coût de la présentation hôtelière.
 **Source** : annexe A1b § 1, A1 § 1.
 
 ### Slide 21 — Les volumes : trois scénarios
@@ -183,7 +183,7 @@
 
 ### Slide 26 — Ce qui fait bouger le résultat
 **Message clé** : Le prix net par passager décide de tout ; viennent ensuite l'unité de facturation et le volume.
-**À l'écran** : barres de sensibilité (± 20 %) : prix net **± 2,0 M** · une coco par dossier au lieu de par passager **−2,5 M** · volume ± 0,95 M · prix d'achat de la coco ± 0,39 M · main-d'œuvre ± 0,28 M · conservation < 5 jours ≈ −0,6 M · paiement à 60 jours −0,07 M de VAN mais −0,48 M de point bas.
+**À l'écran** : barres de sensibilité (± 20 %) : prix net **± 2,0 M** · un coco par dossier au lieu de par passager **−2,5 M** · volume ± 0,95 M · prix d'achat de le coco ± 0,39 M · main-d'œuvre ± 0,28 M · conservation < 5 jours ≈ −0,6 M · paiement à 60 jours −0,07 M de VAN mais −0,48 M de point bas.
 **Notes** : prix net d'équilibre ≈ 590 XPF. Les trois variables décisives sortent d'un seul entretien avec un décideur de l'agence.
 **Source** : annexe A1b § 5.5 et § 7.
 
@@ -196,19 +196,19 @@
 ### Slide 28 — Les opérations : la filière amont
 **Message clé** : On achète des cocos récoltées au stade nīā par une cocoteraie partenaire ; deux sources pour un flux quotidien.
 **À l'écran** : chaîne : cocoteraie récolte selon la fiche nīā → NĪĀ contrôle à réception (check-list 12 points, droit de refus) → lot numéroté. Repères : ≥ 100 nīā par semaine au départ, 250 en régime ; prix 120 (80–160) ; rejet ≤ 10 % en régime.
-**Notes** : la ressource réelle de Tahiti est le Grand de Polynésie (population hétérogène, 15–30 m) : on y sélectionne des arbres, pas une variété ; les nains, meilleurs pour la coco à boire, n'existent qu'en jardins. Source atoll (Rangiroa, Tikehau) ouverte au palier 2, avec le fret agricole pris en charge par le Pays pour les noix entières (arrêté 1586 CM : produits non transformés, îles → Tahiti). Fournisseurs à rencontrer : entreprise de Huahine, coopérative de Arue, liste DAG.
+**Notes** : la ressource réelle de Tahiti est le Grand de Polynésie (population hétérogène, 15–30 m) : on y sélectionne des arbres, pas une variété ; les nains, meilleurs pour le coco à boire, n'existent qu'en jardins. Source atoll (Rangiroa, Tikehau) ouverte au palier 2, avec le fret agricole pris en charge par le Pays pour les noix entières (arrêté 1586 CM : produits non transformés, îles → Tahiti). Fournisseurs à rencontrer : entreprise de Huahine, coopérative de Arue, liste DAG.
 **Source** : annexes A2 branche 2, A6, A10.
 
 ### Slide 29 — Les opérations : découpe, froid, livraison
 **Message clé** : Découpe manuelle mesurée, chaîne du froid de bout en bout, livraison de jour à l'hôtel.
 **À l'écran** : 4 étapes : découpe (protocole, 3 min, perte ≤ 10 %, lame désinfectée toutes les 20 cocos) → froid (armoire, mise au froid ≤ 30 min, relevé matin et soir) → tournée de jour (glacière pré-refroidie, enregistreur, ≤ 7 °C à la remise) → chambre froide de l'hôtel (caisse consignée, DLC ≥ J+2).
-**Notes** : atelier déclaré au CHSP, plan de maîtrise sanitaire simplifié, étiquetage et DLC fixée par le test de conservation. Pas de machine pendant le pilote ; note buy or make pour la décision d'octobre 2027. Variante pour les îles : cocos brutes à fret gratuit et découpe près du client si la coco parée perd l'éligibilité au fret agricole.
+**Notes** : atelier déclaré au CHSP, plan de maîtrise sanitaire simplifié, étiquetage et DLC fixée par le test de conservation. Pas de machine pendant le pilote ; note buy or make pour la décision d'octobre 2027. Variante pour les îles : cocos bruts à fret gratuit et découpe près du client si le coco paré perd l'éligibilité au fret agricole.
 **Source** : annexe A2 branches 3 à 5 et § 6.
 
 ### Slide 30 — Les opérations : réglementaire et hygiène
 **Message clé** : Le CHSP dès la deuxième semaine, parce que l'hôtel demandera les pièces au premier rendez-vous.
 **À l'écran** : 4 interlocuteurs : **CHSP** (déclaration d'établissement, préconisations denrées végétales, formation hygiène) · **DGAE** (étiquetage, fret agricole) · **Biosécurité** (transfert de végétaux entre îles) · **CCISM, CPS, assureur** (création, découpeur, RC produit).
-**Notes** : textes identifiés : arrêté 583/S de 1954, arrêté 1115/CM de 2006 ; les denrées végétales échappent à la déclaration « animale » de 1977 mais restent soumises à déclaration d'activité. Dix-neuf questions précises sont écrites dans l'annexe A2 § 7.3. La question n° 0 : une coco parée non ouverte est-elle une denrée au sens du CHSP ?
+**Notes** : textes identifiés : arrêté 583/S de 1954, arrêté 1115/CM de 2006 ; les denrées végétales échappent à la déclaration « animale » de 1977 mais restent soumises à déclaration d'activité. Dix-neuf questions précises sont écrites dans l'annexe A2 § 7.3. La question n° 0 : un coco paré non ouverte est-elle une denrée au sens du CHSP ?
 **Source** : annexe A2 § 7.
 
 ### Slide 31 — Le financement
@@ -224,8 +224,8 @@
 **Source** : `team/roster.md`, charte § 3.
 
 ### Slide 33 — Les risques majeurs du business plan
-**Message clé** : Trois risques décident : la dépendance à une agence, la conservation, la coco posée et non bue.
-**À l'écran** : 6 risques avec score : dépendance à une agence et un contact (20) · conservation < 5 jours au froid (20) · coco posée, pas bue : collier, welcome drink, fatigue (16) · commission ou exclusivité exigée (16) · décision 2027 déjà prise avec les tour-opérateurs (16) · horaires de nuit, vols retardés (16).
+**Message clé** : Trois risques décident : la dépendance à une agence, la conservation, le coco posé et non bue.
+**À l'écran** : 6 risques avec score : dépendance à une agence et un contact (20) · conservation < 5 jours au froid (20) · coco posé, pas bue : collier, welcome drink, fatigue (16) · commission ou exclusivité exigée (16) · décision 2027 déjà prise avec les tour-opérateurs (16) · horaires de nuit, vols retardés (16).
 **Notes** : tous se vérifient en deux entretiens et vingt cocos, moins de 20 k XPF, trois semaines. Ce qu'on ne couvre pas à 100 % : la concurrence réactive (si un copieur gagne, la valeur n'était que dans la découpe), la météo (5–10 % de pertes budgétées), Moorea avant la réponse sur le fret. Registre complet : 19 risques généraux, 10 propres au canal, 8 opportunités.
 **Source** : annexes A4, A9, business case § 4.
 
@@ -240,19 +240,19 @@
 # Partie 3 — La charte de projet
 
 ### Slide 35 — Le but du projet
-**Message clé** : Prouver en douze mois et pour 3 M XPF au plus que NĪĀ livre chaque jour une coco nīā froide et constante, et qu'une agence paie 700 XPF par passager pour la remettre.
+**Message clé** : Prouver en douze mois et pour 3 M XPF au plus que NĪĀ livre chaque jour un coco nīā froide et constante, et qu'une agence paie 700 XPF par passager pour la remettre.
 **À l'écran** : la phrase du but, et la finalité qu'il sert : NĪĀ à la carte des CHR de Tahiti.
 **Source** : charte § 2.
 
 ### Slide 36 — Les résultats recherchés
 **Message clé** : Sept résultats mesurables à la fin du pilote.
-**À l'écran** : liste : un client payant qui reste (≥ 20 semaines, remises ≥ 95 %) · une économie unitaire positive (prix net ≥ 590, marge > 0, coût ≤ 365) · un pont vers le palier 2 (un hôtel qui commande en propre, ≥ 70 % de cocos bues) · une filière apprise et transmissible · une conformité acquise · une marque qui commence · des chiffres réels (dix sur dix passés de « estimé » à « relevé »).
+**À l'écran** : liste : un client payant qui reste (≥ 20 semaines, remises ≥ 95 %) · une économie unitaire positive (prix net ≥ 590, marge > 0, coût ≤ 365) · un pont vers le palier 2 (un hôtel qui commande en propre, ≥ 70 % de cocos bus) · une filière apprise et transmissible · une conformité acquise · une marque qui commence · des chiffres réels (dix sur dix passés de « estimé » à « relevé »).
 **Notes** : ce que le projet ne cherche pas : devenir un fournisseur de goodies d'accueil, prouver l'eau extraite, servir Moorea pendant le pilote.
 **Source** : charte § 2.
 
 ### Slide 37 — Sponsor et chef de projet
 **Message clé** : Le fondateur est chef de projet ; le sponsor est à désigner, le fondateur tient le rôle par intérim et le dit à chaque jalon.
-**À l'écran** : deux cartes : **Chef de projet** : le fondateur, temps plein possible, porte périmètre, calendrier, budget, qualité, exécute le terrain. **Sponsor** : à désigner ; profil associé terrain ou investisseur local proche de la coco ou du tourisme ; 5–15 M en deux tranches ou nature ; valide J1, J7, J8.
+**À l'écran** : deux cartes : **Chef de projet** : le fondateur, temps plein possible, porte périmètre, calendrier, budget, qualité, exécute le terrain. **Sponsor** : à désigner ; profil associé terrain ou investisseur local proche de le coco ou du tourisme ; 5–15 M en deux tranches ou nature ; valide J1, J7, J8.
 **Source** : charte § 3.1.
 
 ### Slide 38 — L'autorité du chef de projet
@@ -268,7 +268,7 @@
 **Source** : charte § 3, annexes A3 § 5, A8 § 1.
 
 ### Slide 40 — Le périmètre : produit et travail
-**Message clé** : Le produit est une coco ; le travail du projet est tout ce qui la rend possible, légale, vendue et livrée chaque jour.
+**Message clé** : Le produit est un coco ; le travail du projet est tout ce qui la rend possible, légale, vendue et livrée chaque jour.
 **À l'écran** : gauche, le produit en 6 mots (slide 5) ; droite, les 8 branches du travail : gouvernance et financement · filière amont · découpe et froid · réglementaire et hygiène · logistique · pilote commercial · marque et présentation · clôture et leçons.
 **Source** : charte § 4, annexe A2 § 1–2.
 
@@ -355,7 +355,7 @@
 
 ### Slide 55 — La qualité visée
 **Message clé** : Constante et sûre : ce qu'un réceptionniste vérifie d'un coup d'œil et qu'un passager remarque.
-**À l'écran** : 5 cibles : 100 % nīā dans les caisses · 0 incident sanitaire, 0 rupture de froid non tracée · ≥ 95 % de cocos acceptées · ≥ 95 % de remises réalisées et de livraisons à l'heure · ≥ 70 % de cocos bues sur place.
+**À l'écran** : 5 cibles : 100 % nīā dans les caisses · 0 incident sanitaire, 0 rupture de froid non tracée · ≥ 95 % de cocos acceptés · ≥ 95 % de remises réalisées et de livraisons à l'heure · ≥ 70 % de cocos bus sur place.
 **Source** : plan § 4.1.
 
 ### Slide 56 — Contrôles, check-lists, Definition of Done
@@ -365,7 +365,7 @@
 
 ### Slide 57 — Validation et recette
 **Message clé** : Périmètre contresigné par l'agence et l'hôtel à J5 ; PV de recette signé par les deux à J7.
-**À l'écran** : le PV de recette en dix lignes : remises prévues et réalisées · cocos acceptées et refusées · stade · découpe et marquage · froid · sécurité · geste de remise · réaction des passagers et cocos bues · réserves · décision de poursuite, volume, prix net, intention de commande en propre de l'hôtel.
+**À l'écran** : le PV de recette en dix lignes : remises prévues et réalisées · cocos acceptés et refusées · stade · découpe et marquage · froid · sécurité · geste de remise · réaction des passagers et cocos bus · réserves · décision de poursuite, volume, prix net, intention de commande en propre de l'hôtel.
 **Source** : plan § 4.4, annexe A2 § 6.6.
 
 ### Slide 58 — Communication et escalade
@@ -402,13 +402,13 @@
 
 ### Slide 63 — Les KPI qui décident
 **Message clé** : Quatre KPI de pilotage, deux KPI de valeur, une règle de décision à douze semaines.
-**À l'écran** : pilotage : remises / arrivées prévues ≥ 95 % · prix net ≥ 590 · marge par coco > 0 (cible ≈ 335) · livraisons à l'hôtel à l'heure ≥ 95 %. Valeur : ≥ 70 % de cocos bues sur place · ≥ 1 hôtel qui commande en propre au sixième mois. Règle : poursuivre si tout est vert et qu'un hôtel veut commander ; revoir le moment ou le payeur si les cocos ne sont pas bues ; arrêter le canal si l'agence ne commande pas deux semaines de suite malgré une livraison fiable.
+**À l'écran** : pilotage : remises / arrivées prévues ≥ 95 % · prix net ≥ 590 · marge par coco > 0 (cible ≈ 335) · livraisons à l'hôtel à l'heure ≥ 95 %. Valeur : ≥ 70 % de cocos bus sur place · ≥ 1 hôtel qui commande en propre au sixième mois. Règle : poursuivre si tout est vert et qu'un hôtel veut commander ; revoir le moment ou le payeur si les cocos ne sont pas bues ; arrêter le canal si l'agence ne commande pas deux semaines de suite malgré une livraison fiable.
 **Source** : `docs/04-chiffres-cles.md` § 6.
 
 ### Slide 64 — Go-0 validé : les neuf semaines de vérification
 **Message clé** : Jusqu'au 3 janvier 2027, moins de 150 k XPF, tout est réversible ; le canal est qualifié ou abandonné le 15 décembre.
 **À l'écran** : liste ordonnée : 1. entretien avec le contact terrain de l'agence et observation d'une arrivée à ses côtés · 2. entretien avec un décideur de l'agence, prix dit à haute voix (600 / 700 / 900) · 3. entretiens de deux ou trois hôtels d'arrivée de Tahiti · 4. rendez-vous CHSP avant la première découpe, arrêté fret sur Lexpol, question DGAE · 5. lot test de conservation (2–4 °C, 6–8 °C, réfrigérateur d'hôtel, glacière de nuit) · 6. fiche nīā et deux cocoteraies avec prix écrit · 7. vingt remises réelles observées · 8. modèle économique v1 et dossier sponsor sur preuves. **Le 4 janvier 2027 : Go-1 sur sept conditions.**
-**Notes** : les sept conditions du Go-1 : agence (décideur, fenêtre 2027, ≥ 590 net, une coco par passager) · hôtel (consentement écrit) · conservation ≥ 5 jours · cocoteraie à ≤ 160 XPF · pas d'obstacle CHSP · un découpeur · ≥ 2,5 M disponibles. Une seule cible prospectée à la fois.
+**Notes** : les sept conditions du Go-1 : agence (décideur, fenêtre 2027, ≥ 590 net, un coco par passager) · hôtel (consentement écrit) · conservation ≥ 5 jours · cocoteraie à ≤ 160 XPF · pas d'obstacle CHSP · un découpeur · ≥ 2,5 M disponibles. Une seule cible prospectée à la fois.
 **Source** : business case § 7, `scrum/backlog.md`.
 
 ### Slide 65 — Sources et annexes

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NĪĀ — Récap projet et soutenance</title>
+<style>
+  body{margin:0;background:#1e1e1e;color:#d4d4d4;font-family:Menlo,Consolas,"DejaVu Sans Mono",monospace;font-size:14px;line-height:1.6}
+  .wrap{max-width:1000px;margin:0 auto;padding:24px}
+  h1{color:#4ec9b0;font-size:22px}
+  h2{color:#4ec9b0;font-size:17px;border-bottom:1px solid #3c3c3c;padding-bottom:4px;margin-top:36px}
+  h2::before{content:"## "}
+  h3{color:#dcdcaa;font-size:15px;margin-top:20px}
+  h3::before{content:"### "}
+  a{color:#9cdcfe}
+  b{color:#fff}
+  em{color:#ce9178}
+  blockquote{border-left:3px solid #4ec9b0;margin:10px 0;padding:4px 12px;color:#ce9178}
+  table{border-collapse:collapse;width:100%;margin:8px 0}
+  th,td{border:1px solid #3c3c3c;padding:4px 8px;text-align:left;vertical-align:top}
+  th{color:#9cdcfe;background:#252526}
+  code,pre{background:#252526;color:#ce9178}
+  pre{padding:10px;overflow-x:auto;border:1px solid #3c3c3c}
+  .warn{color:#f48771}.ok{color:#89d185}.add{color:#dcdcaa}
+  ul{padding-left:22px}
+  hr{border:0;border-top:1px dashed #3c3c3c;margin:30px 0}
+</style>
+</head>
+<body><div class="wrap">
+
+<h1>$ cat nia-recap.md</h1>
+<p>NĪĀ · Récap projet et soutenance · 23 octobre 2026<br>
+Remplace Go Coco. Sources : dépôt <a href="https://github.com/ruihaut/nia">github.com/ruihaut/nia</a> + nos échanges.<br>
+<span class="ok">[vert] = décidé</span> · <span class="add">[jaune] = proposition à valider</span> · <span class="warn">[rouge] = à vérifier ou à trancher</span></p>
+
+<h2>0. Sommaire</h2>
+<pre> 1. Objectif de la soutenance        12. Gates
+ 2. Pitch et nom                     13. MoSCoW
+ 3. Les paliers                      14. Registre des hypothèses
+ 4. Demande de changement            15. Risques
+ 5. Les 3 documents à produire       16. Critères de succès
+ 6. Le marché                        17. Le pilote
+ 7. Le client : agences réceptives   18. La démo
+ 8. Format 1 : l'accueil aéroport    19. Déroulé de la soutenance
+ 9. Format 2 : stops Pointe Vénus    20. Questions du jury
+    et Maraa                         21. À faire
+10. Approvisionnement MOUʻA / MOTU   22. Fichiers et sources
+11. Zéro gaspillage + WBS
+11b. Le modèle économique (100 cocos / semaine)</pre>
+
+<h2>1. Objectif de la soutenance</h2>
+<ul>
+  <li>Formation <b>PMBOK + Agile</b>, animée par <b>Thierry CHANG SANG</b> (CSC Tahiti).</li>
+  <li><b>En binôme</b>, <b>20 à 30 minutes</b>, <span class="ok">en alternance</span>, + questions.</li>
+  <li>Montrer qu'on sait appliquer PMBOK et Agile à un cas concret : <b>3 documents</b> + <b>démo interactive</b>.</li>
+  <li>Fil rouge : la satisfaction mesurée, <b>NPS et CSAT</b>.</li>
+</ul>
+
+<h2>2. Pitch et nom</h2>
+<blockquote>« En France, ils ont le raisin. En Polynésie, nous avons le coco. »</blockquote>
+<ul>
+  <li><b>nīā</b> (tahitien) : la noix de coco entre les stades ʻōuo et ʻōmoto. L'amande est formée mais reste fine et molle, l'eau est sucrée. <b>Le nom de la marque désigne exactement le stade que nous sélectionnons.</b></li>
+  <li>Ton de marque : sobre, élégant, intemporel. Fierté plutôt qu'exotisme. Pas de clichés tropicaux.</li>
+  <li>Promesse du palier 1 : <b>« Votre première gorgée de Polynésie. »</b></li>
+</ul>
+
+<h2>3. Les paliers</h2>
+<table>
+  <tr><th>Palier</th><th>Produit</th><th>Client</th><th>Statut</th></tr>
+  <tr><td><b>1 · Le NĪĀ de bienvenue</b></td><td>Coco jeune taillé en diamond cut, présentée « façon NĪĀ », offerte au touriste à son arrivée</td><td><b>Agences réceptives</b> (aéroport de Faa'a, port de Papeete, tours de l'île)</td><td class="ok">Décidé : c'est le projet présenté</td></tr>
+  <tr><td><b>2 · Le NĪĀ des hôtels</b></td><td>Le même coco, servi à l'hôtel, <span class="add">co-marqué « Hôtel × NĪĀ »</span></td><td>Hôtels</td><td class="ok">Décidé</td></tr>
+  <tr><td><b>3 · La bouteille ?</b></td><td>Eau de coco NĪĀ en bouteille, verre signature, rituel</td><td>Hôtels, restaurants, bars</td><td class="warn">À trancher : palier 2 ou 3</td></tr>
+</table>
+<p>Le palier 1 n'est pas une fin : il rapporte, fait apprendre la filière et sert de <b>laboratoire de marque</b>. Le touriste qui a découvert NĪĀ à l'arrivée le retrouve ensuite à son hôtel.</p>
+<p><b>Frontière du projet :</b> palier 1 + études de faisabilité du palier 2. Une gate finale (G4) décide du lancement du palier 2.</p>
+<p class="add">Co-marquage : si le coco ne porte que le logo de l'hôtel, NĪĀ disparaît. Proposition : « Hôtel X × NĪĀ » ou « Sélection NĪĀ pour l'Hôtel X », comme pour un vin.</p>
+
+<h2>4. Demande de changement (PMBOK)</h2>
+<p>Le palier 1 a changé en cours de route. On le trace comme une <b>demande de changement</b> : quoi, pourquoi, impacts, qui valide. C'est un exemple à montrer au jury.</p>
+<table>
+  <tr><th>Élément</th><th>Version 1 (dépôt)</th><th>Version 2 (actuelle)</th></tr>
+  <tr><td>Client palier 1</td><td>Opérateurs d'excursion</td><td><b>Agences réceptives</b></td></tr>
+  <tr><td>Moment</td><td>Pendant l'excursion</td><td><b>À l'arrivée</b> (aéroport) et <b>au premier stop</b> du tour de l'île</td></tr>
+  <tr><td>Palier 2</td><td>Bouteille en CHR</td><td><b>Coco co-marqué dans les hôtels</b></td></tr>
+  <tr><td>Pourquoi</td><td colspan="2">Un moment plus fort (première impression), un client qui a déjà la logistique d'accueil (bus, personnel), une porte d'entrée naturelle vers les hôtels</td></tr>
+  <tr><td>Impacts</td><td colspan="2">Nouveaux lots du WBS (aéroport, stops, accord de reprise avec les hôtels), nouveaux risques (horaires de nuit, correspondances, autorisations), nouveaux critères de succès</td></tr>
+  <tr><td>Opérateurs d'excursion</td><td colspan="2">Restent un marché secondaire (Could)</td></tr>
+</table>
+
+<h2>5. Les 3 documents à produire</h2>
+<table>
+  <tr><th>Document</th><th>Question</th><th>Contenu NĪĀ</th></tr>
+  <tr><td><b>1. Business case</b></td><td>POURQUOI ?</td><td>Problème (aucune marque ne traite l'eau de coco comme un produit d'exception) · l'expérience d'arrivée · marché ISPF · agences réceptives · options (ne rien faire, excursions, CHR direct, accueil d'arrivée ✅) · <span class="ok">modèle économique : base 100 cocos / semaine (section 11b)</span> · scénarios dont « sans aides » · zéro gaspillage · risques · recommandation</td></tr>
+  <tr><td><b>2. Charte</b></td><td>QUOI ? QUI ?</td><td>Objectif SMART · périmètre (palier 1 + études palier 2) · hors périmètre · jalons et gates · <span class="ok">budget : ~1,9 M XPF (section 11b)</span> · parties prenantes · registre des hypothèses · contraintes · critères de succès (NPS, CSAT) · <b>équipe : le binôme</b> (sponsor, chef de projet, Product Owner) · demande de changement</td></tr>
+  <tr><td><b>3. Plan</b></td><td>COMMENT ?</td><td>WBS 15 lots · méthode hybride · planning 6 mois · budget · ressources · qualité et HACCP · matrice des risques · MoSCoW · Make or Buy (machines) · chaîne du froid · lot déchets · mesure NPS et CSAT · clôture et leçons apprises</td></tr>
+</table>
+
+<h2>6. Le marché (ISPF, 2025)</h2>
+<pre>Touristes 2025 (record)                  281 227
+  dont hébergement à terre               227 286
+  dont croisière entre les îles           53 941
+Passagers de croisières transpacifiques  ~70 000 à 72 000 (en plus)
+Premier marché                           Amérique du Nord (42 %)
+
+≈ 620 arrivées de touristes par jour en moyenne
+1 agence = 10 % des arrivées → ≈ 60 NĪĀ par jour</pre>
+
+<h2>7. Le client : les agences réceptives (B2B)</h2>
+<table>
+  <tr><th>Agence</th><th>Ce qu'on sait</th></tr>
+  <tr><td><b>Marama Tours</b></td><td>Accueil à Faa'a, transferts hôtel / port / aéroport, ~400 places (18 véhicules), prise en charge des paquebots, tours de l'île (Pointe Vénus, Arahoho, Faarumai, Vaipahi, Maraa). <b>Candidat pilote.</b></td></tr>
+  <tr><td>Tahiti Nui Travel</td><td>« Leader depuis 1965 », surtout B2B avec les voyagistes</td></tr>
+  <tr><td>Te Manu Tours</td><td>Accueil avec pancarte, collier de fleurs et <b>eau fraîche</b> à la sortie de la douane</td></tr>
+  <tr><td>Autres</td><td>Tahiti Tours, Tahiti Travel Services, Tahiti Expert DMC, Paradise Tours, Polynésie Voyages, Manaventura, Tekura, Moana Voyages, Tahiti Experiences (liste officielle : service-public.pf)</td></tr>
+</table>
+<ul>
+  <li><b>Qui paie :</b> l'agence, dans son forfait. Pour elle : un cadeau qui la distingue, de meilleurs avis, un meilleur NPS.</li>
+  <li><b>Argument :</b> remplacer la bouteille d'eau plastique de l'accueil par un NĪĀ.</li>
+  <li>Marché secondaire : les opérateurs d'excursion (bateau, 4x4 Papenoo, baleines) en Could.</li>
+</ul>
+
+<h2>8. Format 1 : l'accueil à l'aéroport</h2>
+<pre>Arrivées long-courrier relevées (varient selon jour et saison) :
+  TN Los Angeles      21h30 et 04h10
+  AF Los Angeles      ~05h00-05h30
+  TN Tokyo            06h25
+  TN Auckland         22h00
+  NZ                  02h25
+  UA San Francisco    18h55
+→ surtout le soir et la nuit</pre>
+<ul>
+  <li><b>Pas de nuit chez NĪĀ</b> : découpe la veille, stockage au froid, livraison en fin de journée au dépôt de l'agence. L'agence remet le NĪĀ avec le collier, à la sortie de la douane.</li>
+  <li>Quantités : liste des passagers transmise par l'agence la veille.</li>
+  <li class="warn">À vérifier : autorisation de l'aéroport pour distribuer dans le terminal.</li>
+  <li class="warn">À vérifier : les touristes en correspondance immédiate (vol intérieur, ferry) et les règles sur les liquides. Au départ, on cible ceux qui dorment à Tahiti.</li>
+  <li>Effet : après ~20 h de voyage, un coco frais à 5 h du matin marque les esprits.</li>
+</ul>
+
+<h2>9. Format 2 : les stops Pointe Vénus et Maraa</h2>
+<table>
+  <tr><th></th><th>Pointe Vénus (Mahina, est)</th><th>Grottes de Maraa (Paea, ouest)</th></tr>
+  <tr><td>Distance de Papeete</td><td>~10 km, premier arrêt depuis le port</td><td>~28 km</td></tr>
+  <tr><td>Durée de l'arrêt</td><td>~15 min</td><td>20 à 30 min</td></tr>
+  <tr><td>Ambiance</td><td>Sable noir, phare, monuments Cook et Bligh</td><td>Fraîcheur, fougères, ombre, abrité de la pluie</td></tr>
+  <tr><td>Récit</td><td><em>« 1769 : Cook observe ici le passage de Vénus. Aujourd'hui, votre premier NĪĀ. »</em></td><td><em>« L'eau de la montagne dans les grottes, l'eau du nīā dans vos mains. »</em></td></tr>
+  <tr><td class="warn">À vérifier</td><td>Commune de Mahina, vendeurs déjà présents</td><td>Commune de Paea ou Pays, fermetures possibles, respect du site</td></tr>
+</table>
+<h3>3 options de service</h3>
+<table>
+  <tr><th>Option</th><th>Principe</th><th>Quand</th></tr>
+  <tr><td><b>A · Glacière dans le bus</b></td><td>NĪĀ livre les glacières le matin, le guide sert au stop et reprend les cocos vides</td><td class="ok">Pilote</td></tr>
+  <tr><td>B · Partenaire sur le site</td><td>Un vendeur local garde le stock et sert, contre commission (valeur partagée)</td><td>Montée en volume</td></tr>
+  <tr><td>C · Hôte NĪĀ sur le site</td><td>Une personne NĪĀ accueille chaque bus (autorisation d'occupation à obtenir)</td><td>Jours de gros paquebots</td></tr>
+</table>
+<pre>Volume : 1 bus = 20 à 45 passagers
+Jour de paquebot, 5 bus de l'agence → 150 à 200 NĪĀ
+Découpe ~1 à 2 min par coco → 3 à 6 h de préparation la veille   OK
+Escales de paquebot connues des mois à l'avance → planification</pre>
+<p class="warn">Garde-fou : uniquement les bus des agences partenaires, pas un point de vente ouvert à tous (sinon dérive vers l'excursion).</p>
+
+<h2>10. Approvisionnement : MOUʻA et MOTU</h2>
+<table>
+  <tr><th>Cuvée</th><th>Origine</th><th>Transport</th><th>Statut</th></tr>
+  <tr><td><b>NĪĀ MOUʻA</b> (îles hautes)</td><td>Tahiti, Moorea</td><td>Route, ferry plusieurs fois par jour</td><td class="ok">Base</td></tr>
+  <tr><td><b>NĪĀ MOTU</b> (îlots coralliens)</td><td>Motu des Îles Sous-le-Vent (Taha'a, Raiatea, Huahine, Bora, Maupiti)</td><td>Cargos ~2 rotations / semaine, ~1 nuit, de la place au retour (26 000 t contre 156 000 t à l'aller en 2024)</td><td class="add">Could, avec calendrier</td></tr>
+  <tr><td>Éditions par archipel</td><td>Tuamotu (avion), Marquises</td><td>Plusieurs jours à semaines</td><td>Plus tard</td></tr>
+</table>
+<p>Règle : découpe à l'atelier de Tahiti, <b>48 à 72 h maximum entre cueillette et découpe</b> (hypothèse H2).</p>
+
+<h2>11. Zéro gaspillage + WBS</h2>
+<h3>Zéro gaspillage</h3>
+<ul>
+  <li><b>Une carte attachée au NĪĀ</b> : « Gardez-le pour la photo, puis déposez-le au point NĪĀ. Il retournera à la cocoteraie. » + QR code CSAT.</li>
+  <li><b>Pailles</b> en papier ou en bambou, pas de plastique.</li>
+  <li><b>Cocos vides</b> : sac de collecte dans le bus (stops), <span class="add">accord de reprise avec les hôtels partenaires</span> (aéroport → chambre). Les hôtels ne sont pas nos clients au palier 1 : fourmis, odeur et poids posent problème sans accord.</li>
+  <li><b>Bourre</b> : compost et paillage pour les producteurs. <b>Pas de charbon</b> (trop humide, faible rendement, fumées).</li>
+  <li><b>Cocos déclassés</b> (sains, dans leur date limite) : glaces avec un <b>glacier partenaire</b> (Buy, pas Make). Bonus.</li>
+</ul>
+<h3>WBS (règle des 100 %)</h3>
+<pre> 1. Management du projet (3 docs, gates, reporting, risques, clôture)
+ 2. Cadrage business (pré-mortem, modèle économique, scénarios)
+ 3. Structure et administratif (entreprise, assurances, dépôt de marque)
+ 4. Approvisionnement (producteurs, stade nīā, contrats, cueillette)
+ 5. Production (protocole diamond cut, atelier, chambre froide, HACCP)
+ 6. Réglementaire (hygiène, étiquetage, date limite, autorisations)
+ 7. Logistique et froid (livraison aux dépôts des agences, glacières)
+ 8. Commercial (agences réceptives, contrats, facturation, pilote)
+ 9. Accueil aéroport (autorisation, rituel avec le collier, formation)
+10. Stops NĪĀ (Pointe Vénus, Maraa : autorisations, partenaires,
+    formation des guides, collecte)
+11. Marque (présentation façon NĪĀ, carte, textes FR / EN)
+12. Mesure de la satisfaction (NPS agences, CSAT touristes, photos)
+13. Déchets (cocos vides, bourre, accord hôtels)
+14. Financement et équipe
+15. Études palier 2 (hôtels co-marqués, bouteille, machines)
+    ── hors projet : digital (second temps du programme)</pre>
+
+<h2>11b. Le modèle économique (base : 100 cocos / semaine)</h2>
+<p class="ok">Décision : on part sur <b>100 cocos par semaine, soit ~400 par mois</b>.</p>
+<p class="warn">Hypothèses de travail, à confirmer avec de vrais devis et de vrais prix producteurs.</p>
+
+<h3>La découpe</h3>
+<pre>À la main (couteau, découpeur entraîné)  ~34 cocos / heure  ≈ 1 min 45 par coco
+Machine diamond cut (Asie)               100 à 500+ / heure
+Machine rendue à Tahiti                  ~150 000 à 450 000 XPF (500 à 1 980 $ + fret, douane, compresseur)
+
+100 cocos / semaine → ~3 h de découpe à la main par semaine
+→ PAS de machine au palier 1. Seuil de bascule : ~500 cocos / semaine (décision à G3)</pre>
+
+<h3>Prix</h3>
+<table>
+  <tr><th></th><th>Prix</th><th>Remarque</th></tr>
+  <tr><td>Achat au producteur (coco MOUʻA cueilli, stade nīā, livré)</td><td>~150 XPF (100 à 200)</td><td class="warn">À négocier, aucun relevé récent trouvé</td></tr>
+  <tr><td>Vente à l'agence (HT)</td><td>~650 XPF (500 à 800)</td><td>Un coco frais sur une plage touristique : 800 à 1 500 XPF ; une canette au restaurant : ~320 XPF</td></tr>
+</table>
+
+<h3>Coûts par coco (variables)</h3>
+<pre>Coco MOUʻA du producteur                        150
+Pertes (~10 % : refusés, abîmés, vols annulés)   15
+Découpe et présentation à la main                45   (SMIG ~1 025 XPF/h brut, ~1 300 chargé)
+Carte imprimée + attache                         25
+Paille papier ou bambou                          15
+Froid (glace, sacs)                              10
+Livraison au dépôt de l'agence                   25
+Collecte et compost des cocos vides              10
+                                                ---
+TOTAL                                         ≈ 300 XPF
+MARGE par coco : 650 - 300                    ≈ 350 XPF (~54 %)</pre>
+
+<h3>Pourquoi une structure légère ?</h3>
+<pre>Structure "complète" (local loué + utilitaire frigo) : ~300 000 XPF / mois de frais fixes
+  400 cocos × 350 = 140 000 de marge  →  -160 000 XPF / mois   NON VIABLE
+  Point mort : ~860 cocos / mois (~200 / semaine)
+
+→ à 100 cocos / semaine, on réduit les frais fixes :</pre>
+<table>
+  <tr><th>Frais fixes (structure légère)</th><th>Par mois</th></tr>
+  <tr><td>Cuisine ou atelier agréé partagé, loué à l'heure (ou chez un producteur partenaire)</td><td>40 000</td></tr>
+  <tr><td>Électricité (2 réfrigérateurs professionnels)</td><td>10 000</td></tr>
+  <tr><td>Assurance responsabilité civile</td><td>15 000</td></tr>
+  <tr><td>Comptabilité, banque, administratif</td><td>20 000</td></tr>
+  <tr><td>Analyses en laboratoire</td><td>10 000</td></tr>
+  <tr><td>Téléphone, QR code, outils</td><td>5 000</td></tr>
+  <tr><td><b>Total</b></td><td><b>≈ 100 000 XPF</b></td></tr>
+</table>
+<p>Véhicule : le véhicule du binôme + glacières (carburant compté dans la livraison par coco). <span class="warn">Hypothèse forte : le binôme ne se paie pas pendant le palier 1.</span></p>
+
+<h3>Résultat mensuel</h3>
+<table>
+  <tr><th></th><th>Prix 500</th><th><b>Prix 650 (base)</b></th><th>Prix 800</th></tr>
+  <tr><td>Cocos par mois</td><td>400</td><td><b>400</b></td><td>400</td></tr>
+  <tr><td>Chiffre d'affaires</td><td>200 000</td><td><b>260 000</b></td><td>320 000</td></tr>
+  <tr><td>Marge sur coûts variables</td><td>80 000</td><td><b>140 000</b></td><td>200 000</td></tr>
+  <tr><td>Frais fixes (structure légère)</td><td>-100 000</td><td><b>-100 000</b></td><td>-100 000</td></tr>
+  <tr><td><b>Résultat par mois</b></td><td class="warn">-20 000</td><td class="ok"><b>+40 000</b></td><td class="ok">+100 000</td></tr>
+  <tr><td>Point mort</td><td>~500 / mois</td><td><b>~290 / mois (~70 / semaine)</b></td><td>~200 / mois</td></tr>
+</table>
+
+<h3>Investissement de départ (structure légère)</h3>
+<pre>2 réfrigérateurs professionnels               500 000
+Plans de travail inox, couteaux, outils       300 000
+10 glacières professionnelles                 150 000
+Démarches, analyses, autorisations            300 000
+Marque (dépôt, carte, design)                 200 000
+Imprévus (10 %)                               150 000
+                                             ---------
+Total investissement                       ≈ 1 600 000 XPF
+Réserve (3 mois de frais fixes)               300 000
+                                             ---------
+BESOIN DE FINANCEMENT                      ≈ 1 900 000 XPF
+Remboursement à +40 000 / mois : ~40 mois  → c'est un PILOTE, pas une fin en soi.
+Le bénéfice vient de l'extension (Maraa, aéroport) : voir ci-dessous.</pre>
+
+<h3>Et si ça marche ? (après G3)</h3>
+<table>
+  <tr><th>Cocos / semaine</th><th>Par mois</th><th>Marge (350)</th><th>Structure</th><th>Frais fixes</th><th>Résultat / mois</th></tr>
+  <tr><td><b>100 (base)</b></td><td>400</td><td>140 000</td><td>Légère</td><td>100 000</td><td class="ok">+40 000</td></tr>
+  <tr><td>250</td><td>~1 000</td><td>350 000</td><td>Légère + 1 temps partiel</td><td>~180 000</td><td class="ok">+170 000</td></tr>
+  <tr><td>500</td><td>~2 150</td><td>~750 000</td><td>Complète + machine</td><td>~300 000</td><td class="ok">+450 000</td></tr>
+</table>
+
+<h3>Ce que ça demande</h3>
+<pre>Approvisionnement : 100 / semaine = ~5 200 cocos / an ≈ ~90 cocotiers ≈ ~1 ha
+                    → 1 producteur suffit, 2 pour la sécurité
+Demande           : 100 / semaine ≈ 1 jour de paquebot avec 3 bus,
+                    ou ~15 arrivées par jour à l'aéroport
+Main-d'œuvre      : ~3 h de découpe + livraisons par semaine → le binôme
+Le point sensible : le PRIX. À 500 XPF, on perd de l'argent.</pre>
+<p>Coûts cachés à ne pas oublier : temps commercial et formation des guides · cocos préparés pour rien (vol annulé, bus en retard) · glacières perdues · TVA de Polynésie (taux à vérifier, prix HT) · pénalités éventuelles du contrat.</p>
+
+<h2>12. Gates <span class="add">(proposition)</span></h2>
+<table>
+  <tr><th>Gate</th><th>Décision</th><th>Conditions</th></tr>
+  <tr><td>G0</td><td>Lancer</td><td>Charte signée par le sponsor</td></tr>
+  <tr><td>G1</td><td>Investir (atelier, froid, glacières)</td><td>≥ 2 producteurs sous contrat · protocole de découpe testé · 1 agence engagée par écrit · cadre réglementaire clarifié</td></tr>
+  <tr><td>G2</td><td>Premières remises payantes</td><td>Autorisation d'hygiène · durée de conservation confirmée · autorisation du stop (Pointe Vénus) · CSAT ≥ 4,5 au test</td></tr>
+  <tr><td>G3</td><td>Régularité et extension</td><td>1 mois de pilote : 95 % des bus servis, 100 % des cocos vides récupérés, marge positive · NPS agence ≥ +30 → ajout de Maraa et de l'aéroport</td></tr>
+  <tr><td>G4</td><td>Lancer le palier 2 ou non</td><td>NPS agences ≥ +50 · CSAT ≥ 4,5 · 1 hôtel intéressé par le co-marquage · financement identifié</td></tr>
+</table>
+
+<h2>13. MoSCoW <span class="add">(proposition)</span></h2>
+<table>
+  <tr><th>Priorité</th><th>Contenu</th></tr>
+  <tr><td><b>Must</b></td><td>Diamond cut MOUʻA (Tahiti, Moorea) · producteurs sous contrat · atelier aux normes · chaîne du froid · 1 agence pilote · stop Pointe Vénus (option A) · carte + collecte des cocos vides · NPS et CSAT</td></tr>
+  <tr><td><b>Should</b></td><td>Stop Maraa · accueil à l'aéroport · accord de reprise avec 1 ou 2 hôtels · compost de la bourre · études palier 2</td></tr>
+  <tr><td><b>Could</b></td><td>Cuvée MOTU · option B (partenaire sur site) · glaces avec un glacier · opérateurs d'excursion · gros paquebots (option C)</td></tr>
+  <tr><td><b>Won't (pas maintenant)</b></td><td>Bouteille · hôtels co-marqués (palier 2) · digital · éditions Tuamotu et Marquises · charbon · export · grande distribution · vente en ligne · cocoteraie en propre</td></tr>
+</table>
+
+<h2>14. Registre des hypothèses <span class="add">(proposition)</span></h2>
+<table>
+  <tr><th>#</th><th>Hypothèse</th><th>Vérification</th><th>Gate</th></tr>
+  <tr><td>H1</td><td>Le coco taillé se garde jusqu'à 2 semaines au froid (dépôt du binôme), sans sulfites</td><td>Test de conservation</td><td>G2</td></tr>
+  <tr><td>H2</td><td>48 à 72 h maximum entre cueillette et découpe</td><td>Test sur plusieurs lots</td><td>G1</td></tr>
+  <tr><td>H3</td><td>Une agence accepte de payer le NĪĀ dans son forfait</td><td>Lettre d'engagement, prix</td><td>G1</td></tr>
+  <tr><td>H4</td><td>La commune autorise la remise au stop</td><td>Rendez-vous mairie de Mahina, puis Paea</td><td>G2</td></tr>
+  <tr><td>H5</td><td>L'aéroport autorise la remise dans le terminal</td><td>Échange avec le gestionnaire</td><td>G3</td></tr>
+  <tr><td>H6</td><td>Les guides servent correctement (rituel, hygiène, collecte)</td><td>Formation + contrôle pendant le pilote</td><td>G3</td></tr>
+  <tr><td>H7</td><td>Les producteurs fournissent le bon stade nīā, régulièrement</td><td>Contrats, critère écrit, contrôle à réception</td><td>G1</td></tr>
+  <tr><td>H8</td><td>Les hôtels acceptent la reprise des cocos vides</td><td>Accord avec 1 ou 2 hôtels</td><td>G3</td></tr>
+  <tr><td>H9</td><td>La marque NĪĀ peut être protégée (nom descriptif)</td><td>Vérification avant dépôt</td><td>G1</td></tr>
+  <tr><td>H10</td><td>Le modèle tient sans aides publiques</td><td>Modèle économique</td><td>G1</td></tr>
+</table>
+
+<h2>15. Risques <span class="add">(principaux)</span></h2>
+<table>
+  <tr><th>Risque</th><th>Réponse</th></tr>
+  <tr><td>Approvisionnement irrégulier ou mauvais stade</td><td>≥ 2 producteurs, critère du stade nīā écrit, contrôle à réception</td></tr>
+  <tr><td>Le coco taillé brunit avant 2 semaines</td><td>Test avant G2, date limite réaliste</td></tr>
+  <tr><td>Itinéraire du bus changé ou stop raccourci</td><td>Planning partagé avec l'agence, cocos reprises</td></tr>
+  <tr><td>Bus en retard, cocos trop longtemps hors du froid</td><td>Glacières, règle : coco jeté au-delà de X heures hors du froid</td></tr>
+  <tr><td>Refus de la commune ou de l'aéroport</td><td>Option A (glacière dans le bus) sans installation, autre site</td></tr>
+  <tr><td>Conflit avec les vendeurs locaux</td><td>Les associer (option B)</td></tr>
+  <tr><td>Cocos abandonnés sur le site ou à l'hôtel</td><td>Collecte obligatoire, accord avec les hôtels</td></tr>
+  <tr><td>Correspondances : liquides interdits</td><td>Cibler les touristes qui dorment à Tahiti</td></tr>
+  <tr><td>Vols de nuit, retards de vol</td><td>Livraison au dépôt de l'agence la veille, liste des passagers</td></tr>
+  <tr><td>Pic de volume d'un paquebot</td><td>Seulement les bus de l'agence, plafond par jour</td></tr>
+  <tr><td>Le palier 1 devient une fin en soi</td><td>G4 et MoSCoW gardent le cap</td></tr>
+  <tr><td>Marque difficile à protéger</td><td>Vérification avant dépôt (H9)</td></tr>
+  <tr><td>Rotation de cargo annulée (MOTU)</td><td>MOUʻA reste la base</td></tr>
+</table>
+
+<h2>16. Critères de succès <span class="add">(à valider)</span></h2>
+<pre>Pilote (1 mois)
+  95 % des bus prévus servis
+  CSAT touristes ≥ 4,5 / 5   (QR code sur la carte)
+  NPS agence ≥ +50
+  100 % des cocos vides récupérés
+  Marge par NĪĀ positive
+  Nombre de photos partagées (#NĪĀ)
+
+Fin de projet (6 mois)
+  Remises régulières avec au moins 1 agence
+  2 formats en service (stops + aéroport)
+  Décision G4 sur le palier 2</pre>
+
+<h2>17. Le pilote</h2>
+<pre>1 agence (ex. Marama Tours)
+× stop Pointe Vénus (le plus proche du port)
+× jours de paquebot
+× 1 mois
+× option A (glacière dans le bus, guide formé, collecte)
+
+Puis, si G3 : + Maraa (circuits par l'ouest) + accueil aéroport + option B</pre>
+
+<h2>18. La démo</h2>
+<pre>On joue l'arrivée : le jury « débarque ».
+1. Accueil : collier de fleurs + vrai NĪĀ taillé en diamond cut
+2. La carte : récit (Pointe Vénus 1769 / Maraa)
+3. Dégustation à l'aveugle MOUʻA contre MOTU
+4. QR code : préférence + CSAT
+5. Question finale : « Recommanderiez-vous NĪĀ à une agence ? » → NPS en direct
+6. On reprend les cocos vides devant le jury (zéro gaspillage)
+Plan B : vote sur photo ou à main levée</pre>
+
+<h2>19. Déroulé de la soutenance (alternance)</h2>
+<table>
+  <tr><th>#</th><th>Partie</th><th>Qui</th><th>25 min</th></tr>
+  <tr><td>1</td><td>Pitch, le nom NĪĀ</td><td>A</td><td>2</td></tr>
+  <tr><td>2</td><td>Le problème, l'idée, le marché</td><td>B</td><td>3</td></tr>
+  <tr><td>3</td><td>Les paliers, les 2 formats, le client</td><td>A</td><td>4</td></tr>
+  <tr><td>4</td><td>Approvisionnement, zéro gaspillage, modèle économique</td><td>B</td><td>3</td></tr>
+  <tr><td>5</td><td>Charte : objectif, périmètre, demande de changement, gates</td><td>A</td><td>4</td></tr>
+  <tr><td>6</td><td>Plan : WBS, MoSCoW, risques, pilote</td><td>B</td><td>5</td></tr>
+  <tr><td>7</td><td>Démo + NPS en direct</td><td>A + B</td><td>4</td></tr>
+</table>
+
+<h2>20. Questions probables du jury</h2>
+<table>
+  <tr><th>Question</th><th>Réponse</th></tr>
+  <tr><td>Pourquoi cette offre n'existe pas déjà ?</td><td>Périssable, approvisionnement irrégulier, et personne n'a construit de marque. Notre pré-mortem y répond</td></tr>
+  <tr><td>Pourquoi l'agence paierait ?</td><td>Un cadeau qui la distingue, de meilleurs avis, moins de plastique que la bouteille d'eau, un coût minime face au prix d'un forfait</td></tr>
+  <tr><td>Et les vols de nuit ?</td><td>NĪĀ ne travaille pas la nuit : livraison la veille au dépôt de l'agence</td></tr>
+  <tr><td>Que deviennent les cocos vides ?</td><td>Collecte dans le bus ou à l'hôtel partenaire, puis compost chez les producteurs</td></tr>
+  <tr><td>Pourquoi vous avez changé de client ?</td><td>Demande de changement tracée : un moment plus fort et un client qui a déjà la logistique</td></tr>
+  <tr><td>Combien de temps tient un coco taillé ?</td><td>Hypothèse H1, testée avant G2</td></tr>
+  <tr><td>Et si l'hôtel met seulement son logo ?</td><td>Co-marquage « Hôtel × NĪĀ » : la marque reste visible</td></tr>
+  <tr><td>Combien ça coûte, combien ça rapporte ?</td><td>Base 100 cocos / semaine, 650 XPF : +40 000 XPF / mois avec une structure légère, point mort ~70 cocos / semaine, 1,9 M de besoin de financement (section 11b)</td></tr>
+</table>
+
+<h2>21. À faire</h2>
+<pre>[ ] Trancher : bouteille en palier 2 ou 3 ; valider le co-marquage
+[ ] Confirmer les chiffres de la section 11b : prix producteurs (2-3 devis),
+    prix accepté par une agence, devis frigos / cuisine partagée
+[ ] Valider gates, MoSCoW, hypothèses, critères de succès
+[ ] Rédiger les 3 documents (WBS 15 lots)
+[ ] Mettre à jour VISION.md et le backlog dans le dépôt
+    (binôme, agences réceptives, stops, demande de changement)
+[ ] Contacter 1 agence réceptive (ex. Marama Tours)
+[ ] Vérifier : mairie de Mahina, Paea, aéroport, liquides en correspondance
+[ ] Tester la conservation et le protocole de découpe
+[ ] Préparer la démo (vrais NĪĀ, colliers, cartes, QR code)
+[ ] Répéter en chronométrant</pre>
+
+<h2>22. Fichiers et sources</h2>
+<pre>nia-recap.html          ce fichier
+nia-presentation.html   les slides de la soutenance
+github.com/ruihaut/nia  le dépôt du binôme (vision, backlog, agents)
+go-coco-*               ancienne version du projet (Go Coco)</pre>
+<p>Sources : <a href="https://www.ispf.pf/publication/frequentation-touristique-decembre-2025">ISPF décembre 2025</a> · <a href="https://maramatours.com/en/fiches/half-day-and-full-day-island-tours/">Marama Tours</a> · <a href="https://www.temanutours.pf/">Te Manu Tours</a> · <a href="https://www.service-public.pf/sdt/liste-des-agences-de-voyage-et-bureaux-dexcursion/">Liste des agences</a> · <a href="https://tahiti-aeroports.com/en/daily-arrivals/">Tahiti Aéroports</a> · <a href="https://www.tahitiparadiseactivities.com/circle-island-tour-half-day-with-tahiti-eden-tours/">Tahiti Eden Tours</a> · <a href="https://www.tntvnews.pf/polynesie/economie/le-marche-des-raromatai-convoite-par-les-armateurs/">TNTV Raromatai</a></p>
+<p>$ _</p>
+
+</div></body>
+</html>

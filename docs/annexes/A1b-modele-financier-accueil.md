@@ -1,12 +1,12 @@
 # Annexe A1b — Modèle financier de l'option « accueil premium via agences réceptives » (palier 1, cible prioritaire révisée)
 
-> Statut : v0, estimations de bureau, **aucun chiffre relevé sur le terrain**. Rédigé le 2026-10-24 par `financial-modeler` pour `business-director`, à la suite du changement de cible décidé par le fondateur le 2026-10-24 : la cible prioritaire du palier 1 devient l'**accueil premium via les agences réceptives** (l'agence achète la coco nīā diamond cut froide marquée NĪĀ, l'intègre à sa prestation de transfert, son agent la remet au touriste à l'arrivée à l'hôtel ; l'hôtel gère la coque et peut servir de froid tampon). Les opérateurs d'excursion deviennent la seconde cible.
+> Statut : v0, estimations de bureau, **aucun chiffre relevé sur le terrain**. Rédigé le 2026-10-24 par `financial-modeler` pour `business-director`, à la suite du changement de cible décidé par le fondateur le 2026-10-24 : la cible prioritaire du palier 1 devient l'**accueil premium via les agences réceptives** (l'agence achète le coco nīā diamond cut froide marquée NĪĀ, l'intègre à sa prestation de transfert, son agent la remet au touriste à l'arrivée à l'hôtel ; l'hôtel gère la coque et peut servir de froid tampon). Les opérateurs d'excursion deviennent la seconde cible.
 >
 > Cette annexe **ne remplace pas A1** : elle en garde toutes les hypothèses unitaires, la méthode (VAN à trois flux, raccourcis de sensibilité, format de trésorerie) et ne reconstruit que ce qui change. Les hypothèses de volume sont posées **en fourchettes** et renvoient à l'**annexe A8** (`market-scout` : journeys, volumes de marché, objections) pour validation. Monnaie : XPF hors TVA. Horizon : 12 mois de pilote (novembre 2026 → octobre 2027) + 12 mois de régime.
 >
 > Étiquettes : **[relevé]** mesuré sur le terrain (aucun ici) · **[estimé : …]** déduit d'un raisonnement ou d'un ordre de grandeur connu de la Polynésie française · **[estimé : source web]** chiffre public, URL donnée · **[supposé]** hypothèse de travail à vérifier. **« A8 »** = à valider par l'annexe A8.
 
-**Repères (scénario réaliste, découpe manuelle, Tahiti)** : coût variable livré hôtel **≈ 365 XPF** (220–620) · prix cible **700 XPF** par passager accueilli (plancher 500, fourchette 600–900) · marge **≈ 335 XPF (48 %)** · point mort **≈ 285 cocos/mois (≈ 10/jour)** · point bas de trésorerie **−1,87 M en juin 2027** (−2,35 M si les agences paient à 60 jours) · VAN à 12 % sur 24 mois **+1,6 M** contre −0,84 M pour les excursions (A1), **à condition** d'un prix net ≥ 590 XPF et d'une coco par passager (pas par dossier).
+**Repères (scénario réaliste, découpe manuelle, Tahiti)** : coût variable livré hôtel **≈ 365 XPF** (220–620) · prix cible **700 XPF** par passager accueilli (plancher 500, fourchette 600–900) · marge **≈ 335 XPF (48 %)** · point mort **≈ 285 cocos/mois (≈ 10/jour)** · point bas de trésorerie **−1,87 M en juin 2027** (−2,35 M si les agences paient à 60 jours) · VAN à 12 % sur 24 mois **+1,6 M** contre −0,84 M pour les excursions (A1), **à condition** d'un prix net ≥ 590 XPF et d'un coco par passager (pas par dossier).
 
 ---
 
@@ -21,7 +21,7 @@
 | Froid tampon | Chez l'opérateur, souvent inexistant (glacière à bord) | **Réfrigérateur de l'hôtel** (ou petit réfrigérateur NĪĀ prêté) : 2–3 jours de stock sur place | Découpe **3 séances/semaine** au lieu de 2 ; DLC exigée **≥ 5 jours** après découpe (jour J + 2–3 j de tampon + 1 j de marge) contre ≥ 7 j pour Moorea en A1 ; **invendus plus faibles** car l'agence connaît ses arrivées à J−1 (manifestes) |
 | Perte | 15 % (hors stade, casse, invendus) | **12 %** (8–20) : invendus en baisse (volumes connus d'avance), mais **refus à réception plus sévères** (présentation hôtelière) | ÷ 0,88 au lieu de ÷ 0,85 |
 | Présentation | Film + étiquette DLC + bandeau minimal (25 XPF) | **Accueil hôtelier** : étiquette ou bandeau NĪĀ soigné, **fiche** (le fruit, le geste, 2 langues), **paille** (papier ou bambou), éventuellement support ou manchon | **60 XPF/coco** (35–120) [supposé : étiquette imprimée localement 20–40, fiche 10–20, paille 10–30, manchon 0–40 ; borne haute 120 à ne pas dépasser, au-delà la marge Moorea disparaît] |
-| Prix de référence du client | Coût actuel d'une coco servie par l'opérateur : 230–370 XPF | **Coût d'un geste d'accueil** par passager : lei de fleurs, welcome drink (§ 1.3) | Prix cible **700** au lieu de 500 |
+| Prix de référence du client | Coût actuel d'un coco servi par l'opérateur : 230–370 XPF | **Coût d'un geste d'accueil** par passager : lei de fleurs, welcome drink (§ 1.3) | Prix cible **700** au lieu de 500 |
 | Main-d'œuvre | À la tâche (100 XPF/coco), pas de poste à remplir | Flux régulier : un **temps partiel salarié** devient possible (§ 1.4) | Année 1 : **100** (tâche) ; année 2 : **80** (contrat temps partiel sous-utilisé en basse saison) |
 
 ### 1.2 Coût de revient d'un diamond cut livré hôtel (XPF)
@@ -40,7 +40,7 @@ Formule inchangée : (achat + main-d'œuvre + glace + présentation) ÷ (1 − p
 | Transport Tahiti (tournée groupée hôtels) | 15 | **30** | 50 | [estimé] ; 50 si livraison calée sur une arrivée de nuit sans tampon |
 | **Coût variable livré hôtel, Tahiti** | **≈ 210** | **≈ 365** | **≈ 625** | A1 excursions : 350 (250–500) |
 | **Moorea, variante « fret payant »** (+60, A1 § 1.5) | 250 | **≈ 425** | 745 | Variante **retenue** (prudente) |
-| Moorea, variante « fret agricole gratuit » (+20) | 215 | ≈ 385 | 665 | [supposé, à vérifier Lexpol] : peu probable (sens Tahiti → Moorea, coco découpée) |
+| Moorea, variante « fret agricole gratuit » (+20) | 215 | ≈ 385 | 665 | [supposé, à vérifier Lexpol] : peu probable (sens Tahiti → Moorea, coco découpé) |
 | **Moorea, variante « l'agence transporte »** (+0) : la glacière NĪĀ voyage dans le transfert de l'agence (van + ferry avec l'accompagnateur), remise à l'hôtel de Moorea | 210 | **≈ 365** | 625 | [supposé] : coût nul pour NĪĀ, mais glacière de prêt (§ 3), responsabilité de la chaîne du froid transférée, DLC à +1 jour ; **à poser à l'agence dès le premier entretien** |
 | Coût complet Tahiti à 1 000 cocos/mois (fixes 95 k alloués) | | **≈ 460** | | |
 | Coût complet Tahiti à 660 cocos/mois (moyenne M5–M12 du réaliste) | | ≈ 510 | | |
@@ -49,7 +49,7 @@ Le coût variable central ne bouge presque pas par rapport à A1 (**365 contre 3
 
 ### 1.3 Prix par passager accueilli : à quoi l'agence compare
 
-L'agence ne revend pas la coco à l'unité : elle l'inclut dans un transfert ou un « welcome » vendu au tour-opérateur, ou l'offre comme signature. Le prix NĪĀ se compare au **coût d'un geste d'accueil par passager**, pas à une coco de roulotte.
+L'agence ne revend pas le coco à l'unité : elle l'inclut dans un transfert ou un « welcome » vendu au tour-opérateur, ou l'offre comme signature. Le prix NĪĀ se compare au **coût d'un geste d'accueil par passager**, pas à un coco de roulotte.
 
 | Référence | Coût pour l'agence ou l'hôtel | Source |
 |---|---|---|
@@ -111,7 +111,7 @@ Trois variantes, même logique qu'A1 § 1.5 ; le modèle retient la variante pay
 | Arrivées par jour selon la saison | ≈ 540 (indice 0,7) à ≈ 1 000 (indice 1,3) ; jours de vols long-courriers et têtes de ligne croisière jusqu'à ×1,5–2 la moyenne | [estimé] A8 |
 | Part des arrivées prises en charge par **une** agence réceptive (accueil, transfert) | **3 niveaux : petite 3 % (≈ 23 pax/jour) · moyenne 8 % (≈ 60) · grande 15 % (≈ 115)** | [supposé] : une dizaine d'agences réceptives à Tahiti, une très grande et plusieurs moyennes ; A8 |
 | Part des passagers accueillis dont la première nuit est à Tahiti ou Moorea (et non en correspondance directe vers une autre île) | **60 %** (50–70) | [supposé] : arrivées tardives, capacité hôtelière de Tahiti ; A8 |
-| Une coco par **passager adulte** (90 % des passagers) ou par **dossier** (≈ 2,1 passagers) | **Central : par passager adulte** ; variante par dossier = volume ÷ 2,3 | [supposé] : le lei est remis par personne ; A8 et entretien agence. **Variable décisive**, cf. § 5.5 |
+| Un coco par **passager adulte** (90 % des passagers) ou par **dossier** (≈ 2,1 passagers) | **Central : par passager adulte** ; variante par dossier = volume ÷ 2,3 | [supposé] : le lei est remis par personne ; A8 et entretien agence. **Variable décisive**, cf. § 5.5 |
 | **Cocos « équipables » par mois pour une agence qui équipe 100 % de ses passagers éligibles** | petite **≈ 375 × indice** · moyenne **≈ 1 000 × indice** · grande ≈ 1 875 × indice | 23 400 × part agence × 60 % × 90 % |
 | Têtes de ligne croisière à Papeete (embarquements et débarquements, Paul Gauguin, Windstar, Aranui, etc.) | 53 941 touristes flottants/an ≈ 150/jour en moyenne, par pics de 150–330 un jour donné | [estimé : source web ISPF] ; **hors scénarios** (pics absorbés par le tampon de 2 jours ; opportunité A8) |
 | Délai de paiement des agences | 30 jours (base) / **60 jours** (variante, § 5.5) | [supposé : les agences paient souvent à 30–60 jours] |
@@ -129,7 +129,7 @@ Ordre de grandeur du marché adressable par ce canal : 281 227 × 60 % première
 | Cocos/mois en régime (année 2) | 250 | **1 000** (≈ 33/jour, 23 en février, 43 en août) | ≈ 2 500 (machine et équipe nécessaires) |
 | Cocos année 2 | 3 000 | **12 000** | 30 000 |
 
-### 2.3 Montée en charge mois par mois (cocos facturées)
+### 2.3 Montée en charge mois par mois (cocos facturés)
 
 Mois 1 = novembre 2026. M1–M3 : préparation (cocoteraie, protocole, test de conservation, réglementaire, **accord de principe de l'agence et de 2–3 hôtels sur le froid tampon**). M4 (février 2027) : 60 échantillons premium remis avec l'agence à ses propres clients, retours. **M5 (mars 2027) : premières livraisons payantes** sur un hôtel, segment premium de l'agence ; au plus tard fin avril 2027.
 
@@ -149,7 +149,7 @@ Mois 1 = novembre 2026. M1–M3 : préparation (cocoteraie, protocole, test de c
 | M12 oct-27 | 1,1 | 275 | **1 070** (660 + 410, dont 214 Moorea) | 2 720 |
 | **Total année 1** | | **1 950** | **5 280** (dont ≈ 634 Moorea) | **13 490** (dont ≈ 2 220 Moorea) |
 
-Tout [supposé] ; A8 doit confirmer la part de marché d'une agence moyenne, la part « première nuit à Tahiti–Moorea » et la règle « une coco par passager ». Le réaliste accueil fait **+21 % de volume en année 1 et +11 % en année 2** par rapport au réaliste excursions d'A1 (4 360 / 10 800), avec une courbe plus lisse (pas de zéro en février : indice 0,7, pas 0).
+Tout [supposé] ; A8 doit confirmer la part de marché d'une agence moyenne, la part « première nuit à Tahiti–Moorea » et la règle « un coco par passager ». Le réaliste accueil fait **+21 % de volume en année 1 et +11 % en année 2** par rapport au réaliste excursions d'A1 (4 360 / 10 800), avec une courbe plus lisse (pas de zéro en février : indice 0,7, pas 0).
 
 ---
 
@@ -279,7 +279,7 @@ Flux accueil : minimal (−1 280 ; −575 ; +8), optimiste (−1 280 ; +697 ; +8
 
 ### 5.5 Pont A1 → A-accueil et sensibilité
 
-**Pont (k XPF, VAN à 12 %, approximations par le raccourci ΔVAN ≈ Δmarge × cocos actualisées ; cocos actualisées accueil = 5 280 × 0,8929 + 12 000 × 0,7972 ≈ 14 280, soit « 1 XPF de marge = 14,3 k de VAN » contre 12,5 k en A1).**
+**Pont (k XPF, VAN à 12 %, approximations par le raccourci ΔVAN ≈ Δmarge × cocos actualisés ; cocos actualisés accueil = 5 280 × 0,8929 + 12 000 × 0,7972 ≈ 14 280, soit « 1 XPF de marge = 14,3 k de VAN » contre 12,5 k en A1).**
 
 | Étape | Effet | VAN |
 |---|---|---|
@@ -300,10 +300,10 @@ Flux accueil : minimal (−1 280 ; −575 ; +8), optimiste (−1 280 ; +697 ; +8
 |---|---|---|---|---|---|---|---|---|
 | **1** | **Prix par passager accueilli** (±20 %) | 700 | 560 | 840 | **−2 000** | **+2 000** | **−400** | +3 600 |
 | **1 ex.** | **Commission ou remise exigée par l'agence** (variable de canal) | 0 % | 10 % | 20 % | −1 000 | −2 000 | +600 | **−400** |
-| **1 ex.** | **Une coco par dossier au lieu d'une par passager** (volume ÷ 2,3) | par passager | par dossier | — | ≈ −2 500 | — | **≈ −900** | — |
+| **1 ex.** | **Un coco par dossier au lieu d'une par passager** (volume ÷ 2,3) | par passager | par dossier | — | ≈ −2 500 | — | **≈ −900** | — |
 | 2 | Volume (toutes années, ±20 %) | 5 280 / 12 000 | −20 % | +20 % | −950 | +950 | +650 | +2 550 |
 | 3 | Présentation (variable de canal) | 60 | 35 | 120 | +410 | −970 | +2 010 | +630 |
-| 4 | Prix d'achat de la coco (±20 %, ÷ 0,88) | 120 | 96 | 144 | +390 | −390 | +1 990 | +1 210 |
+| 4 | Prix d'achat de le coco (±20 %, ÷ 0,88) | 120 | 96 | 144 | +390 | −390 | +1 990 | +1 210 |
 | 5 | Coûts fixes mensuels (±20 %) | 95 k | 76 k | 114 k | +320 | −320 | +1 920 | +1 280 |
 | 6 | Main-d'œuvre (±20 %) | 100 / 80 | 80 / 64 | 120 / 96 | +280 | −280 | +1 880 | +1 320 |
 | 7 | Taux de perte (±3 points) | 12 % | 9 % | 15 % | +160 | −170 | +1 760 | +1 430 |
@@ -321,7 +321,7 @@ Compléments hors ±20 % :
 | Moorea « l'agence transporte » (0 au lieu de +60 sur 3 634 cocos Moorea actualisées ≈ 2 900) | +60 × 2,9 | ≈ +1 770 |
 | Prix Moorea 760 (fret refacturé) | idem | ≈ +1 770 |
 
-Les trois variables qui décident sont **toutes du côté de l'agence** : le prix net (prix affiché moins commission), la règle « par passager ou par dossier », et le délai de paiement (pour le besoin de fonds, pas pour la VAN). Elles sortent du premier entretien (§ 7), avant tout relevé de terrain sur la coco.
+Les trois variables qui décident sont **toutes du côté de l'agence** : le prix net (prix affiché moins commission), la règle « par passager ou par dossier », et le délai de paiement (pour le besoin de fonds, pas pour la VAN). Elles sortent du premier entretien (§ 7), avant tout relevé de terrain sur le coco.
 
 ---
 
@@ -348,10 +348,10 @@ Montage suggéré pour A-accueil réaliste : **apport 2 M + préfinancement de l
 | **1 ★** | **Prix net accepté par passager accueilli** (600 / 700 / 900 dits à voix haute), et qui paie : l'agence l'absorbe, le refacture au tour-opérateur, ou le vend en option | ±2 000 k ; VAN = 0 à ≈ 590 net | fondateur + `market-scout` (A8) | Entretien : « que vous coûte aujourd'hui l'accueil d'un passager : lei, boisson, temps de l'agent ? » puis les trois niveaux |
 | **2 ★** | **Commission ou remise** attendue (0 / 10 / 20 %), exclusivité, durée de contrat possible | −1 000 k par 10 % | fondateur | Même entretien |
 | **3 ★** | **Passagers accueillis par jour et par mois** par l'agence en 2025–2026, part dont la première nuit est à Tahiti ou Moorea, les 5 hôtels principaux, part des transferts privés | ±950 k à ±20 % de volume | fondateur, puis A8 | Demander les statistiques d'arrivées de l'agence par mois et par hôtel |
-| **4 ★** | **Une coco par passager, par adulte ou par dossier** ; enfants ; que fait-on des couples | −2 500 k si par dossier | fondateur | Entretien : comment est remis le lei aujourd'hui |
+| **4 ★** | **Un coco par passager, par adulte ou par dossier** ; enfants ; que fait-on des couples | −2 500 k si par dossier | fondateur | Entretien : comment est remis le lei aujourd'hui |
 | **5 ★** | **Délai de paiement, mode de commande (J−1 ? hebdomadaire ?), qui réceptionne à l'hôtel, acompte possible** | −475 k de point bas à 60 j | fondateur | Entretien |
 | **6 ★** | **Logistique Moorea et nuit** : l'agence peut-elle transporter les glacières dans ses transferts ; heures d'arrivée des vols accueillis ; les hôtels acceptent-ils un froid tampon NĪĀ | +60 XPF/coco Moorea (+≈ 1 770 k à 25 % Moorea) ; évite les livraisons de nuit (−40 XPF/coco) | fondateur, puis `operations-director` avec 2–3 hôtels | Entretien, puis visite des hôtels |
-| 7 | **Prix d'achat de la coco nīā** au stade demandé, par 100, livrée (inchangé d'A1, toujours aucune source) | ±390 k | `supply-analyst` | 3 cocoteraies, devis écrit |
+| 7 | **Prix d'achat de le coco nīā** au stade demandé, par 100, livrée (inchangé d'A1, toujours aucune source) | ±390 k | `supply-analyst` | 3 cocoteraies, devis écrit |
 | 8 | **Durée de conservation réelle** après découpe au froid, avec 2–3 jours en réfrigérateur d'hôtel (DLC exigée ≥ 5 j, ≥ 6 j pour Moorea) | ≈ −600 k sous 5 j ; canal non opérable sous 3 j | `process-engineer` | Lot test (item 4) avec un passage en réfrigérateur ménager à 4–6 °C |
 | 9 | **Coût de la présentation hôtelière** : devis étiquettes, fiches bilingues, pailles, support, par 1 000 | +410 k à 35, −970 k à 120 | `brand-director` + `operations-director` | 2 imprimeurs locaux, 1 fournisseur de pailles |
 | 10 | **Temps de découpe + présentation** par coco et **disponibilité d'un découpeur** à la tâche puis à temps partiel 7/7 (prix, statut, remplaçant) | ±280 k ; décide du passage au salarié vers 600 cocos/mois | `process-engineer` + `operations-director` | Chronométrage sur le lot test ; 3 candidats |
@@ -366,7 +366,7 @@ Préalable inchangé d'A1 (rang 0) : conditions du fret agricole gratuit (Lexpol
 2. **Point mort** : ≈ 285 cocos/mois (10/jour) au lieu de 500, atteint en mai 2027 au lieu de juin ; l'EBITDA de l'année 1 devient positif (+0,7 M au lieu de −0,2 M) et le palier 1 peut, en année 2, rémunérer un mi-temps du fondateur en restant positif, ce qu'aucune option d'A1 ne permettait.
 3. **Point bas** : il **s'aggrave** (−1,87 M en juin 2027 au lieu de −1,78 M ; −2,35 M si les agences paient à 60 jours) : il faut **≈ 2,5 M à 30 jours, ≈ 3 M à 60 jours**, ou un acompte d'agence ; 2 M d'apport ne suffisent pas.
 4. **Régularité** : 7 jours sur 7 toute l'année avec un creux à 0,7 en février–mars au lieu d'une activité à 20–24 jours dépendante de la météo ; les fixes sont mieux absorbés, un découpeur à temps partiel devient possible dès juillet 2027 et la décision machine (650 cocos/mois) se pose plus tôt.
-5. **Conditions** : prix net ≥ **590 XPF** après commission ; **une coco par passager** (par dossier, la VAN retombe à ≈ −0,9 M) ; froid tampon accepté par les hôtels et DLC ≥ 5 jours ; une deuxième agence ou un hôtel en direct avant octobre 2027 pour sortir de la dépendance à un seul compte.
+5. **Conditions** : prix net ≥ **590 XPF** après commission ; **un coco par passager** (par dossier, la VAN retombe à ≈ −0,9 M) ; froid tampon accepté par les hôtels et DLC ≥ 5 jours ; une deuxième agence ou un hôtel en direct avant octobre 2027 pour sortir de la dépendance à un seul compte.
 6. **Retour** : ≈ 18 mois (avril 2028) au lieu de > 24 mois ; le palier 1 accueil **finance une machine de découpe en 2028** et une partie de la trésorerie du palier 2, ce que les excursions ne faisaient pas.
 7. **Si le prix de 700 n'est pas obtenu** (500 accepté seulement), l'accueil est **moins bon** que les excursions (VAN ≈ −1,25 M) : présentation, CAPEX et fixes en plus pour la même marge.
 8. **Finalité** : l'hôtel qui remet NĪĀ à l'arrivée est le premier compte CHR du palier 2 ; le canal sert la finalité mieux que le lagon, à condition de ne pas transformer NĪĀ en fournisseur de goodies d'accueil.

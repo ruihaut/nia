@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NĪĀ — Soutenance</title>
+<style>
+  :root{--ivory:#f6f3ec;--ink:#141a17;--muted:#5f665f;--line:#e2ddd1;--green:#1f3a2e;--green2:#2f5544;--sand:#c9b99a;--gold:#8a6d3b;--soft:#ece6d8;--red:#9b3b2f}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;background:#0e1512;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink)}
+  .serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif}
+  #stage{position:absolute;top:50%;left:50%;width:1280px;height:720px}
+  .slide{position:absolute;inset:0;background:var(--ivory);padding:66px 84px 58px;display:none;flex-direction:column;overflow:hidden}
+  .slide.active{display:flex;animation:fade .4s ease}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  .dark{background:var(--green);color:var(--ivory)}
+  .ink{background:var(--ink);color:var(--ivory)}
+  .center{justify-content:center}
+  .kicker{font-size:15px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+  .dark .kicker,.ink .kicker{color:var(--sand)}
+  h1{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-weight:400;font-size:132px;letter-spacing:.08em;line-height:1}
+  h2{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-weight:400;font-size:50px;line-height:1.12;margin-bottom:30px}
+  h3{font-size:22px;font-weight:600;margin-bottom:8px}
+  p,li{font-size:22px;line-height:1.5}
+  .muted{color:var(--muted)}
+  .dark .muted,.ink .muted{color:#c9cfc6}
+  .lead{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:32px;line-height:1.4}
+  .quote{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-style:italic;font-size:36px;line-height:1.35}
+  .grid{display:grid;gap:22px}
+  .g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.g5{grid-template-columns:repeat(5,1fr)}
+  .card{background:#fff;border:1px solid var(--line);padding:24px 26px}
+  .card p,.card li{font-size:19px;color:var(--muted)}
+  .card ul{padding-left:20px}
+  .dark .card,.ink .card{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.16)}
+  .dark .card p,.ink .card p{color:#d5dbd2}
+  .num{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:62px;color:var(--green);line-height:1}
+  .dark .num,.ink .num{color:var(--ivory)}
+  .label{font-size:17px;color:var(--muted);margin-top:8px}
+  .dark .label,.ink .label{color:#c9cfc6}
+  .rule{width:64px;height:2px;background:var(--gold);margin:26px 0}
+  .tag{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--gold);color:var(--gold);margin-bottom:12px}
+  .dark .tag,.ink .tag{border-color:var(--sand);color:var(--sand)}
+  table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line)}
+  th,td{text-align:left;padding:11px 16px;border-bottom:1px solid var(--line);font-size:19px;vertical-align:top}
+  th{background:var(--soft);font-weight:600}
+  tr:last-child td{border-bottom:0}
+  .steps{display:flex;gap:10px;align-items:stretch}
+  .steps .s{flex:1;border-top:2px solid var(--green);padding:14px 4px 0}
+  .steps .s b{display:block;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+  .steps .s span{font-size:19px}
+  .dark .steps .s{border-top-color:var(--sand)}
+  .gates{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+  .gate{border-top:3px solid var(--green);background:#fff;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px}
+  .gate b{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:30px;font-weight:400;color:var(--green);display:block}
+  .gate span{display:block;font-size:16px;color:var(--muted);margin-top:6px}
+  .gate em{display:block;font-style:normal;font-size:15px;font-weight:700;color:var(--gold);margin-top:8px}
+  .gate.final{border-top-color:var(--gold);background:var(--soft)}
+  .who{position:absolute;top:24px;right:30px;font-size:13px;font-weight:700;letter-spacing:.12em;color:var(--gold)}
+  .dark .who,.ink .who{color:var(--sand)}
+  .foot{position:absolute;left:84px;right:84px;bottom:22px;display:flex;justify-content:space-between;font-size:13px;color:var(--muted);letter-spacing:.06em}
+  .dark .foot,.ink .foot{color:#9fa89c}
+  .notes{display:none;position:absolute;left:0;right:0;bottom:0;background:rgba(20,26,23,.95);color:#fff;font-size:16px;line-height:1.45;padding:14px 84px}
+  body.shownotes .slide.active .notes{display:block}
+  .doc{display:flex;gap:20px;align-items:center;margin-bottom:26px}
+  .doc .n{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:72px;color:var(--gold);line-height:1}
+  .doc .q{font-size:14px;letter-spacing:.24em;color:var(--muted);font-weight:700}
+  .qr{width:240px;height:240px;border:2px dashed var(--sand);display:flex;align-items:center;justify-content:center;text-align:center;font-size:19px;color:var(--sand);padding:20px}
+  .warn{color:var(--red)}
+  #progress{position:fixed;left:0;bottom:0;height:3px;background:var(--sand);transition:width .3s}
+  #count{position:fixed;right:14px;bottom:10px;color:#7d8a80;font-size:12px;font-family:Menlo,monospace}
+  #help{position:fixed;left:14px;bottom:10px;color:#56635a;font-size:12px;font-family:Menlo,monospace}
+  @media print{html,body{overflow:visible;background:#fff}#stage{position:static;transform:none!important;width:auto;height:auto}.slide{display:flex!important;position:relative;width:1280px;height:720px;page-break-after:always;animation:none}#progress,#count,#help{display:none}}
+</style>
+</head>
+<body>
+<div id="stage">
+
+<!-- 1 -->
+<section class="slide ink center">
+  <div class="who">A</div>
+  <div class="kicker">Soutenance PMBOK + Agile · Octobre 2026</div>
+  <h1>NĪĀ</h1>
+  <div class="rule"></div>
+  <p class="quote">« En France, ils ont le raisin.<br>En Polynésie, nous avons le coco. »</p>
+  <div class="notes">A · 1 min. Laisser un silence après la phrase. Annoncer : le problème, notre idée, nos 3 documents, puis on vous accueille comme des touristes.</div>
+</section>
+
+<!-- 2 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">Le nom</div>
+  <h2><i>nīā</i> : le stade exact<br>où le coco est parfait.</h2>
+  <div class="steps" style="margin-top:10px">
+    <div class="s"><b>ʻōuo</b><span>Trop jeune</span></div>
+    <div class="s" style="border-top:4px solid var(--gold)"><b>nīā</b><span>L'amande est formée, fine et molle. L'eau est sucrée.</span></div>
+    <div class="s"><b>ʻōmoto</b><span>Trop mûr</span></div>
+  </div>
+  <p class="lead" style="margin-top:50px">Notre marque porte le nom de ce que nous sélectionnons.<br><span class="muted">Ni plus, ni moins.</span></p>
+  <div class="notes">A · 1 min. Source : dictionnaire officiel français-tahitien. Le ton de la marque : sobre, élégant, la fierté plutôt que l'exotisme.</div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Business case · Le problème</div>
+  <h2>Le coco est partout.<br>Personne n'en a fait une expérience.</h2>
+  <div class="grid g3">
+    <div class="card"><h3>Au bord de la route</h3><p>Familière, simple, quotidienne. Jamais sélectionnée, jamais mise en valeur.</p></div>
+    <div class="card"><h3>En brique importée</h3><p>Sur les étagères, l'eau de coco vient souvent d'ailleurs.</p></div>
+    <div class="card"><h3>À l'arrivée</h3><p>Le touriste reçoit un collier de fleurs… et parfois une bouteille d'eau en plastique.</p></div>
+  </div>
+  <p class="lead" style="margin-top:36px">Aucune marque locale ne traite l'eau de coco comme un produit d'exception.</p>
+  <div class="notes">B · 1 min. Le constat vient de la vision du projet. Le dernier point prépare notre idée : remplacer la bouteille plastique de l'accueil.</div>
+</section>
+
+<!-- 4 -->
+<section class="slide dark center">
+  <div class="who">B</div>
+  <div class="kicker">Notre idée</div>
+  <h2 style="font-size:64px">Votre première gorgée<br>de Polynésie.</h2>
+  <p class="lead muted">Le touriste arrive. Un collier de fleurs au cou, un NĪĀ dans les mains.</p>
+  <p style="margin-top:36px;font-size:18px;color:var(--sand)">Pine &amp; Gilmore, « Welcome to the Experience Economy », HBR 1998 : une simple commodité devient une expérience.</p>
+  <div class="notes">B · 1 min. Après ~20 h de voyage, souvent à 5 h du matin, un coco frais marque les esprits. Le touriste la garde, la prend en photo : il devient notre premier ambassadeur.</div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Business case · Le marché</div>
+  <h2>281 227 touristes en 2025. Un record.</h2>
+  <div class="grid g4">
+    <div><div class="num">281 227</div><div class="label">touristes en Polynésie (ISPF 2025)</div></div>
+    <div><div class="num">~620</div><div class="label">arrivées par jour en moyenne</div></div>
+    <div><div class="num">~70 000</div><div class="label">passagers de croisières transpacifiques en plus</div></div>
+    <div><div class="num">42 %</div><div class="label">viennent d'Amérique du Nord</div></div>
+  </div>
+  <p class="lead" style="margin-top:44px">Une seule agence qui accueille 10 % des arrivées :<br><b>~60 NĪĀ par jour.</b> <span class="muted">Assez pour un pilote, sans machine.</span></p>
+  <div class="notes">B · 1 min. Ordres de grandeur. La découpe manuelle (~1 à 2 min par coco) suffit pour ces volumes.</div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">Business case · Trois paliers</div>
+  <h2>On commence petit. On vise loin.</h2>
+  <div class="grid g3">
+    <div class="card" style="border-top:3px solid var(--gold)"><span class="tag">Palier 1 · le projet</span><h3>Le NĪĀ de bienvenue</h3><p>Offert à l'arrivée par les agences réceptives : à l'aéroport et au premier stop du tour de l'île.</p></div>
+    <div class="card"><span class="tag">Palier 2</span><h3>Le NĪĀ des hôtels</h3><p>Le touriste le retrouve à son hôtel, co-marqué : « Hôtel × NĪĀ ».</p></div>
+    <div class="card"><span class="tag">Palier 3 · à trancher</span><h3>La bouteille</h3><p>L'eau NĪĀ à la carte, verre signature, rituel de service.</p></div>
+  </div>
+  <p class="muted" style="margin-top:28px;font-size:19px">Le palier 1 finance, fait apprendre la filière et sert de laboratoire de marque.</p>
+  <div class="notes">A · 1 min. Frontière du projet : palier 1 + études du palier 2. La gate G4 décide du palier 2. Palier 2 ou 3 pour la bouteille : à confirmer avant la soutenance.</div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">Palier 1 · Deux formats</div>
+  <h2>À l'aéroport, et au premier arrêt.</h2>
+  <div class="grid g3">
+    <div class="card"><span class="tag">Faa'a</span><h3>L'accueil</h3><p>Remis avec le collier, à la sortie de la douane. Vols surtout le soir et la nuit : NĪĀ livre la veille au dépôt de l'agence.</p></div>
+    <div class="card"><span class="tag">Mahina</span><h3>Pointe Vénus</h3><p><i>« 1769 : Cook observe ici le passage de Vénus. Aujourd'hui, votre premier NĪĀ. »</i></p></div>
+    <div class="card"><span class="tag">Paea</span><h3>Grottes de Maraa</h3><p><i>« L'eau de la montagne dans les grottes, l'eau du nīā dans vos mains. »</i> À l'abri de la pluie.</p></div>
+  </div>
+  <p class="muted" style="margin-top:26px;font-size:19px">Seulement les bus des agences partenaires : un accueil, pas un point de vente.</p>
+  <div class="notes">A · 1 min 30. Pointe Vénus est le premier arrêt depuis le port (~10 km). Maraa couvre les circuits par l'ouest. Pilote : glacière dans le bus, le guide sert et reprend les cocos vides.</div>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">Palier 1 · Le client</div>
+  <h2>Les agences réceptives ont déjà<br>les bus, l'accueil et les touristes.</h2>
+  <div class="grid g2">
+    <div class="card"><h3>Qui</h3><p>Marama Tours (~400 places, aéroport, paquebots, tours de l'île), Tahiti Nui Travel, Te Manu Tours, Tahiti Tours, Tahiti Expert DMC…</p></div>
+    <div class="card"><h3>Pourquoi elles paient</h3><ul><li>Un cadeau qui les distingue</li><li>De meilleurs avis clients</li><li>Moins de plastique que la bouteille d'eau</li><li>Un coût minime face au prix d'un forfait</li></ul></div>
+  </div>
+  <p class="lead" style="margin-top:28px">Blue Ocean : ni le bord de la route, ni la brique importée.</p>
+  <div class="notes">A · 1 min. Kim &amp; Mauborgne (HBR 2004). Les opérateurs d'excursion restent un marché secondaire.</div>
+</section>
+
+<!-- 9 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Business case · L'approvisionnement</div>
+  <h2>Deux terroirs. Une règle : la fraîcheur.</h2>
+  <div class="grid g2">
+    <div class="card" style="border-top:3px solid var(--green)"><span class="tag">La base</span><h3 class="serif" style="font-size:34px;font-weight:400">NĪĀ MOUʻA</h3><p>Les îles hautes : Tahiti et Moorea. Quelques heures entre l'arbre et l'atelier.</p></div>
+    <div class="card" style="border-top:3px solid var(--gold)"><span class="tag">Plus tard</span><h3 class="serif" style="font-size:34px;font-weight:400">NĪĀ MOTU</h3><p>Les motu des Îles Sous-le-Vent. Une nuit de cargo, environ 2 rotations par semaine.</p></div>
+  </div>
+  <p class="lead" style="margin-top:30px">48 à 72 h maximum entre la cueillette et la découpe.<br><span class="muted">Une hypothèse, testée avant d'investir.</span></p>
+  <div class="notes">B · 1 min. Pas de cocoteraie en propre : on achète aux producteurs, payés au juste prix (Porter &amp; Kramer, valeur partagée). Les Tuamotu et les Marquises sont trop loin pour un produit aussi périssable au palier 1.</div>
+</section>
+
+<!-- 10 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Business case · Zéro gaspillage</div>
+  <h2>Rien ne se perd.</h2>
+  <div class="grid g4">
+    <div class="card"><h3>Le coco vide</h3><p>Sac de collecte dans le bus, reprise à l'hôtel partenaire.</p></div>
+    <div class="card"><h3>La bourre</h3><p>Compost et paillage, rendus aux producteurs.</p></div>
+    <div class="card"><h3>Le coco déclassé</h3><p>Sain mais moins beau : des glaces, avec un glacier partenaire.</p></div>
+    <div class="card"><h3>La paille</h3><p>Papier ou bambou. Pas de plastique.</p></div>
+  </div>
+  <p class="lead" style="margin-top:34px"><i>« Gardez-le pour la photo, puis déposez-le au point NĪĀ.<br>Il retournera à la cocoteraie. »</i></p>
+  <div class="notes">B · 1 min. Le charbon de bourre a été étudié puis écarté : bourre trop humide, faible rendement, fumées. Les chiffres arrivent à la slide suivante.</div>
+</section>
+
+<!-- 10b -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Business case · L'argent</div>
+  <h2>100 cocos par semaine. Rentable dès le pilote.</h2>
+  <div class="grid g4">
+    <div><div class="num">650</div><div class="label">XPF HT, prix à l'agence</div></div>
+    <div><div class="num">~300</div><div class="label">XPF de coût par coco (coco, découpe, carte, froid, livraison, collecte)</div></div>
+    <div><div class="num">+40 k</div><div class="label">XPF par mois à 400 cocos, structure légère</div></div>
+    <div><div class="num">~70</div><div class="label">cocos par semaine pour le point mort</div></div>
+  </div>
+  <table style="margin-top:30px">
+    <tr><th>Cocos par semaine</th><th>100 · pilote</th><th>250</th><th>500 · avec machine</th></tr>
+    <tr><td>Résultat par mois</td><td>+40 000 XPF</td><td>+170 000 XPF</td><td>+450 000 XPF</td></tr>
+  </table>
+  <p class="muted" style="margin-top:16px;font-size:17px">Besoin de financement : ~1,9 M XPF. Découpe à la main (~3 h par semaine), machine seulement au-delà de ~500 par semaine. Point sensible : le prix (à 500 XPF, on perd de l'argent). Estimations à vérifier.</p>
+  <div class="notes">B · 1 min 30. Structure légère : cuisine agréée partagée, 2 réfrigérateurs, véhicule du binôme + glacières, ~100 000 XPF de frais fixes. Avec un local loué et un utilitaire frigorifique (~300 000 par mois), il faudrait ~200 cocos par semaine. Hypothèse : le binôme ne se paie pas au palier 1.</div>
+</section>
+
+<!-- 11 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="doc"><div class="n">2</div><div><div class="q">QUOI ? QUI ?</div><h2 style="margin:0">La charte de projet</h2></div></div>
+  <div class="grid g3">
+    <div class="card"><h3>Objectif</h3><p>En 6 mois, offrir le NĪĀ de bienvenue avec au moins une agence réceptive, de façon régulière et rentable.</p></div>
+    <div class="card"><h3>Dans le projet</h3><p>Diamond cut MOUʻA, atelier aux normes, froid, 1 agence pilote, stops Pointe Vénus puis Maraa, accueil aéroport, collecte.</p></div>
+    <div class="card"><h3>Pas maintenant</h3><p>Bouteille, hôtels co-marqués, digital, export, grande distribution, cocoteraie en propre.</p></div>
+  </div>
+  <div class="grid g3" style="margin-top:22px">
+    <div class="card" style="background:var(--soft)"><div class="num">≥ 4,5</div><div class="label">CSAT des touristes (QR code sur la carte)</div></div>
+    <div class="card" style="background:var(--soft)"><div class="num">≥ +50</div><div class="label">NPS des agences envers NĪĀ</div></div>
+    <div class="card" style="background:var(--soft)"><div class="num">100 %</div><div class="label">des cocos vides récupérés</div></div>
+  </div>
+  <div class="notes">A · 1 min 30. Équipe : le binôme (sponsor, chef de projet, Product Owner). 10 hypothèses écrites, chacune vérifiée à une gate.</div>
+</section>
+
+<!-- 12 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">Charte · Notre projet a changé</div>
+  <h2>Une demande de changement,<br>tracée comme le veut le PMBOK.</h2>
+  <table>
+    <tr><th></th><th>Avant</th><th>Après</th></tr>
+    <tr><td><b>Client</b></td><td>Opérateurs d'excursion</td><td>Agences réceptives</td></tr>
+    <tr><td><b>Moment</b></td><td>Pendant l'excursion</td><td>À l'arrivée, au premier stop</td></tr>
+    <tr><td><b>Palier 2</b></td><td>Bouteille en CHR</td><td>Coco co-marqué dans les hôtels</td></tr>
+    <tr><td><b>Pourquoi</b></td><td colspan="2">Un moment plus fort, un client qui a déjà la logistique, une porte d'entrée vers les hôtels</td></tr>
+    <tr><td><b>Impact</b></td><td colspan="2">+ 2 lots au WBS (aéroport, stops), + 6 risques, de nouveaux critères de succès</td></tr>
+  </table>
+  <div class="notes">A · 1 min. Montrer qu'on sait gérer un changement : quoi, pourquoi, impacts, qui valide. C'est la maîtrise du périmètre.</div>
+</section>
+
+<!-- 13 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">Charte · Les points de décision</div>
+  <h2>Cinq gates. Rien n'est engagé sans preuve.</h2>
+  <div class="gates">
+    <div class="gate"><b>G0</b><span>Lancer</span><span>Charte signée</span></div>
+    <div class="gate"><b>G1</b><span>Investir</span><span>2 producteurs, protocole testé, 1 agence engagée</span></div>
+    <div class="gate"><b>G2</b><span>Premières remises</span><span>Hygiène, conservation, autorisation du stop</span><em>CSAT ≥ 4,5</em></div>
+    <div class="gate"><b>G3</b><span>Étendre</span><span>95 % des bus servis, 100 % de collecte, marge positive</span><em>NPS ≥ +30</em></div>
+    <div class="gate final"><b style="color:var(--gold)">G4</b><span>Palier 2 ?</span><span>1 hôtel intéressé, financement identifié</span><em>NPS ≥ +50</em></div>
+  </div>
+  <p class="muted" style="margin-top:30px;font-size:19px">Flyvbjerg &amp; Budzier, HBR 2011 : un projet sur six dérape fortement. D'où ces garde-fous.</p>
+  <div class="notes">A · 1 min. Une gate = continuer, adapter ou arrêter.</div>
+</section>
+
+<!-- 14 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="doc"><div class="n">3</div><div><div class="q">COMMENT ?</div><h2 style="margin:0">Le plan de projet</h2></div></div>
+  <div class="grid g2">
+    <div class="card"><span class="tag">PMBOK · prédictif</span><h3>Ce qui ne bouge pas</h3><p>Hygiène (HACCP), autorisations, contrats, atelier, froid, budget.</p></div>
+    <div class="card"><span class="tag">Scrum · agile</span><h3>Ce qui s'apprend avec le terrain</h3><p>Le rituel, la carte, le service par les guides. Sprints de 2 semaines, NPS et CSAT à chaque sprint.</p></div>
+  </div>
+  <p style="margin-top:24px;font-size:18px;color:var(--muted)"><b style="color:var(--ink)">WBS, 15 lots :</b> management · cadrage · administratif et marque · approvisionnement · production · réglementaire · froid · commercial · <b style="color:var(--ink)">accueil aéroport</b> · <b style="color:var(--ink)">stops NĪĀ</b> · marque · satisfaction · déchets · financement · études palier 2.</p>
+  <div class="notes">B · 1 min 30. Règle des 100 % : tout le travail du projet est dans le WBS, y compris la gestion du projet. Le digital est hors projet. Embracing Agile (HBR 2016) : savoir quand l'agile est adapté.</div>
+</section>
+
+<!-- 15 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Plan · Les priorités</div>
+  <h2>Savoir dire non.</h2>
+  <div class="grid g4">
+    <div class="card" style="border-top:3px solid var(--green)"><span class="tag">Must</span><p>MOUʻA, atelier, froid, 1 agence, Pointe Vénus, carte et collecte, NPS et CSAT</p></div>
+    <div class="card" style="border-top:3px solid var(--green2)"><span class="tag">Should</span><p>Maraa, accueil aéroport, accord avec 1 ou 2 hôtels, compost</p></div>
+    <div class="card" style="border-top:3px solid var(--sand)"><span class="tag">Could</span><p>MOTU, partenaire sur site, glaces, excursions, gros paquebots</p></div>
+    <div class="card" style="border-top:3px solid var(--line)"><span class="tag">Won't</span><p>Bouteille, hôtels co-marqués, digital, charbon, export</p></div>
+  </div>
+  <div class="notes">B · 1 min. MoSCoW contre la dérive du périmètre et le gold plating.</div>
+</section>
+
+<!-- 16 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Plan · Les risques</div>
+  <h2>Ce qui peut mal tourner, et notre réponse.</h2>
+  <table>
+    <tr><th>Risque</th><th>Réponse</th></tr>
+    <tr><td>Approvisionnement irrégulier, mauvais stade</td><td>≥ 2 producteurs, critère nīā écrit, contrôle à réception</td></tr>
+    <tr><td>Le coco taillé brunit trop vite</td><td>Test de conservation avant G2</td></tr>
+    <tr><td>Bus en retard, coco hors du froid</td><td>Glacières, coco jeté au-delà de la limite</td></tr>
+    <tr><td>Refus de la commune ou de l'aéroport</td><td>Glacière dans le bus, sans installation</td></tr>
+    <tr><td>Cocos abandonnés</td><td>Collecte obligatoire, accord avec les hôtels</td></tr>
+    <tr><td>Le palier 1 devient une fin en soi</td><td>Gate G4, MoSCoW</td></tr>
+  </table>
+  <div class="notes">B · 1 min. Autres risques dans le plan : correspondances et liquides, vols de nuit, pic d'un paquebot, conflit avec les vendeurs locaux (les associer), marque difficile à protéger.</div>
+</section>
+
+<!-- 17 -->
+<section class="slide dark">
+  <div class="who">B</div>
+  <div class="kicker">Plan · Le pilote</div>
+  <h2>Un mois. Un stop. Une agence.</h2>
+  <div class="steps" style="margin-top:10px">
+    <div class="s"><b>Qui</b><span>1 agence réceptive</span></div>
+    <div class="s"><b>Où</b><span>Pointe Vénus</span></div>
+    <div class="s"><b>Quand</b><span>Jours de paquebot, 1 mois</span></div>
+    <div class="s"><b>Comment</b><span>Glacière dans le bus, guide formé</span></div>
+    <div class="s"><b>Ensuite</b><span>Maraa, puis l'aéroport</span></div>
+  </div>
+  <p class="lead" style="margin-top:50px">Les escales de paquebot sont connues des mois à l'avance.<br><span class="muted">On planifie la cueillette, la découpe et la livraison.</span></p>
+  <div class="notes">B · 1 min. 5 bus de 20 à 45 passagers = 150 à 200 NĪĀ, soit 3 à 6 h de découpe la veille. Faisable sans machine.</div>
+</section>
+
+<!-- 18 -->
+<section class="slide ink center">
+  <div class="who">A + B</div>
+  <div class="kicker">Démo</div>
+  <div class="grid" style="grid-template-columns:1.5fr 1fr;align-items:center">
+    <div>
+      <h2 style="font-size:60px">Bienvenue en Polynésie.</h2>
+      <p class="lead muted">1. Votre NĪĀ.<br>2. MOUʻA ou MOTU ?<br>3. Scannez, votez, notez.</p>
+    </div>
+    <div class="qr">QR code<br>de la démo<br>(à insérer)</div>
+  </div>
+  <div class="notes">A + B · 3 à 4 min. Colliers de fleurs + vrais NĪĀ taillés. Dégustation à l'aveugle. On reprend les cocos vides devant le jury. Plan B : vote sur photo ou à main levée.</div>
+</section>
+
+<!-- 19 -->
+<section class="slide dark center" style="text-align:center;align-items:center">
+  <div class="who">A + B</div>
+  <div class="kicker">Une dernière question</div>
+  <h2 style="font-size:58px;max-width:980px">Recommanderiez-vous NĪĀ<br>à une agence ?</h2>
+  <p class="lead muted">De 0 à 10 : notre NPS, en direct.</p>
+  <div class="rule" style="margin:34px auto"></div>
+  <p class="quote">Māuruuru.</p>
+  <div class="notes">A + B. Reichheld, « The One Number You Need to Grow », HBR 2003. Afficher le NPS, le commenter en une phrase, puis les questions : celui qui a présenté la section répond en premier.</div>
+</section>
+
+</div>
+
+<div id="progress"></div>
+<div id="count"></div>
+<div id="help">← → naviguer · F plein écran · N notes</div>
+
+<script>
+const slides=[...document.querySelectorAll('.slide')];
+const total=slides.length;
+let i=0;
+slides.forEach((s,k)=>{
+  const f=document.createElement('div');f.className='foot';
+  f.innerHTML='<span>NĪĀ</span><span>'+(k+1)+' / '+total+'</span>';
+  s.appendChild(f);
+});
+function show(n){
+  i=Math.max(0,Math.min(total-1,n));
+  slides.forEach((s,k)=>s.classList.toggle('active',k===i));
+  document.getElementById('progress').style.width=((i+1)/total*100)+'%';
+  document.getElementById('count').textContent=(i+1)+' / '+total;
+  if(location.hash!=='#'+(i+1))history.replaceState(null,'','#'+(i+1));
+}
+function fit(){
+  const s=Math.min(window.innerWidth/1280,window.innerHeight/720);
+  document.getElementById('stage').style.transform='translate(-50%,-50%) scale('+s+')';
+}
+document.addEventListener('keydown',e=>{
+  if(['ArrowRight','PageDown',' ','Enter'].includes(e.key)){e.preventDefault();show(i+1)}
+  else if(['ArrowLeft','PageUp','Backspace'].includes(e.key)){e.preventDefault();show(i-1)}
+  else if(e.key==='Home')show(0);
+  else if(e.key==='End')show(total-1);
+  else if(e.key==='f'||e.key==='F'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen()}
+  else if(e.key==='n'||e.key==='N'){document.body.classList.toggle('shownotes')}
+});
+document.addEventListener('click',e=>{ if(e.target.closest('a'))return; show(e.clientX>window.innerWidth/3?i+1:i-1); });
+window.addEventListener('resize',fit);
+fit();
+show(parseInt((location.hash||'#1').slice(1))-1||0);
+</script>
+</body>
+</html>

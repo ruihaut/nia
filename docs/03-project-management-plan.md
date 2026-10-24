@@ -31,18 +31,18 @@
 | Notes du fondateur (parcours en 11 étapes) | Récolte → découpe → stockage réfrigéré → commande → livraison → prise en main → service → retours | Mapping étape → work packages (A2 § 1.2) ; stockage réfrigéré conditionné au test de conservation |
 | Interview de bootstrap et décision du 2026-10-24 | Première livraison sous 6 mois ; fondateur seul profil tech ; **accueil premium via les agences réceptives en cible prioritaire, l'agence achète, remise à l'arrivée à l'hôtel ; pilote limité aux hôtels de Tahiti ; opérateurs d'excursion en seconde cible** ; fret agricole à vérifier | Jalon J6 ≤ 30 avril 2027 ; branche 6 du WBS orientée agence + hôtel ; seconde cible à date écrite ; Moorea après J7 ; WP 4.1 et 5.3 |
 | Agences réceptives et hôtels d'arrivée (à relever, A8 § 7–8) | Un geste d'accueil distinctif à coût par passager connu ; zéro remise manquée ; remise au lobby après le check-in à la place du welcome drink ; caisse en chambre froide de l'hôtel, livraison de jour ; coque gérée par l'hôtel ; pièces d'hygiène au premier rendez-vous ; ouverture sans outil | Critères d'acceptation du produit, fiche de remise de 15 minutes pour l'agent et le night staff, accord à trois d'une page, CHSP dès la semaine 2 |
-| Opérateurs d'excursion (seconde cible, A3 § 3.8–3.9 et A5) | Régularité, zéro coco ratée, livraison avant le départ, garder un geste pour le guide, pas de réfrigérateur de plus | Kit de service, glacière de prêt, livraison J-1 ou matin |
+| Opérateurs d'excursion (seconde cible, A3 § 3.8–3.9 et A5) | Régularité, zéro coco raté, livraison avant le départ, garder un geste pour le guide, pas de réfrigérateur de plus | Kit de service, glacière de prêt, livraison J-1 ou matin |
 | Services du Pays (à confirmer, A2 § 7) | Déclaration d'établissement, préconisations denrées végétales, étiquetage, DLC, biosécurité inter-îles | Branche 4 du WBS, jalon J4 |
 
 ### 1.3 Description du produit et critères d'acceptation
 
-Produit : **une coco nīā, découpée en diamond cut, froide, marquée NĪĀ, livrée en caisse à l'hôtel d'arrivée, prête à être remise par l'agent de l'agence et ouverte sans outil par le touriste** ; le même produit, avec un kit de service, pour la seconde cible (spécification complète A2 § 1.1, complétée par A8 et A9 § 6.1 : ouverture sans outil obligatoire, fiche d'origine, DLC ≥ 5 jours exigée). Critères d'acceptation vérifiés à chaque livraison :
+Produit : **un coco nīā, découpée en diamond cut, froide, marquée NĪĀ, livrée en caisse à l'hôtel d'arrivée, prête à être remise par l'agent de l'agence et ouverte sans outil par le touriste** ; le même produit, avec un kit de service, pour la seconde cible (spécification complète A2 § 1.1, complétée par A8 et A9 § 6.1 : ouverture sans outil obligatoire, fiche d'origine, DLC ≥ 5 jours exigée). Critères d'acceptation vérifiés à chaque livraison :
 
 1. 100 % des cocos au stade nīā selon la fiche de sélection ; aucune ʻōuo ni ʻōmoto avancée.
 2. Découpe conforme au protocole : facettes régulières, coque interne intacte, aucune fibre, moisissure ni odeur.
-3. Température à cœur ≤ 7 °C à la livraison à l'hôtel, mesurée et consignée sur le bon de livraison ; caisse placée en chambre froide de l'hôtel sous 30 minutes. La température de stockage (2–4 °C dans A2 § 1.1) est à confirmer par le lot test : la littérature sur les cocos parées signale un chilling injury à 4 °C et une tenue de 15 jours à 5–8 °C avec traitement de surface (A10 § 7).
+3. Température à cœur ≤ 7 °C à la livraison à l'hôtel, mesurée et consignée sur le bon de livraison ; caisse placée en chambre froide de l'hôtel sous 30 minutes. La température de stockage (2–4 °C dans A2 § 1.1) est à confirmer par le lot test : la littérature sur les cocos parés signale un chilling injury à 4 °C et une tenue de 15 jours à 5–8 °C avec traitement de surface (A10 § 7).
 4. Date de découpe et DLC lisibles sur la caisse ; DLC ≥ J+2 à la livraison ; ouverture sans outil fonctionnelle sur chaque coco.
-5. Quantité livrée = quantité commandée ; cocos refusées remplacées ou non facturées.
+5. Quantité livrée = quantité commandée ; cocos refusés remplacées ou non facturées.
 6. Marquage NĪĀ présent et propre sur chaque coco.
 7. Aucune réclamation sanitaire d'un passager imputable au produit.
 
@@ -133,7 +133,7 @@ Le chemin critique passe par la qualification du client à deux têtes (agence e
 | Atelier existant (3.3) → déclaration CHSP (4.4) → livraison (6.5) | Interne, chemin critique | Déclaration déposée S15, obtenue S21 |
 | Entretien hôtel (6.1) → protocole du test de conservation (3.2) et horaires de livraison (5.2) | Interne, décisive | Froid tampon à l'hôtel : test 72 h en réfrigérateur + 4 h hors froid, livraison de jour ; sans tampon : test 3–5 h en glacière à température nocturne, relais du soir à chiffrer |
 | Cycle contractuel de l'agence (6.1) → nature de J6 | Externe | Inclusion 2027, test financé par l'agence, ou commande hôtel |
-| Réponse DGAE sur le fret (4.1) → variante Moorea (5.3) | Externe | Décide « livrer depuis Tahiti » ou « cocos brutes + découpe à Moorea » ; n'affecte pas J6 (Tahiti) ; extension après J7 |
+| Réponse DGAE sur le fret (4.1) → variante Moorea (5.3) | Externe | Décide « livrer depuis Tahiti » ou « cocos bruts + découpe à Moorea » ; n'affecte pas J6 (Tahiti) ; extension après J7 |
 | Fermeture des administrations 20 décembre – 5 janvier | Externe | Rendez-vous CHSP, DGAE, biosécurité pris avant mi-décembre |
 | Saison des pluies novembre–avril | Externe | Terrain sous contrainte ; bon pour tester la chaîne du froid |
 | Pâques 28–29 mars 2027 | Externe | J6 placé après |
@@ -168,7 +168,7 @@ Deux postes font l'écart entre sobre et plan : **l'atelier** (local prêté ou 
 
 ### 3.2 Suivi des coûts
 
-- **Tableau de bord mensuel d'une page** (WP 1.4), présenté au sponsor : les six KPI de pilotage (remises réalisées / arrivées prévues, prix net par passager, marge par coco, livraisons à l'hôtel à l'heure, pertes, trésorerie) et le KPI de palier 2 (commandes hôtel en propre) ; coûts réels contre estimés **par branche du WBS** ; coût complet par coco livrée et sa trajectoire ; écart au budget de référence et consommation de la réserve ; nombre de chiffres passés de [estimé] à [relevé].
+- **Tableau de bord mensuel d'une page** (WP 1.4), présenté au sponsor : les six KPI de pilotage (remises réalisées / arrivées prévues, prix net par passager, marge par coco, livraisons à l'hôtel à l'heure, pertes, trésorerie) et le KPI de palier 2 (commandes hôtel en propre) ; coûts réels contre estimés **par branche du WBS** ; coût complet par coco livré et sa trajectoire ; écart au budget de référence et consommation de la réserve ; nombre de chiffres passés de [estimé] à [relevé].
 - **Comptabilité par lot** : chaque lot de cocos porte un numéro (date, cocoteraie), ses coûts (achat, main-d'œuvre, glace, transport, pertes) et ses recettes ; c'est la base de la marge par coco.
 - **Seuils d'alerte** : dépenses cumulées > 40 % de l'apport sans bon de commande signé ; écart > 10 % sur la référence ; réserve entamée à plus de 50 % ; point bas prévisionnel sous un mois de charges.
 - Outils : tableur et carnet autocopiant ; pas d'outil développé (exclusion du périmètre).
@@ -224,15 +224,15 @@ Pas un niveau de laboratoire : un niveau **constant et sûr**, qu'un guide véri
 |---|---|---|
 | Stade | 100 % nīā dans les caisses livrées | Tri à réception, contrôle avant livraison |
 | Sécurité | 0 incident sanitaire ; 0 rupture de froid > 7 °C non tracée, y compris en chambre froide d'hôtel et en glacière de nuit | Enregistreurs, bons de livraison, registre des réclamations |
-| Conformité à la livraison | ≥ 95 % des cocos acceptées par l'hôtel à la réception et par l'agent à la remise | Bons de livraison, refus consignés |
+| Conformité à la livraison | ≥ 95 % des cocos acceptés par l'hôtel à la réception et par l'agent à la remise | Bons de livraison, refus consignés |
 | Régularité | ≥ 95 % des remises réalisées sur les arrivées prévues ; ≥ 95 % des livraisons à l'hôtel avant l'heure convenue | Journal du pilote |
-| Usage | ≥ 70 % des cocos remises bues sur place | Grille d'observation à la remise |
+| Usage | ≥ 70 % des cocos remis bues sur place | Grille d'observation à la remise |
 
 ### 4.2 Contrôles et check-lists
 
 Un contrôle à chaque étape du parcours (récolte, réception, découpe, stockage, préparation de commande, transport, remise, service à bord), avec responsable, enregistrement et action en cas d'écart (A2 § 6.2). Deux check-lists sont le cœur du dispositif :
 
-- **Check-list A, qualité à réception des cocos** (12 points : stade, calibre, intégrité, pédoncule frais, son, propreté ; ouverture d'une coco sur vingt pour l'amande et l'eau ; comptage, numéro de lot, taux de refus consigné) : A2 § 6.3.
+- **Check-list A, qualité à réception des cocos** (12 points : stade, calibre, intégrité, pédoncule frais, son, propreté ; ouverture d'un coco sur vingt pour l'amande et l'eau ; comptage, numéro de lot, taux de refus consigné) : A2 § 6.3.
 - **Check-list B, avant livraison** (12 points : même lot et DLC ≥ J+2, découpe conforme, aucune odeur, marquage, température à cœur ≤ 4 °C au départ, comptage et étiquette de caisse, glacière pré-refroidie et enregistreur, kit, bon de livraison, horaire, caisses à reprendre, ferry confirmé pour Moorea) : A2 § 6.3.
 
 ### 4.3 Definition of Done des livrables du projet
@@ -243,7 +243,7 @@ Un livrable (protocole, fiche, contrat, rapport) est « done » quand : il est �
 
 - **Validation du périmètre** : fiche d'une page contresignée par l'agence et l'hôtel à J5 (§ 1.1) ; l'accord à trois en est le support.
 - **Revues de sprint** (gate ③ r-stack) : toutes les deux semaines, l'incrément est accepté contre l'objectif du sprint et la vision ; chaque sprint doit produire au moins une mesure terrain.
-- **PV de recette du pilote** (jalon J7) : signé par l'agence et l'hôtel après vingt semaines, dix lignes adaptées de A2 § 6.6 (remises prévues et réalisées, cocos acceptées et refusées, stade, découpe et marquage, froid, sécurité, geste de remise, réaction des passagers et cocos bues, réserves, décision de poursuite avec volume et prix nets acceptés, intention de commande en propre de l'hôtel).
+- **PV de recette du pilote** (jalon J7) : signé par l'agence et l'hôtel après vingt semaines, dix lignes adaptées de A2 § 6.6 (remises prévues et réalisées, cocos acceptés et refusées, stade, découpe et marquage, froid, sécurité, geste de remise, réaction des passagers et cocos bus, réserves, décision de poursuite avec volume et prix nets acceptés, intention de commande en propre de l'hôtel).
 - **Recette interne** : revue avec le Director-General et le challenger à J7 : le palier 1 sert-il la finalité ou devient-il une fin en soi ?
 
 ---
@@ -270,13 +270,13 @@ Registre complet (intérêt, influence, attentes, attitude probable, stratégie 
 | Opérateurs suivants, futurs CHR | Dégustation, chiffres du pilote avec accord ; écoute sans vendre | Saison intermédiaire ; opportuniste | Quai, bouche-à-oreille, conversation | Fondateur |
 | Banque, financeur | Dossier avec résultats du pilote | Après douze semaines de pilote | Rendez-vous | Fondateur, financial-modeler |
 
-**Déclencheurs d'escalade** (sponsor et DG sous 48 h) : deux remises manquées faute de livraison dans le mois ; rupture d'approvisionnement > 1 semaine ou rejet > 25 % sur deux lots ; incident sanitaire ou réclamation via l'hôtel ou l'agence ; prix net encaissé < 590 ou marge brute par coco négative deux mois consécutifs après le deuxième mois ; l'agence ne commande pas deux semaines de suite sans raison saisonnière ; moins de 50 % de cocos bues sur deux séries d'observation ; l'hôtel retire son consentement ; un tiers commence à livrer des cocos découpées ; trésorerie sous un mois de charges.
+**Déclencheurs d'escalade** (sponsor et DG sous 48 h) : deux remises manquées faute de livraison dans le mois ; rupture d'approvisionnement > 1 semaine ou rejet > 25 % sur deux lots ; incident sanitaire ou réclamation via l'hôtel ou l'agence ; prix net encaissé < 590 ou marge brute par coco négative deux mois consécutifs après le deuxième mois ; l'agence ne commande pas deux semaines de suite sans raison saisonnière ; moins de 50 % de cocos bus sur deux séries d'observation ; l'hôtel retire son consentement ; un tiers commence à livrer des cocos découpés ; trésorerie sous un mois de charges.
 
 ### 5.3 Conduite du changement chez l'agence, l'hôtel et, en seconde cible, l'opérateur
 
-Chez l'agence et l'hôtel, le changement est double : l'agent ajoute un geste à une routine chronométrée, l'hôtel retire son welcome drink au profit d'un objet qu'il n'a pas choisi et gère une coque. Leviers (A8 § 7) : **urgence** montrée par une dégustation au lobby et par le coût par passager du geste actuel ; **coalition** à trois (décideur de l'agence, directeur d'hébergement, chef de réception) et fiche de 15 minutes pour le night staff ; **vision** en une phrase (« vos clients arrivent avec quelque chose de Tahiti dans la main, et ça a un nom ») ; **quick wins** chiffrés (semaine 1 : zéro remise manquée ; semaine 2 : premières photos ; semaine 4 : zéro coque oubliée dans le hall) ; **ancrage** à huit semaines (la NĪĀ dans le descriptif de transfert de l'agence, routine à J−7, l'hôtel qui demande à commander pour lui). Ce qui fait échouer : une livraison tiède, une coque qui traîne, un prix négocié à la baisse avant la première remise.
+Chez l'agence et l'hôtel, le changement est double : l'agent ajoute un geste à une routine chronométrée, l'hôtel retire son welcome drink au profit d'un objet qu'il n'a pas choisi et gère une coque. Leviers (A8 § 7) : **urgence** montrée par une dégustation au lobby et par le coût par passager du geste actuel ; **coalition** à trois (décideur de l'agence, directeur d'hébergement, chef de réception) et fiche de 15 minutes pour le night staff ; **vision** en une phrase (« vos clients arrivent avec quelque chose de Tahiti dans la main, et ça a un nom ») ; **quick wins** chiffrés (semaine 1 : zéro remise manquée ; semaine 2 : premières photos ; semaine 4 : zéro coque oubliée dans le hall) ; **ancrage** à huit semaines (le NĪĀ dans le descriptif de transfert de l'agence, routine à J−7, l'hôtel qui demande à commander pour lui). Ce qui fait échouer : une livraison tiède, une coque qui traîne, un prix négocié à la baisse avant la première remise.
 
-Chez l'opérateur d'excursion (seconde cible), l'opérateur change une habitude quasi gratuite. Cinq leviers (A3 § 7) : **urgence** montrée, pas dite (dégustation côte à côte, « combien de cocos ratées la semaine dernière ? ») ; **coalition** patron et guide, le guide garde un geste ; **vision** en une phrase (« votre excursion a un moment que les autres n'ont pas, et il a un nom ») ; **quick wins** chiffrés (semaine 1 : zéro coco à chercher ; semaine 2 : premières photos ; semaine 4 : zéro coco ratée) ; **ancrage** à huit semaines (la coco NĪĀ dans son descriptif, routine de commande fixe, ancien circuit éteint, témoignage pour les suivants). Ce qui fait échouer : une livraison manquée dans les trois premières semaines, un cut irrégulier devant les passagers, un prix négocié à la baisse avant même le premier service.
+Chez l'opérateur d'excursion (seconde cible), l'opérateur change une habitude quasi gratuite. Cinq leviers (A3 § 7) : **urgence** montrée, pas dite (dégustation côte à côte, « combien de cocos ratés la semaine dernière ? ») ; **coalition** patron et guide, le guide garde un geste ; **vision** en une phrase (« votre excursion a un moment que les autres n'ont pas, et il a un nom ») ; **quick wins** chiffrés (semaine 1 : zéro coco à chercher ; semaine 2 : premières photos ; semaine 4 : zéro coco raté) ; **ancrage** à huit semaines (le coco NĪĀ dans son descriptif, routine de commande fixe, ancien circuit éteint, témoignage pour les suivants). Ce qui fait échouer : une livraison manquée dans les trois premières semaines, un cut irrégulier devant les passagers, un prix négocié à la baisse avant même le premier service.
 
 ---
 
@@ -294,18 +294,18 @@ Chez l'opérateur d'excursion (seconde cible), l'opérateur change une habitude 
 | R20 | Dépendance à une seule agence et à un seul contact (rôle terrain, pas décideur) | 20 | Entretien terrain puis entretien décideur sous trois semaines ; seconde agence ou hôtel en direct avant octobre 2027 ; seconde cible à date écrite | fondateur / business-director | Pas de décideur rencontré au 15 décembre |
 | R01 | Conservation réelle < 5 jours avec passage en réfrigérateur d'hôtel | 20 | Lot test dès S1–S2, protocole fixé par l'entretien hôtel ; si < 5 jours : découpe à J-1 ; si < 3 jours : canal non opérable | process-engineer / operations-director | Résultat du lot ; brunissement visible sur un lot livré |
 | R21 | Commission, remise ou exclusivité exigée par l'agence | 16 | Prix net ≥ 590 ou pas de lancement ; pas d'exclusivité qui interdise l'hôtel en direct | business-director | Commission > 10 % demandée |
-| R23 | Lei, welcome drink, fatigue : la coco est posée, pas bue | 16 | Vingt remises observées avant le pilote ; remise au lobby après le check-in ; moment alternatif avec l'hôtel | market-scout | < 70 % de cocos bues sur 20 remises |
+| R23 | Lei, welcome drink, fatigue : le coco est posée, pas bue | 16 | Vingt remises observées avant le pilote ; remise au lobby après le check-in ; moment alternatif avec l'hôtel | market-scout | < 70 % de cocos bus sur 20 remises |
 | R24 | Horaires de nuit, vols retardés, 7 jours sur 7 | 16 | Caisse en chambre froide de l'hôtel et livraison de jour ; sinon relais du soir chiffré | operations-director | L'hôtel refuse le froid tampon |
 | R27 | Décision 2027 de l'agence déjà prise avec les tour-opérateurs | 16 | Dates de clôture demandées au premier entretien ; J6 = test financé par l'agence ou commande hôtel si fenêtre 2028 | business-director | Réponse « brochures 2028 » |
 | R02 | Non-adoption, internalisation (seconde cible : le guide-coupeur est le spectacle ; accueil : l'hôtel a une cuisine) | 15–20 | Cibler les opérateurs sans numéro coco (A5) ; vendre stade, froid, régularité, origine et nom, pas la découpe | market-scout / business-director | > 50 % des entretiens disent « on le fait nous-mêmes » |
 | R03 | Coût complet > prix accepté | 16 | Coût complet avant tout prix ; devis à trois niveaux ; marge ≥ 150 XPF ou on ne lance pas | financial-modeler / business-director | A1 v1 : marge < 150 ou point mort > 2 500 par mois |
-| R04 | Cocoteraie hors stade ou irrégulière | 16 | Deux sources ; check-list et droit de refus ; prime de sélection ; essai de 50 cocos triées | supply-analyst / operations-director | Rejet > 20 % sur deux livraisons ; un seul fournisseur en janvier |
+| R04 | Cocoteraie hors stade ou irrégulière | 16 | Deux sources ; check-list et droit de refus ; prime de sélection ; essai de 50 cocos triés | supply-analyst / operations-director | Rejet > 20 % sur deux livraisons ; un seul fournisseur en janvier |
 | R09 | Fret Moorea payant ou froid rompu | 16 | Fret compté plein ; demande DGAE ; sonde sur trajet réel ; sinon découpe à Moorea avec cocos de Moorea | operations-director | Silence ou refus DGAE en janvier ; > 8 °C à l'arrivée |
 | R05 | Délai ou refus réglementaire | 15 | Rendez-vous CHSP avant la première découpe ; travaux chiffrés ; DLC prudente ; escalade si > 2 mois | operations-director ; fondateur | Pas de réponse écrite en janvier |
 | R06 | Fondateur seul : épuisement ou dispersion | 15 | Journal de temps ; relais à la tâche avant janvier ; pas de code avant la première facture | Fondateur ; challenger surveille | Terrain < 50 % deux semaines de suite |
 | R07 | Trésorerie épuisée avant la première facture | 15 | Plan de trésorerie avec seuil d'arrêt ; froid d'occasion ou loué ; pas de chambre froide sans lettre d'intention | Fondateur ; financial-modeler | Dépenses > 40 % de l'apport sans bon de commande |
 
-Opportunités à instruire sans coût dans les entretiens déjà prévus : l'hôtel d'arrivée comme client direct du geste d'accueil, l'agence comme prescripteur (O1 / O'1 : résout cinq risques du canal) ; l'agence qui prescrit NĪĀ à ses opérateurs d'excursion sous-traitants (pont vers la seconde cible) ; cocos brutes d'une île productrice à fret gratuit (O2) ; la cocoteraie qui découpe elle-même (O4) ; mesures transférables au palier 2, Brix et rendement en eau (O6).
+Opportunités à instruire sans coût dans les entretiens déjà prévus : l'hôtel d'arrivée comme client direct du geste d'accueil, l'agence comme prescripteur (O1 / O'1 : résout cinq risques du canal) ; l'agence qui prescrit NĪĀ à ses opérateurs d'excursion sous-traitants (pont vers la seconde cible) ; cocos bruts d'une île productrice à fret gratuit (O2) ; la cocoteraie qui découpe elle-même (O4) ; mesures transférables au palier 2, Brix et rendement en eau (O6).
 
 ### 6.2 Achats et fournisseurs
 
@@ -319,9 +319,9 @@ Tableau complet (fournisseur, type de contrat, délai, coût, risque, clause cl�
 | **Atelier** | Bail court ou convention de mise à disposition | 2–6 semaines | 60–150 k par mois + dépôt | Eau potable et évacuation ; clause de sortie à 1 mois si conformité refusée |
 | Glacières, enregistreurs, caisses, outils, consommables | Achat au comptant | 1–6 semaines (pailles importées) | 260–730 k pour le pilote | Deux jeux d'outils ; stock de 8 semaines de consommables |
 | Ferry Tahiti–Moorea, variante fret payant | Billets, fret à l'unité | Immédiat | 1 500–3 000 passager A/R ; 1 000–2 000 par colis | Livraison Moorea décalable de 24 h sans pénalité |
-| Fret inter-îles, variante prise en charge par le Pays | Dossier DGAE (arrêté 1586 CM modifié) | Formalités à relever | 0 de fret si éligible | Si la coco parée est inéligible : cocos brutes à fret gratuit et découpe près du client |
+| Fret inter-îles, variante prise en charge par le Pays | Dossier DGAE (arrêté 1586 CM modifié) | Formalités à relever | 0 de fret si éligible | Si le coco paré est inéligible : cocos bruts à fret gratuit et découpe près du client |
 | Assurance RC professionnelle | Contrat annuel | 2–4 semaines | 60–200 k par an | Garantie explicite « préparation et livraison de denrées », intoxication couverte |
-| Découpeur | Contrat à la tâche ou temps partiel déclaré CPS ; ou prestation de la cocoteraie | 3–5 semaines | 60–120 XPF par coco | Deuxième personne formée ; rémunération à la coco conforme |
+| Découpeur | Contrat à la tâche ou temps partiel déclaré CPS ; ou prestation de la cocoteraie | 3–5 semaines | 60–120 XPF par coco | Deuxième personne formée ; rémunération à le coco conforme |
 | Laboratoire d'analyses | Prestation à l'analyse | 5–10 jours par résultat | 15–40 k par analyse | Créneaux réservés avant la mise au froid du lot test |
 
 **Achats critiques** : les cocos au bon stade (le contrat porte le critère de qualité), le froid (seul achat dont le délai peut décaler J6), l'atelier (support de la déclaration sanitaire, donc de J4).

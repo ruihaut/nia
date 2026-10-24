@@ -2,20 +2,20 @@
 
 > Statut : document de travail, version 0 (2026-10-24). Rédigé par `market-scout` sans accès au web : **chaque fait ou chiffre porte `[estimé : raisonnement]` ou `[supposé]`** et doit être remplacé par un relevé terrain avant d'être tenu pour acquis. Le seul chiffre sourcé est celui des excursionnistes de croisière (ISPF, voir §1).
 > Articulation : l'annexe A3 (`business-director`) fait la segmentation courte et renvoie ici pour le détail ; l'annexe A1 (`financial-modeler`) fixe le prix de vente par coco — ici on raisonne en fourchette 400–800 XPF `[supposé]`, **voir A1 pour le prix retenu**. Les items 3 et 8 du backlog (`scrum/backlog.md`) sont les suites opérationnelles de ce document.
-> Modèle de vente rappelé (`VISION.md`) : la coco nīā diamond cut, réfrigérée, est **incluse dans l'excursion** ; l'opérateur l'achète à NĪĀ et la sert à ses passagers ; pas de revente au touriste.
+> Modèle de vente rappelé (`VISION.md`) : le coco nīā diamond cut, réfrigérée, est **incluse dans l'excursion** ; l'opérateur l'achète à NĪĀ et la sert à ses passagers ; pas de revente au touriste.
 
 ---
 
 ## 0. En une page
 
-**Question posée.** Quels types d'excursion de Tahiti et Moorea sont compatibles avec une coco nīā diamond cut, livrée froide, servie à bord ou sur place ? Et à quoi ressemble, étape par étape, la vie de cette coco chez l'opérateur et dans les mains du passager ?
+**Question posée.** Quels types d'excursion de Tahiti et Moorea sont compatibles avec un coco nīā diamond cut, livrée froide, servie à bord ou sur place ? Et à quoi ressemble, étape par étape, la vie de ce coco chez l'opérateur et dans les mains du passager ?
 
 **Intuitions de départ du fondateur, testées.**
 - *Randonnée = incompatible a priori* : **confirmé** pour le service pendant la marche (1,2–1,5 kg par passager à porter, pas de froid, coque à redescendre). Une variante « coco à l'arrivée », servie au véhicule du guide au retour, existe mais reste une cible tertiaire (petits groupes, peu de sorties).
 - *Sortie bateau = pleinement compatible a priori* : **confirmé et affiné**. Ce n'est pas « le bateau » qui rend compatible, c'est quatre conditions que le bateau réunit presque toujours.
 
 **Règle générale qui en sort (à retenir).** Un type d'excursion est compatible si, et seulement si :
-1. **un véhicule porte la glacière jusqu'au point de service** (le passager ne porte jamais la coco plus de quelques mètres) ;
+1. **un véhicule porte la glacière jusqu'au point de service** (le passager ne porte jamais le coco plus de quelques mètres) ;
 2. il existe **un temps mort d'au moins 15 minutes, passagers assis ou à l'arrêt, mains libres** (retour, mouillage, belvédère, attente des baleines) ;
 3. **la coque repart dans un bac** avec le véhicule (rien ne reste sur le motu, sur le site ou sur le sentier) ;
 4. le guide **n'a pas déjà un rituel coco à la machette** qui fait partie de son spectacle — ou accepte que NĪĀ le complète plutôt que le remplace.
@@ -47,14 +47,14 @@ Le seul chiffre sourcé de cette annexe : **70 062 excursionnistes de croisière
 | 5 | **Plongée bouteille** (2 plongées, bateau semi-rigide ou coque dure) | 3–4 h | 6–12 plongeurs + encadrants | 2–3 · 12–18 | 8 000–11 000 la plongée, forfaits dégressifs | Plongeurs certifiés et baptêmes ; clientèle sensible au prix du forfait | Intervalle de surface entre les deux plongées (45–60 min) ; retour | Eau, biscuits sucrés, parfois fruits ; thé chaud `[estimé]` |
 | 6 | **Kayak / paddle / pirogue** (location libre ; quelques sorties guidées au lever du soleil ou vers un motu) | 1–3 h | 1–8 | Location continue · faible encadrement | 2 000–5 000 la location ; 6 000–9 000 guidé | Clients d'hôtel ou de pension, autonomie | Retour à la plage de départ | Rien (location) ; parfois fruits au motu (guidé) |
 | 7 | **Pêche sportive** (charter hauturier) | 4–8 h | 2–6 | 1 · 2–5 | 60 000–150 000 le bateau | Clientèle masculine, pouvoir d'achat élevé, souvent répétiteurs | Dès la sortie de passe puis toute la journée (chaleur, bière) | Glacière pleine : bières, sodas, sandwichs ; très bien équipé en glace (poisson) |
-| 8 | **Safari 4x4 intérieur de l'île** (Papenoo, Opunohu, Belvédère, champs d'ananas, cascades) | 3,5–4,5 h ; journée 7 h | 8 par camion (bancs latéraux, ouvert), 1–4 camions | 2 · 10–12 par camion | 5 000–7 500 demi-journée ; 9 000–12 000 journée repas inclus | Mixte familles, croisière, seniors ; francophones plus nombreux qu'en lagon `[supposé]` | Arrêt belvédère ou cascade (15–25 min) ; à Moorea arrêt dégustation d'ananas et confitures | Eau ; **dégustation de fruits, parfois coco ouverte à la machette** par le guide à un arrêt ; passage à un stand de bord de route `[estimé : pratique fréquente des safaris]` |
+| 8 | **Safari 4x4 intérieur de l'île** (Papenoo, Opunohu, Belvédère, champs d'ananas, cascades) | 3,5–4,5 h ; journée 7 h | 8 par camion (bancs latéraux, ouvert), 1–4 camions | 2 · 10–12 par camion | 5 000–7 500 demi-journée ; 9 000–12 000 journée repas inclus | Mixte familles, croisière, seniors ; francophones plus nombreux qu'en lagon `[supposé]` | Arrêt belvédère ou cascade (15–25 min) ; à Moorea arrêt dégustation d'ananas et confitures | Eau ; **dégustation de fruits, parfois coco ouvert à la machette** par le guide à un arrêt ; passage à un stand de bord de route `[estimé : pratique fréquente des safaris]` |
 | 9 | **Tour d'île en van / bus** (Pointe Vénus, trou du souffleur, cascades, jardins, grotte) | 4–8 h | 8 (van) à 45 (bus) | 1 · 3–6 ; pics les jours de paquebot | 5 000–9 000 ; vendu 10 000–14 000 équivalent à bord des paquebots avec commission `[supposé]` | Croisière majoritaire, seniors, groupes | Arrêts sur sites publics (10–15 min chacun), pause déjeuner | Eau en bouteille ; déjeuner au restaurant ou snack ; rien sur les sites |
 | 10 | **Randonnée guidée** (vallées, cascades, crêtes, Fautaua, Aorai, Trois Cocotiers) | 3–8 h de marche | 4–12 | 1 · 3–6 | 6 000–12 000 | Marcheurs, 25–50 ans, autonomes, souvent résidents aussi | Pause au sommet / à la cascade ; retour au véhicule | Chacun porte son eau ; le guide porte fruits secs, parfois fruits ; rien de froid |
 | 11 | **Quad / VTT** (pistes intérieures, plantations, belvédère) | 2–3 h | 2–8 machines, 2–12 pax | 2–3 · 12–15 | 15 000–25 000 le quad (1–2 pax) ; VTT 5 000–8 000 | Jeunes couples, groupes ; sensations | Arrêt belvédère (15 min) | Eau ; parfois dégustation de fruits au point de vue `[supposé]` |
 | 12 | **Excursions croisière** (escales à Papeete, Moorea, Bora Bora, Raiatea, Huahine ; vendues à bord ou en direct au quai) — **c'est un canal qui irrigue les types 1, 2, 8, 9, plus qu'un type en soi** | Calée sur l'escale (4–8 h) | Par vagues de 20 à 300 pax sur un jour | 0 la plupart des jours, 5–20 sorties un jour d'escale | Vendu 8 000–20 000 à bord ; l'opérateur touche 50–70 % `[supposé]` | Seniors internationaux, anglophones, peu de temps, forte envie de « l'expérience locale » | Au premier arrêt, après la marche depuis le quai | Ce que sert l'opérateur sous-traitant (voir types 1, 8, 9) |
 | 13 | **Activités d'hôtel / pension** : sunset cruise en catamaran, cocktail et animation plage (démonstration coco, tressage), pique-nique motu privé | 1,5–2,5 h (sunset) ; 1–2 h (animation) | 15–40 (catamaran) ; 20–60 (animation) | 1 le soir · 3–6 ; animation quotidienne | 7 000–12 000 (sunset) ; animation offerte | Clients de l'hôtel, voyage de noces, pouvoir d'achat élevé | Apéritif au coucher du soleil ; fin d'animation | Champagne/cocktails et amuse-bouches (sunset) ; **l'hôtel ouvre déjà des cocos lors de son animation** avec son propre personnel `[estimé : animation classique des resorts]` |
 
-Ce que le tableau dit déjà : la coco **existe déjà** dans l'offre des types 1, 4, 8 et 13 — mais **chaude, ouverte à la machette, à un stade non sélectionné**. C'est à la fois la preuve que le moment existe et le principal concurrent de NĪĀ (voir critère « internalisation », §2).
+Ce que le tableau dit déjà : le coco **existe déjà** dans l'offre des types 1, 4, 8 et 13 — mais **chaude, ouverte à la machette, à un stade non sélectionné**. C'est à la fois la preuve que le moment existe et le principal concurrent de NĪĀ (voir critère « internalisation », §2).
 
 ---
 
@@ -66,7 +66,7 @@ Note 1 (très défavorable) à 5 (très favorable). La pondération reflète ce 
 
 | Critère | Ce qu'on note | Poids |
 |---|---|---|
-| **T — Transport jusqu'au point de service** | Une coco diamond cut pèse ≈ 0,9–1,3 kg une fois une partie de la bourre retirée `[estimé : coco jeune entière 1,2–1,5 kg, le diamond cut en enlève 20–30 %]` ; 20 cocos + glace = 30–35 kg, soit une glacière de 80–100 L. Qui porte, jusqu'où, sur quoi ? | 10 % |
+| **T — Transport jusqu'au point de service** | Un coco diamond cut pèse ≈ 0,9–1,3 kg une fois une partie de la bourre retirée `[estimé : coco jeune entière 1,2–1,5 kg, le diamond cut en enlève 20–30 %]` ; 20 cocos + glace = 30–35 kg, soit une glacière de 80–100 L. Qui porte, jusqu'où, sur quoi ? | 10 % |
 | **F — Maintien au froid pendant l'excursion** | Cible de service 4–8 °C ; durée hors chambre froide ; glacière ouverte souvent ou non ; soleil, chaleur moteur, poussière | 10 % |
 | **M — Moment et durée disponibles pour servir** | Existe-t-il un temps mort ≥ 15 min, passagers assis ou arrêtés, qui coïncide avec la soif ? | 15 % |
 | **G — Geste d'ouverture et de service** | Qui ouvre (guide, matelot, passager), avec quoi (pointe de couteau, ouvre-coco, pas de machette), stabilité du support, sécurité | 10 % |
@@ -108,9 +108,9 @@ Seuils : prioritaire ≥ 4,0 ; secondaire 3,0–3,99 ; incompatible < 3,0. Les s
 - **3·P = 5** : 500 XPF dans un billet à 12 000–16 000, c'est 3–4 % ; invisible pour l'opérateur comme pour le passager.
 - **13a·R = 3 et 13b·R = 1** : l'hôtel a du personnel de cuisine et d'animation ; il peut tout internaliser. La sunset cruise reste jouable parce qu'elle est souvent sous-traitée à un catamaran extérieur `[supposé]` ; l'animation plage ne l'est pas.
 - **7·V = 1** : 4–6 pax, 2–5 sorties par semaine, dépendantes de la météo : trop peu pour structurer une tournée ; à servir en appoint quand le camion passe.
-- **8·F = 3** : 4 h de piste, glacière à l'arrière d'un camion ouvert, ouverte à chaque arrêt pour l'eau ; sans glacière dédiée et pains de glace, la coco arrive tiède au belvédère.
+- **8·F = 3** : 4 h de piste, glacière à l'arrière d'un camion ouvert, ouverte à chaque arrêt pour l'eau ; sans glacière dédiée et pains de glace, le coco arrive tiède au belvédère.
 - **8·P = 3** : 500 XPF dans un billet à 5 000–7 500, c'est 7–10 % ; l'opérateur demandera à répercuter, donc à justifier auprès des agences qui lui achètent ses places.
-- **8·R = 2** : la dégustation de fruits et la coco ouverte au couteau à un arrêt font déjà partie de beaucoup de safaris `[estimé]`.
+- **8·R = 2** : la dégustation de fruits et le coco ouvert au couteau à un arrêt font déjà partie de beaucoup de safaris `[estimé]`.
 - **5·I = 2** : le plongeur photographie sous l'eau, pas sa coco ; l'intervalle de surface est un moment de récupération plus que de partage.
 - **9·M = 3 et 9·C = 3** : sur un parking de site public, pas d'endroit pour servir 40 cocos ni pour jeter 40 coques ; le bus n'a pas de bac ; seul l'arrêt déjeuner convient.
 - **9·P = 2** : les billets croisière passent par le navire et l'agence réceptive ; la marge de l'opérateur est déjà comprimée.
@@ -121,11 +121,11 @@ Seuils : prioritaire ≥ 4,0 ; secondaire 3,0–3,99 ; incompatible < 3,0. Les s
 
 ### 2.4 Pourquoi la randonnée est incompatible, et quelle variante existe
 
-**Pendant la marche (10a).** Les quatre conditions de la règle générale tombent : (1) pas de véhicule — un groupe de 8 représenterait 8–10 kg de cocos plus de la glace dans le sac du guide, qui porte déjà la trousse de secours, la corde et l'eau de réserve ; (2) la pause au sommet existe, mais (3) il faudrait redescendre 8 kg de coques humides, et (4) la coco n'a aucune place dans le récit d'un guide de montagne. Le froid est perdu après 2 h de marche au soleil. **Incompatible sans discussion.**
+**Pendant la marche (10a).** Les quatre conditions de la règle générale tombent : (1) pas de véhicule — un groupe de 8 représenterait 8–10 kg de cocos plus de la glace dans le sac du guide, qui porte déjà la trousse de secours, la corde et l'eau de réserve ; (2) la pause au sommet existe, mais (3) il faudrait redescendre 8 kg de coques humides, et (4) le coco n'a aucune place dans le récit d'un guide de montagne. Le froid est perdu après 2 h de marche au soleil. **Incompatible sans discussion.**
 
 **Au départ.** Personne n'a soif à 7h au parking, et le passager garderait la coque ou la laisserait sur place. Sans intérêt.
 
-**À l'arrivée (10b).** Le guide laisse une glacière dans son véhicule au point de départ/arrivée ; au retour, après 4–6 h d'effort, la coco froide est un vrai moment (soif, récompense, photo du groupe au pied de la vallée). Conditions : glacière rigide avec pains de glace dans un véhicule à l'ombre pendant 5–8 h `[estimé : une glacière de qualité pré-refroidie tient < 10 °C sur cette durée]`, coques laissées dans le véhicule. Volume faible (4–12 par sortie, 3–6 sorties par semaine) : **cible tertiaire**, à servir en appoint d'une tournée existante, jamais en premier client.
+**À l'arrivée (10b).** Le guide laisse une glacière dans son véhicule au point de départ/arrivée ; au retour, après 4–6 h d'effort, le coco froid est un vrai moment (soif, récompense, photo du groupe au pied de la vallée). Conditions : glacière rigide avec pains de glace dans un véhicule à l'ombre pendant 5–8 h `[estimé : une glacière de qualité pré-refroidie tient < 10 °C sur cette durée]`, coques laissées dans le véhicule. Volume faible (4–12 par sortie, 3–6 sorties par semaine) : **cible tertiaire**, à servir en appoint d'une tournée existante, jamais en premier client.
 
 **Ce que la randonnée enseigne pour généraliser.** Le critère n'est pas « terre ou mer » mais « la glacière voyage-t-elle avec le groupe jusqu'au moment de soif, et la coque repart-elle avec elle ? ». C'est ce qui sépare le safari 4x4 (oui, camion) du tour d'île en bus (le bus est là, mais le lieu de service n'existe pas) et de la randonnée (non).
 
@@ -154,22 +154,22 @@ Contexte type `[estimé]` : départ 9h d'une plage ou d'un quai (Moorea : Haapit
 | A3 Stockage à terre | Si frigo à la base : cocos au frigo, sorties le matin même. Sinon : glacière dédiée avec pains de glace, renouvelés chaque soir | Fournit, en prêt pendant le pilote, une glacière marquée NĪĀ et des pains de glace ; indique la DLC du lot (voir item 4 du backlog) | Pas de frigo → autonomie 2 jours max → livraison bi-hebdo ; mélange avec les poissons et bières ; porte de frigo ouverte | Jours de stock avant service ; température matin ; pertes (écoulement, odeur) |
 | A4 Embarquement | 7h30–8h30 : chargement des glacières ; les cocos du jour dans leur glacière dédiée, avec glace | Rien : c'est le geste de l'opérateur ; NĪĀ a conçu la caisse pour qu'elle rentre dans une glacière de 80 L | Glacière oubliée ; cocos mises dans la glacière à boissons ouverte toutes les 10 min | Nombre de cocos embarquées vs pax du jour |
 | A5 Pendant — moment de service | **Option A (recommandée)** : à l'arrivée sur le motu, avant le repas, le guide sort les cocos ; **Option B** : au mouillage après le snorkeling, à bord | Fiche plastifiée du geste et des trois phrases ; un ouvre-coco ou couteau court dans la glacière ; marquage visible | Le guide préfère son numéro à la machette avec des cocos chaudes achetées le matin ; passe les cocos sans un mot ; les ouvre toutes à l'avance et elles tiédissent | Heure et lieu réels du service ; qui ouvre ; durée totale du service pour 20 pax (objectif < 10 min) ; les trois phrases dites ou non |
-| A6 Pendant — récit | Le guide dit ce qu'est le nīā (le stade entre ʻōuo et ʻōmoto, l'eau sucrée, l'amande fine) et d'où vient la coco | Texte FR/EN, deux versions (30 s et 2 min) ; forme le guide à la première sortie | Récit déformé (« coco bio », « coco de Tahiti » générique) ; guide anglophone peu à l'aise | Phrases entendues notées mot pour mot ; questions des passagers |
+| A6 Pendant — récit | Le guide dit ce qu'est le nīā (le stade entre ʻōuo et ʻōmoto, l'eau sucrée, l'amande fine) et d'où vient le coco | Texte FR/EN, deux versions (30 s et 2 min) ; forme le guide à la première sortie | Récit déformé (« coco bio », « coco de Tahiti » générique) ; guide anglophone peu à l'aise | Phrases entendues notées mot pour mot ; questions des passagers |
 | A7 Après — coques | Coques dans un bac ou sac solide, retour au bateau, puis à la base | Reprend les coques à la livraison suivante si l'opérateur le souhaite (compost, cocoteraie partenaire : à instruire avec `supply-analyst`) | Coques laissées sur le motu ; bac percé ; odeur | Poids/nombre de coques rapportées vs servies |
 | A8 Après — retours | Le capitaine note ce que les clients ont dit ; l'équipage dit ce qui l'a gêné | Passe ou appelle le vendredi : 5 minutes, 3 questions ; consigne les verbatims | On n'a que « c'était bien » ; l'équipage ne dit pas que ça l'ennuie | Verbatims cités ; incidents ; demandes |
-| A9 Réassort | Commande suivante, ajustée aux réservations et aux restes | Propose la quantité, signale la DLC des restes | Restes périmés ; sur-commande par prudence puis sous-commande par réaction | Taux de recommande ; cocos jetées / livrées |
+| A9 Réassort | Commande suivante, ajustée aux réservations et aux restes | Propose la quantité, signale la DLC des restes | Restes périmés ; sur-commande par prudence puis sous-commande par réaction | Taux de recommande ; cocos jetés / livrées |
 
 **(b) Fil passager**
 
 | Étape | Ce qui se passe | Ce que fait NĪĀ | Ce qui peut rater | Ce qu'on mesure |
 |---|---|---|---|---|
 | P1 Découverte (avant) | Le passager a réservé via l'hôtel, une agence ou le site de l'opérateur ; « rafraîchissements inclus » | Rien d'obligatoire ; option : une ligne « coco nīā NĪĀ incluse » dans le descriptif, si l'opérateur le souhaite | Promesse sur-vendue (« fresh coconut » puis coco absente un jour de rupture) | Mention présente ou non dans la description |
-| P2 Mise en scène | Le guide sort une glacière et annonce « maintenant, une coco » | Marquage visible, facettes propres, buée de froid | Coco sale, bourre humide qui coule, marquage délavé | Réaction immédiate observée (sourire, téléphone sorti) |
-| P3 Geste de réception | Le passager prend la coco à deux mains ; elle est froide, lourde (≈ 1 kg) | Facettes qui tiennent bien en main ; ouverture faite devant lui en un geste | Coco trop lourde pour un enfant ; ouverture ratée qui éclabousse | Nombre de refus (ne veut pas de coco) ; nombre de cocos pour deux |
-| P4 Goût | Eau froide, sucrée, goût du nīā ; souvent la première coco froide de sa vie | Stade nīā constant ; température de service 4–8 °C | Coco tiède ; eau acide (stade trop mûr ou DLC dépassée) ; quantité inégale | Verbatims sur le goût ; cocos non finies |
-| P5 Photo | Coco en main, lagon derrière, groupe ; selfie | Facette marquée tournée vers l'objectif par le geste du guide | Rien à photographier de distinctif | Part des passagers qui photographient ; ce qu'ils cadrent (la coco ? le marquage ? le guide ?) |
-| P6 Amande | Après l'eau, le guide ouvre la coco en deux et fait goûter l'amande fine et molle du nīā | Geste de finition conçu pour ne pas dépendre d'une machette (à valider avec `process-engineer`) | Impossible sans machette → le numéro du guide revient, et c'est acceptable sur le motu | Fait ou non ; réaction |
-| P7 Souvenir et récit | Le soir, le passager raconte « la coco froide du motu » ; poste la photo ; demande où en trouver | Un mot de marque mémorisable ; pas de QR code ni de site tant que le second temps n'est pas ouvert | Le passager retient « coco » et pas « NĪĀ » ; il cherche la marque et ne trouve rien | Nom cité spontanément ou non ; questions « où en acheter ? » (signal pour le palier 2) |
+| P2 Mise en scène | Le guide sort une glacière et annonce « maintenant, un coco » | Marquage visible, facettes propres, buée de froid | Coco sale, bourre humide qui coule, marquage délavé | Réaction immédiate observée (sourire, téléphone sorti) |
+| P3 Geste de réception | Le passager prend le coco à deux mains ; elle est froide, lourde (≈ 1 kg) | Facettes qui tiennent bien en main ; ouverture faite devant lui en un geste | Coco trop lourde pour un enfant ; ouverture ratée qui éclabousse | Nombre de refus (ne veut pas de coco) ; nombre de cocos pour deux |
+| P4 Goût | Eau froide, sucrée, goût du nīā ; souvent la première coco froid de sa vie | Stade nīā constant ; température de service 4–8 °C | Coco tiède ; eau acide (stade trop mûr ou DLC dépassée) ; quantité inégale | Verbatims sur le goût ; cocos non finies |
+| P5 Photo | Coco en main, lagon derrière, groupe ; selfie | Facette marquée tournée vers l'objectif par le geste du guide | Rien à photographier de distinctif | Part des passagers qui photographient ; ce qu'ils cadrent (le coco ? le marquage ? le guide ?) |
+| P6 Amande | Après l'eau, le guide ouvre le coco en deux et fait goûter l'amande fine et molle du nīā | Geste de finition conçu pour ne pas dépendre d'une machette (à valider avec `process-engineer`) | Impossible sans machette → le numéro du guide revient, et c'est acceptable sur le motu | Fait ou non ; réaction |
+| P7 Souvenir et récit | Le soir, le passager raconte « le coco froid du motu » ; poste la photo ; demande où en trouver | Un mot de marque mémorisable ; pas de QR code ni de site tant que le second temps n'est pas ouvert | Le passager retient « coco » et pas « NĪĀ » ; il cherche la marque et ne trouve rien | Nom cité spontanément ou non ; questions « où en acheter ? » (signal pour le palier 2) |
 
 **Friction principale J1** : l'étape A5. Le motu est le territoire du guide et de sa machette. L'angle à tester : NĪĀ apporte le froid, le stade et la régularité ; le guide garde le geste final et l'amande (P6). Si le guide refuse ce partage, l'opérateur n'est pas un bon pilote.
 
@@ -186,7 +186,7 @@ Contexte type `[estimé]` : départ 8h30 et 13h30 d'une marina ou d'une plage, 8
 | A3 Stockage | Idem J1 ; les cocos de l'après-midi restent à terre au frais pendant la sortie du matin | Glacière NĪĀ dédiée ; pains de glace en double jeu | Les cocos des deux sorties embarquées le matin et exposées 8 h | Température des cocos de l'après-midi au service |
 | A4 Embarquement | 8h : les cocos du matin dans la glacière du bord | Caisse dimensionnée pour une glacière de 60 L (10–12 cocos) | Pas de place : glacière unique déjà pleine d'eau et de masques | Nombre embarqué |
 | A5 Service | **Après le dernier arrêt, moteur relancé** : le guide ouvre et distribue pendant les 15–25 min de retour, passagers assis | Ouverture en un geste sur support stable (planche sur la glacière) ; pas de machette à bord en route ; cocos ouvertes au fur et à mesure | Mer agitée : ouverture dangereuse, cocos renversées ; guide seul, doit aussi ranger le matériel | Durée du service pour N pax ; incidents ; cocos renversées |
-| A5' Service en saison baleines | **Pendant l'attente** entre deux observations, moteur réduit, ou après la mise à l'eau | Idem ; la coco froide après 20 min dans l'eau à 26 °C est un moment fort | Observation qui arrive au moment du service → cocos abandonnées sur le pont | Moment choisi ; cocos finies |
+| A5' Service en saison baleines | **Pendant l'attente** entre deux observations, moteur réduit, ou après la mise à l'eau | Idem ; le coco froid après 20 min dans l'eau à 26 °C est un moment fort | Observation qui arrive au moment du service → cocos abandonnées sur le pont | Moment choisi ; cocos finies |
 | A6 Récit | Trois phrases du guide pendant la distribution | Texte FR/EN court (30 s) : au retour, personne n'écoute 2 minutes | Bruit moteur ; guide muet | Phrases dites ; questions |
 | A7 Coques | Seau ou bac à bord ; vidé à la base | Reprise des coques à la livraison suivante si souhaité | Coques jetées par-dessus bord (image et réglementation) | Coques rapportées / servies |
 | A8 Retours | Capitaine et guide après la sortie | 5 minutes, 3 questions, une fois par semaine | Idem J1 | Verbatims |
@@ -196,13 +196,13 @@ Contexte type `[estimé]` : départ 8h30 et 13h30 d'une marina ou d'une plage, 8
 
 | Étape | Ce qui se passe | Ce que fait NĪĀ | Ce qui peut rater | Ce qu'on mesure |
 |---|---|---|---|---|
-| P1 Découverte | Réservation demi-journée, souvent la veille à l'hôtel ; attentes centrées sur les raies et requins | Rien d'imposé ; la coco est une surprise à l'arrivée | — | Mention dans le descriptif |
-| P2 Moment | Sortie de l'eau, bouche salée, soleil, le bateau repart ; le guide tend une coco froide | Le contraste froid/sel/sucre est l'argument produit | Coco tiède = effet nul | Réaction ; verbatims |
+| P1 Découverte | Réservation demi-journée, souvent la veille à l'hôtel ; attentes centrées sur les raies et requins | Rien d'imposé ; le coco est une surprise à l'arrivée | — | Mention dans le descriptif |
+| P2 Moment | Sortie de l'eau, bouche salée, soleil, le bateau repart ; le guide tend un coco froid | Le contraste froid/sel/sucre est l'argument produit | Coco tiède = effet nul | Réaction ; verbatims |
 | P3 Geste | Le passager boit assis, coco calée entre les genoux ; mains mouillées | Facettes antidérapantes de fait ; ouverture propre, pas d'éclaboussure | Coco qui glisse, se renverse sur le pont | Cocos renversées |
-| P4 Goût | 300–500 ml d'eau froide `[estimé : contenu d'une coco jeune]` en 5 minutes | Stade nīā constant | Acide, tiède, trop ou pas assez | Cocos non finies |
+| P4 Goût | 300–500 ml d'eau froide `[estimé : contenu d'un coco jeune]` en 5 minutes | Stade nīā constant | Acide, tiède, trop ou pas assez | Cocos non finies |
 | P5 Photo | Moins de photos qu'au motu (mains mouillées, bateau qui bouge) ; photo de groupe au retour avec cocos | Marquage visible ; le guide propose la photo de groupe | Aucune photo → faible effet d'image | Part de passagers photographiant |
 | P6 Amande | Pas le temps ni l'outil en route ; option à la marina à l'arrivée | Pas prévu en J2 (différence assumée avec J1) | Frustration de ceux qui connaissent | Demandes « et la chair ? » |
-| P7 Souvenir | « On a bu une coco glacée en revenant des requins » ; recommande le tour | Nom et marquage mémorisables | Marque non retenue | Nom cité ; questions « où en trouver ? » |
+| P7 Souvenir | « On a bu un coco glacé en revenant des requins » ; recommande le tour | Nom et marquage mémorisables | Marque non retenue | Nom cité ; questions « où en trouver ? » |
 
 **Friction principale J2** : A5. Tout doit tenir en 15–20 minutes, en mouvement, avec un seul guide : l'ouverture doit être un geste d'une seconde sur un support stable, sans outil long, et la coque doit aller droit au seau. Si `process-engineer` ne livre pas un diamond cut « à ouvrir d'une pression » et un ouvre-coco sûr, J2 se dégrade.
 
@@ -234,7 +234,7 @@ Contexte type `[estimé]` : départ 8h30 et 13h30 d'un parking ou d'un hôtel, 8
 | P4 Goût | Idem J1 | Idem | Idem | Cocos non finies |
 | P5 Photo | **Très forte** : coco en main devant la baie de Cook ou la vallée de la Papenoo | Marquage ; le guide propose la photo | Rien de distinctif dans le cadre | Part qui photographie |
 | P6 Amande | Possible à l'arrêt (temps, support) ; compatible avec le couteau du guide | Geste de finition | — | Fait ou non |
-| P7 Souvenir | « Une coco froide au belvédère » | Nom | Marque non retenue | Nom cité |
+| P7 Souvenir | « Un coco froid au belvédère » | Nom | Marque non retenue | Nom cité |
 
 **Friction principale J3** : le froid (A3–A5) et le prix (P du §2). Le camion ouvert, la poussière et la glacière ouverte à chaque arrêt dégradent la température ; et 500 XPF pèsent 7–10 % d'un billet demi-journée. J3 n'a de sens qu'avec une glacière dédiée par camion et un opérateur dont le patron croit à la montée en gamme.
 
@@ -262,14 +262,14 @@ Verbatims : **à relever mot pour mot** sur le terrain, colonne de droite laiss�
 
 | Objection (hypothèse) | Où elle pèse | Réponse à tester | Verbatim relevé (date, opérateur) |
 |---|---|---|---|
-| « On a déjà des cocos, je les ouvre moi-même devant les clients. » | J1 (fort), J3 | « Gardez le geste. Nous apportons ce que la machette ne peut pas : la coco froide, le bon stade à chaque fois, la régularité, et 20 minutes de préparation en moins le matin. » | ___ |
-| « 500 francs la coco, j'en achète à 150 au bord de la route. » `[estimé : prix d'une coco jeune non préparée, à relever]` | Toutes, J3 surtout | Décomposer : stade sélectionné, découpe, froid, livraison, régularité ; comparer au coût d'un jus en bouteille servi à bord ; proposer de **mesurer la réaction des clients sur 6 semaines** avant de juger le prix | ___ |
-| « Mes clients ne verront pas la différence. » | J2 | Faire goûter à l'équipage une coco NĪĀ froide et une coco du matin côte à côte ; demander qui a vu la différence | ___ |
+| « On a déjà des cocos, je les ouvre moi-même devant les clients. » | J1 (fort), J3 | « Gardez le geste. Nous apportons ce que la machette ne peut pas : le coco froid, le bon stade à chaque fois, la régularité, et 20 minutes de préparation en moins le matin. » | ___ |
+| « 500 francs le coco, j'en achète à 150 au bord de la route. » `[estimé : prix d'un coco jeune non préparée, à relever]` | Toutes, J3 surtout | Décomposer : stade sélectionné, découpe, froid, livraison, régularité ; comparer au coût d'un jus en bouteille servi à bord ; proposer de **mesurer la réaction des clients sur 6 semaines** avant de juger le prix | ___ |
+| « Mes clients ne verront pas la différence. » | J2 | Faire goûter à l'équipage un coco NĪĀ froide et un coco du matin côte à côte ; demander qui a vu la différence | ___ |
 | « Et si vous ne livrez pas un lundi ? » | Toutes | Stock tampon de 2 jours chez l'opérateur ; engagement de prévenir 48 h avant ; **ne pas promettre une régularité qu'`operations-director` n'a pas validée** | ___ |
 | « C'est propre, votre truc ? Combien de temps ça se garde ? » | Toutes | DLC écrite sur la caisse ; température à la réception signée ; renvoi à l'item 5 (réglementaire) — ne rien affirmer avant | ___ |
 | « Je n'ai pas de place dans la glacière. » | J2, J4 jet-ski | Glacière dédiée prêtée pendant le pilote ; caisse dimensionnée | ___ |
 | « Qu'est-ce que je fais des coques ? » | J1, J3 | Bac fourni ; reprise à la livraison suivante | ___ |
-| « Les agences ne me paieront pas plus cher. » | J3, J9 | La coco est un argument de vente pour l'agence (photo, « fresh young coconut included ») ; tester avec une agence | ___ |
+| « Les agences ne me paieront pas plus cher. » | J3, J9 | Le coco est un argument de vente pour l'agence (photo, « fresh young coconut included ») ; tester avec une agence | ___ |
 | « Je peux apprendre la découpe à mon matelot. » | Toutes (internalisation) | Oui ; mais le stade nīā, le froid de bout en bout et la régularité ne s'apprennent pas en une matinée ; la marque n'est pas copiable | ___ |
 | « Pourquoi personne ne le fait déjà ? » | Toutes | Question du pré-mortem (item 1) : répondre honnêtement qu'on cherche à le savoir avec eux | ___ |
 
@@ -283,7 +283,7 @@ Verbatims : **à relever mot pour mot** sur le terrain, colonne de droite laiss�
 | Délai de commande | Jeudi 18h pour le lundi ; ajustement possible jusqu'à la veille 18h | Idem | Idem |
 | Livraison où et quand | Base ou quai, 6h30–7h30 ; Moorea : réception au ferry du matin par l'opérateur ou tournée NĪĀ sur l'île (coût à chiffrer en A1) | Marina ou plage de départ, avant 7h | Base/garage, avant 8h |
 | Reprise | Caisses vides, coques (optionnel), invendus périmés comptés | Idem | Idem |
-| Facturation | Hebdo, sur bon signé, à la coco livrée ; les invendus périmés sont au compte de l'opérateur au-delà du +10 % `[supposé : règle à négocier]` | Idem | Idem |
+| Facturation | Hebdo, sur bon signé, à le coco livré ; les invendus périmés sont au compte de l'opérateur au-delà du +10 % `[supposé : règle à négocier]` | Idem | Idem |
 | Prix | Fourchette 400–800 XPF `[supposé]` — **voir A1 pour le prix retenu** | Idem | Idem (pression à la baisse attendue) |
 
 ### 4.4 Conséquences sur la conservation et le rythme
@@ -303,7 +303,7 @@ Règle pratique pour le pilote : **choisir un opérateur avec frigo à Tahiti**,
 
 ## 5. Potentiel par cible prioritaire
 
-Toutes les lignes sont `[estimé]` ; raisonnement : nombre de prestataires actifs par type d'après la densité d'offre visible depuis les hôtels et les quais (à remplacer par le recensement du plan §6, et par les listes de Tahiti Tourisme et des comités du tourisme de Moorea et Tahiti Iti). Taux de prise = part des passagers qui acceptent la coco incluse : 85–95 %, arrondi à 1 coco par passager pour la commande.
+Toutes les lignes sont `[estimé]` ; raisonnement : nombre de prestataires actifs par type d'après la densité d'offre visible depuis les hôtels et les quais (à remplacer par le recensement du plan §6, et par les listes de Tahiti Tourisme et des comités du tourisme de Moorea et Tahiti Iti). Taux de prise = part des passagers qui acceptent le coco incluse : 85–95 %, arrondi à 1 coco par passager pour la commande.
 
 ### 5.1 Nombre d'opérateurs et cocos par semaine et par opérateur
 
@@ -335,12 +335,12 @@ Le canal croisière, lissé, ajoute en théorie 70 062 passagers/an, soit ~1 350
 
 ## 6. Plan de prospection des 8 premières semaines
 
-Principe : **écouter avant de proposer** (karpathy). Chaque visite commence par 10 minutes de questions et une coco à faire goûter à l'équipage, pas par un pitch. Les fiches produites doivent être reprenables par un commercial recruté : un fichier par opérateur, la grille §6.3 remplie, les verbatims datés.
+Principe : **écouter avant de proposer** (karpathy). Chaque visite commence par 10 minutes de questions et un coco à faire goûter à l'équipage, pas par un pitch. Les fiches produites doivent être reprenables par un commercial recruté : un fichier par opérateur, la grille §6.3 remplie, les verbatims datés.
 
 ### 6.1 Ce qu'on a en main
 
 - Une **glacière de 10–12 cocos nīā diamond cut, froides**, préparées la veille selon le protocole en cours de l'item 4 (même imparfait : c'est un prototype, on le dit) ; un ouvre-coco ou couteau court ; un bac pour les coques ; un thermomètre.
-- Une **fiche d'une page** : ce qu'est le nīā, ce que NĪĀ livre (coco froide, stade sélectionné, livrée à la base, caisse consignée), ce qu'on propose (pilote payant 6–8 semaines), fourchette de prix (voir A1), ce qu'on demande en retour (retours cités, un passage à bord par semaine).
+- Une **fiche d'une page** : ce qu'est le nīā, ce que NĪĀ livre (coco froid, stade sélectionné, livrée à la base, caisse consignée), ce qu'on propose (pilote payant 6–8 semaines), fourchette de prix (voir A1), ce qu'on demande en retour (retours cités, un passage à bord par semaine).
 - La **grille d'entretien** (§6.3) et un carnet pour les verbatims.
 - Pas de contrat, pas de plaquette marque : le laboratoire de marque commence au pilote, pas en prospection.
 
@@ -367,9 +367,9 @@ Repères : 25–35 entretiens en 8 semaines ; 2 observations à bord ; 1 pilote 
 4. Où stockez-vous vos boissons avant la sortie : frigo à la base, glacière, glace achetée où ? *(froid, autonomie A)*
 5. Comment gérez-vous vos déchets de sortie ? *(coque)*
 6. Qui décide de ce qui est inclus dans l'excursion et du prix du billet ; vos places sont-elles vendues par des hôtels ou des agences, et à quel pourcentage ? *(décideur, place du prix)*
-7. *(faire goûter)* Qu'est-ce que vous en pensez, vous et l'équipage ? Vos clients verraient-ils la différence avec une coco du matin ? *(verbatim, goût)*
+7. *(faire goûter)* Qu'est-ce que vous en pensez, vous et l'équipage ? Vos clients verraient-ils la différence avec un coco du matin ? *(verbatim, goût)*
 8. À quel moment de votre sortie la serviriez-vous ? Qui l'ouvrirait ? *(moment, geste — c'est l'opérateur qui dessine le journey)*
-9. À combien la coco, livrée froide à votre base chaque semaine, cela resterait-il intéressant pour vous ? *(prix — laisser répondre, ne pas annoncer le prix en premier)*
+9. À combien le coco, livrée froide à votre base chaque semaine, cela resterait-il intéressant pour vous ? *(prix — laisser répondre, ne pas annoncer le prix en premier)*
 10. Si on faisait un essai de 6 semaines, payant, avec un passage de notre part à bord une fois par semaine : qu'est-ce qui vous ferait dire oui, et qu'est-ce qui vous ferait arrêter ? *(critères de réussite, objections)*
 
 À relever en plus, sans question : nom et rôle de l'interlocuteur, île et point de départ, nombre et taille des bateaux/camions, glacières vues (nombre, litres), présence d'une machette à bord, réaction au mot « nīā ».
@@ -382,7 +382,7 @@ Proposer le pilote **dès la première visite** si, et seulement si, les cinq co
 2. Volume ≥ 60 pax/semaine, ≥ 4 sorties/semaine, toute l'année ou au moins sur les 3 mois du pilote.
 3. Froid : frigo à la base, ou accord pour une glacière dédiée et un stock de 2 jours (et dans ce cas, livraison bi-hebdo tenable depuis Tahiti).
 4. Prix : la réponse à la question 9 tombe dans la fourchette A1, ou au-dessus de son bas.
-5. Rituel : pas de machette comme numéro central, ou accord explicite pour que NĪĀ amène la coco froide et que le guide garde la finition.
+5. Rituel : pas de machette comme numéro central, ou accord explicite pour que NĪĀ amène le coco froid et que le guide garde la finition.
 
 Si la condition 1 est remplie mais pas la 3 ou la 5 : ne pas forcer ; c'est un bon deuxième client, pas un bon premier.
 
@@ -393,7 +393,7 @@ Si la condition 1 est remplie mais pas la 3 ou la 5 : ne pas forcer ; c'est un b
 1. **Sortie bateau courte snorkeling (Tahiti côte ouest, puis Moorea)** : deux sorties par jour toute l'année, pas de motu donc pas de machette installée, une glacière suffit, le service tient sur le trajet retour ; c'est le flux le plus régulier pour apprendre à livrer.
 2. **Sortie lagon journée avec motu (Tahiti Iti et Moorea)** : le plus gros volume par sortie et la meilleure image, mais le guide y a déjà sa coco à la machette ; on y va pour tester frontalement l'objection « on a déjà des cocos » et pour y insérer NĪĀ sans voler le numéro.
 3. **Observation des baleines (juillet–novembre)** : mêmes opérateurs que 1 et 2, billets à 12 000–16 000 XPF où 500 XPF sont invisibles, longues attentes idéales pour servir ; c'est l'extension naturelle du pilote dès l'été 2027 si les premières livraisons ont lieu au printemps.
-Le safari 4x4 vient juste derrière, comme meilleure cible terrestre et seul test sérieux de la règle « la coco suit la glacière, la glacière suit le véhicule » hors du bateau.
+Le safari 4x4 vient juste derrière, comme meilleure cible terrestre et seul test sérieux de la règle « le coco suit la glacière, la glacière suit le véhicule » hors du bateau.
 
 ---
 

@@ -7,9 +7,9 @@
 ## 1. Elevator pitch
 
 1. **Problème / opportunité.** Chaque jour, ≈ 770 touristes arrivent à Tahiti [estimé] et sont accueillis par un lei et un welcome drink, gestes codifiés, légers, sans rien de local à boire ni à nommer ; en excursion, 100 000 à 250 000 cocos par an sont servies sans marque, sans stade garanti, sans histoire [estimé].
-2. **Idée.** NĪĀ fournit aux agences réceptives une coco *nīā*, au stade exact où l'eau est la plus agréable, découpée en diamond cut, froide, marquée NĪĀ, que leur agent remet au touriste à son arrivée à l'hôtel, avec l'origine dite en une phrase ; puis la même coco aux opérateurs d'excursion.
+2. **Idée.** NĪĀ fournit aux agences réceptives un coco *nīā*, au stade exact où l'eau est la plus agréable, découpée en diamond cut, froide, marquée NĪĀ, que leur agent remet au touriste à son arrivée à l'hôtel, avec l'origine dite en une phrase ; puis la même coco aux opérateurs d'excursion.
 3. **Avantage.** Pour l'agence : un geste d'accueil distinctif, local, photographié, à 2–6 % du prix d'un transfert. Pour l'hôtel : un souvenir d'arrivée sans travail, et un fournisseur qu'il pourra commander lui-même. Pour NĪĀ : un flux quotidien à marge positive, un laboratoire de marque, et le décideur hôtelier du palier 2 qui voit le produit chaque jour.
-4. **Équipe.** Un fondateur chef de projet, profil tech, qui apprend le métier sur le terrain ; une cocoteraie partenaire qui récolte ; un découpeur à la tâche puis à temps partiel ; une agence réceptive cliente et un hôtel d'arrivée partenaire ; une équipe d'agents r-stack qui instruit et documente ; un sponsor à trouver qui connaît la coco ou le tourisme.
+4. **Équipe.** Un fondateur chef de projet, profil tech, qui apprend le métier sur le terrain ; une cocoteraie partenaire qui récolte ; un découpeur à la tâche puis à temps partiel ; une agence réceptive cliente et un hôtel d'arrivée partenaire ; une équipe d'agents r-stack qui instruit et documente ; un sponsor à trouver qui connaît le coco ou le tourisme.
 5. **Coût / bénéfice.** Apport du fondateur 2–5 M XPF ; besoin de 2,5 M disponibles (3,0 M si les agences paient à 60 jours, ou un acompte) ; coût de revient ≈ 365 XPF, prix cible 700 XPF par passager (net ≥ 590), marge ≈ 335 XPF, point mort ≈ 285 cocos par mois ; VAN du palier 1 à 12 % sur 24 mois **+1,6 M** au scénario réaliste, retour ≈ 18 mois ; −1,25 M si le prix n'est que de 500. Détail : business case § 3.
 6. **Planning.** Novembre–décembre 2026 : vérifications (entretiens agence et hôtels, observation d'une arrivée, CHSP, conservation, cocoteraies, fret) ; date limite de qualification du canal : 15 décembre. 4 janvier 2027 : go financement. Février–mars : cocoteraie signée, protocole et DLC validés, accord à trois agence–hôtel–NĪĀ, conformité. **Première remise payante la semaine du 5 avril 2027, au plus tard le 30 avril.** Septembre 2027 : fin du pilote et PV de recette. Octobre 2027 : décision palier 2.
 
@@ -24,8 +24,8 @@
 | Résultat | Critère de succès | Mesure |
 |---|---|---|
 | Un client payant qui reste | Agence livrée ≥ 20 semaines ; remises réalisées ≥ 95 % des arrivées prévues ; PV de recette signé par l'agence et l'hôtel sans réserve bloquante | Journal de remises, PV (plan § 4) |
-| Une économie unitaire positive | Prix net encaissé ≥ 590 XPF par passager ; marge brute par coco livrée > 0 dès le deuxième mois ; coût par coco relevé ≤ 365 XPF | Comptabilité par lot |
-| Un pont vers le palier 2 | Au moins un hôtel d'arrivée qui commande en propre au sixième mois ; ≥ 70 % des cocos remises bues sur place | Bons de commande, grille d'observation |
+| Une économie unitaire positive | Prix net encaissé ≥ 590 XPF par passager ; marge brute par coco livré > 0 dès le deuxième mois ; coût par coco relevé ≤ 365 XPF | Comptabilité par lot |
+| Un pont vers le palier 2 | Au moins un hôtel d'arrivée qui commande en propre au sixième mois ; ≥ 70 % des cocos remis bues sur place | Bons de commande, grille d'observation |
 | Une filière apprise et transmissible | Fiche de sélection nīā, fiches fournisseurs, protocole de découpe, plan d'hygiène et chaîne du froid écrits, exécutés au moins une fois par quelqu'un d'autre que leur auteur | Definition of Done (plan § 4) |
 | Une conformité acquise | Récépissé ou attestation du CHSP, RC professionnelle couvrant denrées et livraison, étiquetage et DLC justifiée | Jalon J4 |
 | Une marque qui commence | Le nom NĪĀ dit par un agent, un réceptionniste et des passagers sans qu'on le leur souffle ; publications repérées ; marquage lisible à la remise sur ≥ 95 % des cocos | Grille d'observation à la remise |
@@ -47,7 +47,7 @@
 | Director-General (équipe IA) | Session principale r-stack, fonction Product Owner | Tient `VISION.md` et le backlog, prépare les décisions, convoque le challenger, garantit la cohérence avec la finalité ; ne décide pas à la place du fondateur |
 | Challenger (équipe IA) | Agent `challenger` | Contradicteur de chaque décision structurante et membre du comité de changement (plan § 7) |
 | Directeurs IA | `operations-director`, `brand-director`, `business-director` et leurs spécialistes | Instruisent et documentent ; le fondateur reste responsable de chaque livrable |
-| **Agence réceptive cliente** | À qualifier : le fondateur a un contact terrain dans un grand réceptif ; le décideur (direction produit ou opérations) reste à rencontrer | Achète la NĪĀ, l'intègre à son transfert, son agent la remet au lobby après le check-in ; commande à J−7, paie à 30 jours ou verse un acompte |
+| **Agence réceptive cliente** | À qualifier : le fondateur a un contact terrain dans un grand réceptif ; le décideur (direction produit ou opérations) reste à rencontrer | Achète le NĪĀ, l'intègre à son transfert, son agent la remet au lobby après le check-in ; commande à J−7, paie à 30 jours ou verse un acompte |
 | **Hôtel d'arrivée partenaire** (Tahiti) | À qualifier parmi 2–3 hôtels de Papeete, Punaauia, Faa'a | Consent par écrit à la remise dans son hall à la place de son welcome drink, héberge la caisse en chambre froide, gère la coque, liste ses pièces exigées ; **veto de fait** ; client potentiel en propre |
 | Cocoteraie partenaire | À sélectionner (≥ 2 sources, 1 principale ; deux deviennent nécessaires avec un flux 7 jours sur 7) | Sélectionne et récolte au stade nīā selon la fiche, livre au jour fixe, accepte la règle de refus |
 | Découpeur | À recruter, à la tâche ou à temps partiel | Contrôle à réception, découpe, mise au froid, selon protocole |
@@ -82,7 +82,7 @@ Le chef de projet ne peut pas, même avec l'accord du sponsor, s'écarter des no
 
 ### 4.1 Le produit
 
-**Une coco nīā, découpée en diamond cut, froide, marquée NĪĀ, livrée en caisse à l'hôtel d'arrivée, prête à être remise par l'agent de l'agence et ouverte sans outil par le touriste.** Stade nīā vérifié (amande fine et molle, eau sucrée), coque interne intacte jusqu'à la remise, température à cœur ≤ 7 °C, DLC écrite et fixée par le test de conservation (≥ 5 jours exigés), marquage sobre, fiche d'origine (cocoteraie, île, semaine), ouverture sans outil, paille, caisse consignée de 12 avec étiquette de lot, hébergée en chambre froide de l'hôtel. Le même produit sert la seconde cible (excursions) avec un kit de service. Spécification et critères d'acceptation : annexe A2 § 1.1, complétée par A8 et A9 § 6.1.
+**Un coco nīā, découpée en diamond cut, froide, marquée NĪĀ, livrée en caisse à l'hôtel d'arrivée, prête à être remise par l'agent de l'agence et ouverte sans outil par le touriste.** Stade nīā vérifié (amande fine et molle, eau sucrée), coque interne intacte jusqu'à la remise, température à cœur ≤ 7 °C, DLC écrite et fixée par le test de conservation (≥ 5 jours exigés), marquage sobre, fiche d'origine (cocoteraie, île, semaine), ouverture sans outil, paille, caisse consignée de 12 avec étiquette de lot, hébergée en chambre froide de l'hôtel. Le même produit sert la seconde cible (excursions) avec un kit de service. Spécification et critères d'acceptation : annexe A2 § 1.1, complétée par A8 et A9 § 6.1.
 
 ### 4.2 Le travail du projet
 
@@ -96,7 +96,7 @@ Ce qu'il faut faire pour que ce produit existe, soit légal, soit vendu et soit 
 | Agences réceptives (l'agence achète, son agent remet au lobby après le check-in) ; hôtels d'arrivée comme partenaires et clients possibles en propre ; opérateurs d'excursion en seconde cible à date écrite | Remise à l'aéroport ; vente directe aux touristes ; revente par l'agence ou l'hôtel ; exclusivité |
 | Découpe manuelle, atelier déclaré, froid positif, caisses consignées | Machine de découpe ou d'extraction pendant le pilote (une note buy or make est produite pour J8) |
 | Cocos achetées à une cocoteraie partenaire qui récolte | Récolte par NĪĀ, cocoteraie en propre |
-| Un seul produit : le diamond cut nīā ; origine toujours dite (cocoteraie, île) | Eau extraite, bouteille, pulpe, coco entière non découpée, second produit, gamme Motu / Mouʻa (instruite en A6–A7 pour le palier 2) |
+| Un seul produit : le diamond cut nīā ; origine toujours dite (cocoteraie, île) | Eau extraite, bouteille, pulpe, coco entier non découpée, second produit, gamme Motu / Mouʻa (instruite en A6–A7 pour le palier 2) |
 | Marquage, une phrase de l'agent FR/EN, fiche d'origine, ouverture sans outil | Charte graphique complète, support d'accueil élaboré, site, réseaux sociaux, code |
 | Découpeur à la tâche ou temps partiel, déclaré | Recrutement à temps plein |
 | Caisse hébergée dans la chambre froide de l'hôtel ; glacière de prêt pour la seconde cible | Réfrigérateur fourni chez un client ; livraisons de nuit en régime |
@@ -110,13 +110,13 @@ Les cinq risques qui décident, avec la vérification engagée avant le go finan
 | Risque | Score | Vérification avant le 4 janvier 2027 |
 |---|---|---|
 | Dépendance à une seule agence et à un seul contact, qui n'est pas le décideur | 20 | Entretien terrain puis entretien décideur sous trois semaines ; date limite de qualification 15 décembre |
-| La coco découpée ne tient pas 5 jours au froid avec un passage en réfrigérateur d'hôtel | 20 | Lot test de 30–50 cocos, protocole fixé après l'entretien hôtel, première quinzaine de novembre |
+| Le coco découpé ne tient pas 5 jours au froid avec un passage en réfrigérateur d'hôtel | 20 | Lot test de 30–50 cocos, protocole fixé après l'entretien hôtel, première quinzaine de novembre |
 | Commission, remise ou exclusivité exigée ; décision 2027 déjà prise avec les tour-opérateurs | 16 | Prix dit à haute voix, commission et dates de clôture 2027 / 2028 au premier entretien décideur |
-| La coco est posée, pas bue : lei, welcome drink, fatigue, nuit de transit | 16 | Vingt remises réelles observées ; remise au lobby après le check-in, jamais à l'aéroport |
-| Cocoteraie hors stade ou irrégulière, 7 jours sur 7 | 16 | Essai d'achat de 50 cocos triées chez deux cocoteraies, fiche nīā, taux de rejet |
+| Le coco est posée, pas bue : lei, welcome drink, fatigue, nuit de transit | 16 | Vingt remises réelles observées ; remise au lobby après le check-in, jamais à l'aéroport |
+| Cocoteraie hors stade ou irrégulière, 7 jours sur 7 | 16 | Essai d'achat de 50 cocos triés chez deux cocoteraies, fiche nīā, taux de rejet |
 | L'hôtel refuse la remise, le froid tampon ou la coque, ou exige des pièces hors de portée | 12 | Entretien hôtel en semaine 2, consentement écrit, liste des pièces ; CHSP dès la semaine 2 |
 
-Hypothèses structurantes, toutes non relevées à ce jour : l'agence a un décideur, une fenêtre 2027 et accepte ≥ 590 XPF net par passager, une coco par passager ; un hôtel d'arrivée consent par écrit ; conservation ≥ 5 jours avec froid tampon ; une cocoteraie de Tahiti livre ≥ 100 nīā par semaine à ≤ 160 XPF ; déclaration CHSP et pièces hôtel obtenables avant avril ; ≤ 3 min et ≤ 10 % de perte par coco au geste manuel ; conditions du fret agricole (pour l'extension aux îles). Chacune a un work package et une semaine de vérification (plan § 6).
+Hypothèses structurantes, toutes non relevées à ce jour : l'agence a un décideur, une fenêtre 2027 et accepte ≥ 590 XPF net par passager, un coco par passager ; un hôtel d'arrivée consent par écrit ; conservation ≥ 5 jours avec froid tampon ; une cocoteraie de Tahiti livre ≥ 100 nīā par semaine à ≤ 160 XPF ; déclaration CHSP et pièces hôtel obtenables avant avril ; ≤ 3 min et ≤ 10 % de perte par coco au geste manuel ; conditions du fret agricole (pour l'extension aux îles). Chacune a un work package et une semaine de vérification (plan § 6).
 
 ---
 

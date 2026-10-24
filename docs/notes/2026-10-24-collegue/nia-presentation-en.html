@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NĪĀ — Final presentation</title>
+<style>
+  :root{--ivory:#f6f3ec;--ink:#141a17;--muted:#5f665f;--line:#e2ddd1;--green:#1f3a2e;--green2:#2f5544;--sand:#c9b99a;--gold:#8a6d3b;--soft:#ece6d8;--red:#9b3b2f}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;background:#0e1512;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink)}
+  .serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif}
+  #stage{position:absolute;top:50%;left:50%;width:1280px;height:720px}
+  .slide{position:absolute;inset:0;background:var(--ivory);padding:66px 84px 58px;display:none;flex-direction:column;overflow:hidden}
+  .slide.active{display:flex;animation:fade .4s ease}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  .dark{background:var(--green);color:var(--ivory)}
+  .ink{background:var(--ink);color:var(--ivory)}
+  .center{justify-content:center}
+  .kicker{font-size:15px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+  .dark .kicker,.ink .kicker{color:var(--sand)}
+  h1{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-weight:400;font-size:132px;letter-spacing:.08em;line-height:1}
+  h2{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-weight:400;font-size:50px;line-height:1.12;margin-bottom:30px}
+  h3{font-size:22px;font-weight:600;margin-bottom:8px}
+  p,li{font-size:22px;line-height:1.5}
+  .muted{color:var(--muted)}
+  .dark .muted,.ink .muted{color:#c9cfc6}
+  .lead{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:32px;line-height:1.4}
+  .quote{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-style:italic;font-size:36px;line-height:1.35}
+  .grid{display:grid;gap:22px}
+  .g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.g5{grid-template-columns:repeat(5,1fr)}
+  .card{background:#fff;border:1px solid var(--line);padding:24px 26px}
+  .card p,.card li{font-size:19px;color:var(--muted)}
+  .card ul{padding-left:20px}
+  .dark .card,.ink .card{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.16)}
+  .dark .card p,.ink .card p{color:#d5dbd2}
+  .num{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:62px;color:var(--green);line-height:1}
+  .dark .num,.ink .num{color:var(--ivory)}
+  .label{font-size:17px;color:var(--muted);margin-top:8px}
+  .dark .label,.ink .label{color:#c9cfc6}
+  .rule{width:64px;height:2px;background:var(--gold);margin:26px 0}
+  .tag{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--gold);color:var(--gold);margin-bottom:12px}
+  .dark .tag,.ink .tag{border-color:var(--sand);color:var(--sand)}
+  table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line)}
+  th,td{text-align:left;padding:11px 16px;border-bottom:1px solid var(--line);font-size:19px;vertical-align:top}
+  th{background:var(--soft);font-weight:600}
+  tr:last-child td{border-bottom:0}
+  .steps{display:flex;gap:10px;align-items:stretch}
+  .steps .s{flex:1;border-top:2px solid var(--green);padding:14px 4px 0}
+  .steps .s b{display:block;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+  .steps .s span{font-size:19px}
+  .dark .steps .s{border-top-color:var(--sand)}
+  .gates{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+  .gate{border-top:3px solid var(--green);background:#fff;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px}
+  .gate b{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:30px;font-weight:400;color:var(--green);display:block}
+  .gate span{display:block;font-size:16px;color:var(--muted);margin-top:6px}
+  .gate em{display:block;font-style:normal;font-size:15px;font-weight:700;color:var(--gold);margin-top:8px}
+  .gate.final{border-top-color:var(--gold);background:var(--soft)}
+  .who{position:absolute;top:24px;right:30px;font-size:13px;font-weight:700;letter-spacing:.12em;color:var(--gold)}
+  .dark .who,.ink .who{color:var(--sand)}
+  .foot{position:absolute;left:84px;right:84px;bottom:22px;display:flex;justify-content:space-between;font-size:13px;color:var(--muted);letter-spacing:.06em}
+  .dark .foot,.ink .foot{color:#9fa89c}
+  .notes{display:none;position:absolute;left:0;right:0;bottom:0;background:rgba(20,26,23,.95);color:#fff;font-size:16px;line-height:1.45;padding:14px 84px}
+  body.shownotes .slide.active .notes{display:block}
+  .doc{display:flex;gap:20px;align-items:center;margin-bottom:26px}
+  .doc .n{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:72px;color:var(--gold);line-height:1}
+  .doc .q{font-size:14px;letter-spacing:.24em;color:var(--muted);font-weight:700}
+  .qr{width:240px;height:240px;border:2px dashed var(--sand);display:flex;align-items:center;justify-content:center;text-align:center;font-size:19px;color:var(--sand);padding:20px}
+  .warn{color:var(--red)}
+  #progress{position:fixed;left:0;bottom:0;height:3px;background:var(--sand);transition:width .3s}
+  #count{position:fixed;right:14px;bottom:10px;color:#7d8a80;font-size:12px;font-family:Menlo,monospace}
+  #help{position:fixed;left:14px;bottom:10px;color:#56635a;font-size:12px;font-family:Menlo,monospace}
+  @media print{html,body{overflow:visible;background:#fff}#stage{position:static;transform:none!important;width:auto;height:auto}.slide{display:flex!important;position:relative;width:1280px;height:720px;page-break-after:always;animation:none}#progress,#count,#help{display:none}}
+</style>
+</head>
+<body>
+<div id="stage">
+
+<!-- 1 -->
+<section class="slide ink center">
+  <div class="who">A</div>
+  <div class="kicker">PMBOK + Agile final presentation · October 2026</div>
+  <h1>NĪĀ</h1>
+  <div class="rule"></div>
+  <p class="quote">"France has its grapes.<br>Polynesia has its coconuts."</p>
+  <div class="notes">A · 1 min. Pause after the line. Outline: the problem, our idea, our 3 documents, then we welcome you like tourists.</div>
+</section>
+
+<!-- 2 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">The name</div>
+  <h2><i>nīā</i>: the exact stage<br>when a coconut is perfect.</h2>
+  <div class="steps" style="margin-top:10px">
+    <div class="s"><b>ʻōuo</b><span>Too young</span></div>
+    <div class="s" style="border-top:4px solid var(--gold)"><b>nīā</b><span>The flesh has formed, thin and soft. The water is sweet.</span></div>
+    <div class="s"><b>ʻōmoto</b><span>Too ripe</span></div>
+  </div>
+  <p class="lead" style="margin-top:50px">Our brand is named after what we select.<br><span class="muted">Nothing more, nothing less.</span></p>
+  <div class="notes">A · 1 min. Source: official French-Tahitian dictionary. Brand tone: understated, elegant, pride rather than exoticism.</div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Business case · The problem</div>
+  <h2>Coconuts are everywhere.<br>No one has made them an experience.</h2>
+  <div class="grid g3">
+    <div class="card"><h3>By the roadside</h3><p>Familiar, simple, everyday. Never selected, never showcased.</p></div>
+    <div class="card"><h3>In imported cartons</h3><p>On the shelves, coconut water often comes from elsewhere.</p></div>
+    <div class="card"><h3>On arrival</h3><p>Tourists get a flower lei… and sometimes a plastic bottle of water.</p></div>
+  </div>
+  <p class="lead" style="margin-top:36px">No local brand treats coconut water as an exceptional product.</p>
+  <div class="notes">B · 1 min. The finding comes from the project vision. The last point sets up our idea: replacing the plastic bottle handed out on arrival.</div>
+</section>
+
+<!-- 4 -->
+<section class="slide dark center">
+  <div class="who">B</div>
+  <div class="kicker">Our idea</div>
+  <h2 style="font-size:64px">Your first sip<br>of Polynesia.</h2>
+  <p class="lead muted">The tourist arrives. A flower lei around the neck, a NĪĀ in hand.</p>
+  <p style="margin-top:36px;font-size:18px;color:var(--sand)">Pine &amp; Gilmore, "Welcome to the Experience Economy", HBR 1998: a simple commodity becomes an experience.</p>
+  <div class="notes">B · 1 min. After about 20 hours of travel, often at 5 am, a fresh coconut makes a lasting impression. Tourists keep it and take photos: they become our first ambassadors.</div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Business case · The market</div>
+  <h2>281,227 tourists in 2025. A record.</h2>
+  <div class="grid g4">
+    <div><div class="num">281,227</div><div class="label">tourists in French Polynesia (ISPF 2025)</div></div>
+    <div><div class="num">~620</div><div class="label">arrivals per day on average</div></div>
+    <div><div class="num">~70,000</div><div class="label">transpacific cruise passengers on top</div></div>
+    <div><div class="num">42%</div><div class="label">come from North America</div></div>
+  </div>
+  <p class="lead" style="margin-top:44px">One agency handling 10% of arrivals:<br><b>~60 NĪĀ a day.</b> <span class="muted">Enough for a pilot, no machine needed.</span></p>
+  <div class="notes">B · 1 min. Orders of magnitude. Cutting by hand (about 1 to 2 minutes per coconut) is enough at these volumes.</div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">Business case · Three tiers</div>
+  <h2>We start small. We aim high.</h2>
+  <div class="grid g3">
+    <div class="card" style="border-top:3px solid var(--gold)"><span class="tag">Tier 1 · the project</span><h3>The welcome NĪĀ</h3><p>Offered on arrival by inbound travel agencies: at the airport and at the first stop of the island tour.</p></div>
+    <div class="card"><span class="tag">Tier 2</span><h3>The hotel NĪĀ</h3><p>Tourists find it again at their hotel, co-branded: "Hotel × NĪĀ".</p></div>
+    <div class="card"><span class="tag">Tier 3 · to be decided</span><h3>The bottle</h3><p>NĪĀ water on the menu, signature glass, serving ritual.</p></div>
+  </div>
+  <p class="muted" style="margin-top:28px;font-size:19px">Tier 1 brings in cash, teaches us the supply chain and serves as a brand lab.</p>
+  <div class="notes">A · 1 min. Project boundary: tier 1 + tier 2 studies. Gate G4 decides on tier 2. Whether the bottle is tier 2 or 3 is to be confirmed before the presentation.</div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">Tier 1 · Two formats</div>
+  <h2>At the airport, and at the first stop.</h2>
+  <div class="grid g3">
+    <div class="card"><span class="tag">Faa'a</span><h3>The welcome</h3><p>Handed over with the lei, at the customs exit. Flights land mostly in the evening and at night: NĪĀ delivers the day before to the agency's depot.</p></div>
+    <div class="card"><span class="tag">Mahina</span><h3>Point Venus</h3><p><i>"1769: Cook watched the transit of Venus here. Today, your first NĪĀ."</i></p></div>
+    <div class="card"><span class="tag">Paea</span><h3>Maraa grottoes</h3><p><i>"Mountain water in the grottoes, nīā water in your hands."</i> Sheltered from the rain.</p></div>
+  </div>
+  <p class="muted" style="margin-top:26px;font-size:19px">Only for partner agencies' buses: a welcome, not a retail stand.</p>
+  <div class="notes">A · 1 min 30. Point Venus is the first stop from the port (about 10 km). Maraa covers west-bound tours. Pilot: cooler on the bus, the guide serves and collects the empty coconuts.</div>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">Tier 1 · The customer</div>
+  <h2>Inbound agencies already have<br>the buses, the welcome and the tourists.</h2>
+  <div class="grid g2">
+    <div class="card"><h3>Who</h3><p>Marama Tours (~400 seats, airport, cruise ships, island tours), Tahiti Nui Travel, Te Manu Tours, Tahiti Tours, Tahiti Expert DMC…</p></div>
+    <div class="card"><h3>Why they pay</h3><ul><li>A gift that sets them apart</li><li>Better customer reviews</li><li>Less plastic than a water bottle</li><li>A tiny cost next to the price of a package</li></ul></div>
+  </div>
+  <p class="lead" style="margin-top:28px">Blue Ocean: neither the roadside nor the imported carton.</p>
+  <div class="notes">A · 1 min. Kim &amp; Mauborgne (HBR 2004). Excursion operators remain a secondary market.</div>
+</section>
+
+<!-- 9 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Business case · Sourcing</div>
+  <h2>Two terroirs. One rule: freshness.</h2>
+  <div class="grid g2">
+    <div class="card" style="border-top:3px solid var(--green)"><span class="tag">The core</span><h3 class="serif" style="font-size:34px;font-weight:400">NĪĀ MOUʻA</h3><p>The high islands: Tahiti and Moorea. A few hours from tree to workshop.</p></div>
+    <div class="card" style="border-top:3px solid var(--gold)"><span class="tag">Later</span><h3 class="serif" style="font-size:34px;font-weight:400">NĪĀ MOTU</h3><p>The motu islets of the Leeward Islands. One night by cargo ship, about 2 sailings a week.</p></div>
+  </div>
+  <p class="lead" style="margin-top:30px">48 to 72 hours max between harvest and cutting.<br><span class="muted">An assumption, tested before we invest.</span></p>
+  <div class="notes">B · 1 min. No plantation of our own: we buy from growers at a fair price (Porter &amp; Kramer, shared value). The Tuamotu and Marquesas are too far for such a perishable product in tier 1.</div>
+</section>
+
+<!-- 10 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Business case · Zero waste</div>
+  <h2>Nothing goes to waste.</h2>
+  <div class="grid g4">
+    <div class="card"><h3>Empty coconuts</h3><p>Collection bag on the bus, take-back at partner hotels.</p></div>
+    <div class="card"><h3>The husk</h3><p>Compost and mulch, returned to the growers.</p></div>
+    <div class="card"><h3>Downgraded coconuts</h3><p>Still good but less pretty: ice cream, with a partner ice-cream maker.</p></div>
+    <div class="card"><h3>The straw</h3><p>Paper or bamboo. No plastic.</p></div>
+  </div>
+  <p class="lead" style="margin-top:34px"><i>"Keep it for the photo, then drop it at the NĪĀ point.<br>It will go back to the coconut grove."</i></p>
+  <div class="notes">B · 1 min. Turning husk into charcoal was studied and ruled out: the husk is too wet, the yield is low, and it smokes. The numbers are on the next slide.</div>
+</section>
+
+<!-- 10b -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Business case · The money</div>
+  <h2>100 coconuts a week. Profitable from the pilot.</h2>
+  <div class="grid g4">
+    <div><div class="num">650</div><div class="label">XPF excl. tax, price to the agency</div></div>
+    <div><div class="num">~300</div><div class="label">XPF cost per coconut (coconut, cutting, card, cold chain, delivery, collection)</div></div>
+    <div><div class="num">+40k</div><div class="label">XPF a month at 400 coconuts, lean setup</div></div>
+    <div><div class="num">~70</div><div class="label">coconuts a week to break even</div></div>
+  </div>
+  <table style="margin-top:30px">
+    <tr><th>Coconuts per week</th><th>100 · pilot</th><th>250</th><th>500 · with machine</th></tr>
+    <tr><td>Monthly result</td><td>+40,000 XPF</td><td>+170,000 XPF</td><td>+450,000 XPF</td></tr>
+  </table>
+  <p class="muted" style="margin-top:16px;font-size:17px">Funding needed: ~1.9M XPF. Cut by hand (~3 h a week); a machine only above ~500 a week. Key sensitivity: price (at 500 XPF we lose money). Estimates to be verified.</p>
+  <div class="notes">B · 1 min 30. Lean setup: shared certified kitchen, 2 commercial fridges, our own car + coolers, ~100,000 XPF fixed costs. With a rented workshop and a refrigerated van (~300,000 a month), we would need ~200 coconuts a week. Assumption: the two of us draw no salary in tier 1.</div>
+</section>
+
+<!-- 11 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="doc"><div class="n">2</div><div><div class="q">WHAT? WHO?</div><h2 style="margin:0">The project charter</h2></div></div>
+  <div class="grid g3">
+    <div class="card"><h3>Objective</h3><p>Within 6 months, deliver the welcome NĪĀ with at least one inbound agency, regularly and profitably.</p></div>
+    <div class="card"><h3>In scope</h3><p>MOUʻA diamond cut, certified workshop, cold chain, 1 pilot agency, Point Venus then Maraa stops, airport welcome, collection.</p></div>
+    <div class="card"><h3>Not now</h3><p>Bottle, co-branded hotels, digital, export, mass retail, our own plantation.</p></div>
+  </div>
+  <div class="grid g3" style="margin-top:22px">
+    <div class="card" style="background:var(--soft)"><div class="num">≥ 4.5</div><div class="label">tourist CSAT (QR code on the card)</div></div>
+    <div class="card" style="background:var(--soft)"><div class="num">≥ +50</div><div class="label">agency NPS towards NĪĀ</div></div>
+    <div class="card" style="background:var(--soft)"><div class="num">100%</div><div class="label">of empty coconuts collected</div></div>
+  </div>
+  <div class="notes">A · 1 min 30. Team: the two of us (sponsor, project manager, Product Owner). 10 written assumptions, each checked at a gate.</div>
+</section>
+
+<!-- 12 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">Charter · Our project changed</div>
+  <h2>A change request,<br>logged the PMBOK way.</h2>
+  <table>
+    <tr><th></th><th>Before</th><th>After</th></tr>
+    <tr><td><b>Customer</b></td><td>Excursion operators</td><td>Inbound travel agencies</td></tr>
+    <tr><td><b>Moment</b></td><td>During the excursion</td><td>On arrival, at the first stop</td></tr>
+    <tr><td><b>Tier 2</b></td><td>Bottle in hotels, restaurants, bars</td><td>Co-branded coconut in hotels</td></tr>
+    <tr><td><b>Why</b></td><td colspan="2">A stronger moment, a customer who already has the logistics, a natural way into hotels</td></tr>
+    <tr><td><b>Impact</b></td><td colspan="2">+2 WBS work packages (airport, stops), +6 risks, new success criteria</td></tr>
+  </table>
+  <div class="notes">A · 1 min. Show that we know how to manage change: what, why, impact, who approves. That is scope control.</div>
+</section>
+
+<!-- 13 -->
+<section class="slide">
+  <div class="who">A</div>
+  <div class="kicker">Charter · Decision points</div>
+  <h2>Five gates. Nothing committed without proof.</h2>
+  <div class="gates">
+    <div class="gate"><b>G0</b><span>Start</span><span>Charter signed</span></div>
+    <div class="gate"><b>G1</b><span>Invest</span><span>2 growers, tested cutting protocol, 1 agency committed</span></div>
+    <div class="gate"><b>G2</b><span>First deliveries</span><span>Hygiene, shelf life, stop authorised</span><em>CSAT ≥ 4.5</em></div>
+    <div class="gate"><b>G3</b><span>Expand</span><span>95% of buses served, 100% collection, positive margin</span><em>NPS ≥ +30</em></div>
+    <div class="gate final"><b style="color:var(--gold)">G4</b><span>Tier 2?</span><span>1 interested hotel, funding identified</span><em>NPS ≥ +50</em></div>
+  </div>
+  <p class="muted" style="margin-top:30px;font-size:19px">Flyvbjerg &amp; Budzier, HBR 2011: one project in six goes badly off track. Hence these safeguards.</p>
+  <div class="notes">A · 1 min. A gate = go on, adapt or stop.</div>
+</section>
+
+<!-- 14 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="doc"><div class="n">3</div><div><div class="q">HOW?</div><h2 style="margin:0">The project management plan</h2></div></div>
+  <div class="grid g2">
+    <div class="card"><span class="tag">PMBOK · predictive</span><h3>What doesn't change</h3><p>Hygiene (HACCP), permits, contracts, workshop, cold chain, budget.</p></div>
+    <div class="card"><span class="tag">Scrum · agile</span><h3>What we learn in the field</h3><p>The ritual, the card, the guides' service. 2-week sprints, NPS and CSAT every sprint.</p></div>
+  </div>
+  <p style="margin-top:24px;font-size:18px;color:var(--muted)"><b style="color:var(--ink)">WBS, 15 work packages:</b> management · scoping · admin and brand · sourcing · production · regulatory · cold chain · sales · <b style="color:var(--ink)">airport welcome</b> · <b style="color:var(--ink)">NĪĀ stops</b> · brand · satisfaction · waste · funding · tier 2 studies.</p>
+  <div class="notes">B · 1 min 30. 100% rule: all the project's work is in the WBS, including project management itself. Digital is out of scope. Embracing Agile (HBR 2016): know when agile fits.</div>
+</section>
+
+<!-- 15 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Plan · Priorities</div>
+  <h2>Knowing when to say no.</h2>
+  <div class="grid g4">
+    <div class="card" style="border-top:3px solid var(--green)"><span class="tag">Must</span><p>MOUʻA, workshop, cold chain, 1 agency, Point Venus, card and collection, NPS and CSAT</p></div>
+    <div class="card" style="border-top:3px solid var(--green2)"><span class="tag">Should</span><p>Maraa, airport welcome, agreement with 1 or 2 hotels, compost</p></div>
+    <div class="card" style="border-top:3px solid var(--sand)"><span class="tag">Could</span><p>MOTU, on-site partner, ice cream, excursions, large cruise ships</p></div>
+    <div class="card" style="border-top:3px solid var(--line)"><span class="tag">Won't</span><p>Bottle, co-branded hotels, digital, charcoal, export</p></div>
+  </div>
+  <div class="notes">B · 1 min. MoSCoW against scope creep and gold plating.</div>
+</section>
+
+<!-- 16 -->
+<section class="slide">
+  <div class="who">B</div>
+  <div class="kicker">Plan · Risks</div>
+  <h2>What could go wrong, and how we respond.</h2>
+  <table>
+    <tr><th>Risk</th><th>Response</th></tr>
+    <tr><td>Irregular supply, wrong maturity stage</td><td>≥ 2 growers, written nīā criterion, inspection on receipt</td></tr>
+    <tr><td>Cut coconuts brown too quickly</td><td>Shelf-life test before G2</td></tr>
+    <tr><td>Bus running late, coconut out of the cold</td><td>Coolers, coconut discarded past the limit</td></tr>
+    <tr><td>Town hall or airport says no</td><td>Cooler on the bus, no on-site setup</td></tr>
+    <tr><td>Abandoned coconuts</td><td>Mandatory collection, agreement with hotels</td></tr>
+    <tr><td>Tier 1 becomes an end in itself</td><td>Gate G4, MoSCoW</td></tr>
+  </table>
+  <div class="notes">B · 1 min. Other risks in the plan: connections and liquid rules, night flights, cruise-ship peaks, conflict with local vendors (bring them in), a brand that is hard to protect.</div>
+</section>
+
+<!-- 17 -->
+<section class="slide dark">
+  <div class="who">B</div>
+  <div class="kicker">Plan · The pilot</div>
+  <h2>One month. One stop. One agency.</h2>
+  <div class="steps" style="margin-top:10px">
+    <div class="s"><b>Who</b><span>1 inbound agency</span></div>
+    <div class="s"><b>Where</b><span>Point Venus</span></div>
+    <div class="s"><b>When</b><span>Cruise days, 1 month</span></div>
+    <div class="s"><b>How</b><span>Cooler on the bus, trained guide</span></div>
+    <div class="s"><b>Next</b><span>Maraa, then the airport</span></div>
+  </div>
+  <p class="lead" style="margin-top:50px">Cruise calls are known months in advance.<br><span class="muted">We plan harvesting, cutting and delivery.</span></p>
+  <div class="notes">B · 1 min. 100 coconuts a week ≈ one cruise day with 3 buses. About 3 hours of hand cutting the day before. No machine needed.</div>
+</section>
+
+<!-- 18 -->
+<section class="slide ink center">
+  <div class="who">A + B</div>
+  <div class="kicker">Demo</div>
+  <div class="grid" style="grid-template-columns:1.5fr 1fr;align-items:center">
+    <div>
+      <h2 style="font-size:60px">Welcome to Polynesia.</h2>
+      <p class="lead muted">1. Your NĪĀ.<br>2. MOUʻA or MOTU?<br>3. Scan, vote, rate.</p>
+    </div>
+    <div class="qr">Demo<br>QR code<br>(to add)</div>
+  </div>
+  <div class="notes">A + B · 3 to 4 min. Flower leis + real diamond-cut NĪĀ. Blind tasting. We collect the empty coconuts in front of the jury. Plan B: vote on photos or by show of hands.</div>
+</section>
+
+<!-- 19 -->
+<section class="slide dark center" style="text-align:center;align-items:center">
+  <div class="who">A + B</div>
+  <div class="kicker">One last question</div>
+  <h2 style="font-size:58px;max-width:980px">Would you recommend NĪĀ<br>to an agency?</h2>
+  <p class="lead muted">From 0 to 10: our NPS, live.</p>
+  <div class="rule" style="margin:34px auto"></div>
+  <p class="quote">Māuruuru.</p>
+  <div class="notes">A + B. Reichheld, "The One Number You Need to Grow", HBR 2003. Show the NPS, comment on it in one sentence, then take questions: whoever presented the section answers first.</div>
+</section>
+
+</div>
+
+<div id="progress"></div>
+<div id="count"></div>
+<div id="help">← → navigate · F full screen · N notes</div>
+
+<script>
+const slides=[...document.querySelectorAll('.slide')];
+const total=slides.length;
+let i=0;
+slides.forEach((s,k)=>{
+  const f=document.createElement('div');f.className='foot';
+  f.innerHTML='<span>NĪĀ</span><span>'+(k+1)+' / '+total+'</span>';
+  s.appendChild(f);
+});
+function show(n){
+  i=Math.max(0,Math.min(total-1,n));
+  slides.forEach((s,k)=>s.classList.toggle('active',k===i));
+  document.getElementById('progress').style.width=((i+1)/total*100)+'%';
+  document.getElementById('count').textContent=(i+1)+' / '+total;
+  if(location.hash!=='#'+(i+1))history.replaceState(null,'','#'+(i+1));
+}
+function fit(){
+  const s=Math.min(window.innerWidth/1280,window.innerHeight/720);
+  document.getElementById('stage').style.transform='translate(-50%,-50%) scale('+s+')';
+}
+document.addEventListener('keydown',e=>{
+  if(['ArrowRight','PageDown',' ','Enter'].includes(e.key)){e.preventDefault();show(i+1)}
+  else if(['ArrowLeft','PageUp','Backspace'].includes(e.key)){e.preventDefault();show(i-1)}
+  else if(e.key==='Home')show(0);
+  else if(e.key==='End')show(total-1);
+  else if(e.key==='f'||e.key==='F'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen()}
+  else if(e.key==='n'||e.key==='N'){document.body.classList.toggle('shownotes')}
+});
+document.addEventListener('click',e=>{ if(e.target.closest('a'))return; show(e.clientX>window.innerWidth/3?i+1:i-1); });
+window.addEventListener('resize',fit);
+fit();
+show(parseInt((location.hash||'#1').slice(1))-1||0);
+</script>
+</body>
+</html>
