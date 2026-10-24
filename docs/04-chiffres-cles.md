@@ -113,3 +113,37 @@ Le dimensionnement suit la demande d'une agence : **N arrivées déposées par j
 | 10 | Coût de la présentation hôtelière par 1 000 (étiquettes, fiches, pailles, support) | Deux imprimeurs, un fournisseur | Janvier |
 
 Préalable hors classement : conditions du fret agricole (Lexpol, DGAE), qui décident où l'on achète et où l'on découpe pour l'extension aux îles.
+
+## 8. Hypothèses du fondateur (24 octobre 2026) et scénario « vente au détail au passage des bus »
+
+Chiffres donnés par le fondateur, consignés tels quels [fondateur], avec les calculs qu'ils impliquent [calcul DG]. À arbitrer : ce canal n'est pas encore dans la vision ni dans les documents (voir questions en fin de section).
+
+| Chiffre | Valeur | Statut | Lecture |
+|---|---|---|---|
+| Prix d'achat d'une coco | **150 XPF** ; 100 optimiste (économie d'échelle) ; 300 pessimiste | [fondateur] | Cohérent avec la valeur de travail de 120 (80–160) ; le pessimiste à 300 dépasse le plafond de 160 et casserait la marge excursions, pas celle de l'accueil ni du détail |
+| Rendement d'un cocotier | **50 à 150 cocos par an** | [fondateur] | Cohérent avec l'ordre de grandeur agronomique des Grands de Polynésie (A6) |
+| Cible de vente au détail | **100 cocos par semaine** sur des points stratégiques à l'arrivée des bus (exemple : pointe Vénus ; 2 paquebots par semaine, 3 bus de 90 touristes par passage) | [fondateur] | ≈ 540 passagers potentiels par semaine ; 100 cocos = ≈ 19 % de conversion, ≈ 17 cocos par bus, ≈ 50 cocos par escale |
+| Production nécessaire | **400 cocos par mois** | [fondateur] | 4 800 par an |
+| Cocotiers nécessaires | **50 à 100** | [fondateur] | Calcul : 4 800 ÷ 150 = 32 arbres ; 4 800 ÷ 50 = 96 arbres ; donc 32–96, arrondi 50–100 : cohérent ; à condition que les arbres soient récoltés au stade nīā régime par régime |
+| Prix de vente au détail | **800 XPF la coco** | [fondateur] | 4 × la coco de rue (200 XPF place Vaiete) ; comparable au café de Bora Bora (600 glacée) ; se défend seulement avec le froid, le diamond cut, l'ouverture propre, le nom et l'origine |
+| « Coût de revient potentiel de 240 000 XPF par mois » | 240 000 | [fondateur, à préciser] | 400 × 800 = **320 000 de chiffre d'affaires** ; 400 × 150 = **60 000 d'achat** ; 400 × 600 = 240 000 correspondrait à une marge de 600 par coco (800 − 200) : **à confirmer avec le fondateur**, voir calcul complet ci-dessous |
+
+**Compte d'exploitation mensuel du canal détail, 400 cocos, 8 passages de bus** [calcul DG à partir des hypothèses unitaires de A1b] :
+
+| Poste | Achat 150 (central) | Achat 100 (optimiste) | Achat 300 (pessimiste) |
+|---|---|---|---|
+| Chiffre d'affaires (400 × 800) | 320 000 | 320 000 | 320 000 |
+| Achat des cocos | 60 000 | 40 000 | 120 000 |
+| Main-d'œuvre de découpe (100 par coco) | 40 000 | 40 000 | 40 000 |
+| Glace, présentation, paille, marquage (75 par coco) | 30 000 | 30 000 | 30 000 |
+| Perte 12 % sur achat et découpe | 12 000 | 10 000 | 19 000 |
+| Transport (8 allers-retours) | 8 000 | 8 000 | 8 000 |
+| Temps de vente sur place (8 passages × 4 h × 1 500 XPF) | 48 000 | 48 000 | 48 000 |
+| Emplacement, patente, encaissement | à relever | à relever | à relever |
+| **Marge avant fixes** | **≈ 122 000** | **≈ 144 000** | **≈ 55 000** |
+| Marge par coco vendue | ≈ 305 | ≈ 360 | ≈ 138 |
+| Fixes de l'atelier (95 000 par mois) couverts ? | non seul (≈ 78 % des fixes) | oui tout juste | non |
+
+Lecture : à 400 cocos par mois, le canal détail ne couvre pas seul les fixes de l'atelier ; il devient intéressant **en complément** d'un flux qui les paie déjà (accueil), ou comme **test de cash et de marque à faible coût** avant tout atelier (découpe à la maison, glacière, un stand). Il suppose aussi des choses que les autres canaux ne supposent pas : autorisation d'occupation du domaine public (commune de Mahina pour la pointe Vénus, ou propriétaire du site), patente de vente, règles CHSP de la vente ambulante, encaissement et monnaie, présence physique aux heures d'escale, calendrier des escales (saisonnier), et une concurrence directe avec la coco de rue à 200 XPF sous les yeux du touriste.
+
+**Questions au fondateur avant d'intégrer ce canal** : (1) sa place : nouvelle cible prioritaire, test de cash en parallèle de la phase de vérification, ou simple exercice de dimensionnement ? (2) le sens du « 240 000 par mois » ; (3) le site et le calendrier : quels paquebots, quels jours, quelle saison, qui tient le stand.
