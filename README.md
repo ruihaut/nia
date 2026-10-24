@@ -11,7 +11,7 @@ Ce projet n'est pas que digital : il touche l'approvisionnement, la transformati
 ## Où lire quoi
 
 - `VISION.md` : le problème, la finalité, les deux paliers, le périmètre, les non-objectifs, le vocabulaire et les risques. **Source de vérité.**
-- `docs/01-business-case.md`, `docs/02-project-charter.md`, `docs/03-project-management-plan.md`, `docs/04-chiffres-cles.md` : business case, charte, plan de management et fiche des chiffres clés du palier 1 ; leurs annexes de travail (modèle financier, WBS, marché, risques, customer journeys, variétés et terroirs, gamme) sont dans `docs/annexes/`.
+- `docs/01-business-case.md`, `docs/02-project-charter.md`, `docs/03-project-management-plan.md`, `docs/04-chiffres-cles.md`, `docs/05-presentation.md` : business case, charte, plan de management, fiche des chiffres clés et source de présentation (slide par slide) du palier 1 ; leurs annexes de travail (modèle financier, WBS, marché, risques, customer journeys, variétés et terroirs, gamme) sont dans `docs/annexes/`.
 - `docs/notes/` : notes brutes du fondateur, versées telles quelles.
 - `team/roster.md` : l'équipe d'agents activée pour ce projet, et pourquoi.
 - `scrum/backlog.md`, `scrum/sprints/`, `scrum/retros/` : le backlog priorisé, les sprints et les rétrospectives.

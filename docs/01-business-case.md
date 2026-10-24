@@ -1,6 +1,6 @@
 # Business case — NĪĀ, palier 1 : le diamond cut à l'accueil premium (agences réceptives), puis aux opérateurs d'excursion
 
-> **Statut : v1, soumis à la décision go / no-go du fondateur.** v0 rédigée le 2026-10-24 par le Director-General à partir des annexes A1 à A7 ; **v1 le même jour après la décision du fondateur de faire de l'accueil premium via les agences réceptives la cible prioritaire du palier 1** (vision amendée et re-validée au gate ①), à partir des annexes A1b (économie du canal accueil), A8 (canal, journeys, volumes) et A9 (risques du pivot).
+> **Statut : v1. Go-0 (phase de vérification) validé par le fondateur le 2026-10-24 ; Go-1 attendu le 4 janvier 2027.** v0 rédigée le 2026-10-24 par le Director-General à partir des annexes A1 à A7 ; **v1 le même jour après la décision du fondateur de faire de l'accueil premium via les agences réceptives la cible prioritaire du palier 1** (vision amendée et re-validée au gate ①), à partir des annexes A1b (économie du canal accueil), A8 (canal, journeys, volumes) et A9 (risques du pivot).
 > **Aucun chiffre de ce document n'est relevé sur le terrain.** Chaque nombre vient d'une annexe où il est étiqueté [estimé : raisonnement], [estimé : source web] ou [supposé]. Les fourchettes comptent plus que les valeurs centrales. Le premier travail du projet est de remplacer ces étiquettes par des [relevé].
 > Monnaie : XPF (1 € = 119,33 XPF). Horizon d'analyse : 24 mois (12 mois de pilote à partir de novembre 2026, 12 mois de régime).
 
@@ -360,8 +360,8 @@ Le pivot a été décidé sur l'existence d'un contact, pas sur ce qu'il a dit ;
 
 | | Nom | Rôle | Décision | Date | Signature |
 |---|---|---|---|---|---|
-| Chef de projet | Le fondateur | Porte le palier 1 | Go-0 : oui / non | | |
-| Sponsor | À désigner (le fondateur par intérim) | Finance et arbitre | Go-0 : oui / non | | |
+| Chef de projet | Le fondateur | Porte le palier 1 | **Go-0 : oui** | 2026-10-24 | Validé par message au DG |
+| Sponsor | À désigner (le fondateur par intérim) | Finance et arbitre | **Go-0 : oui** (par intérim) | 2026-10-24 | Validé par message au DG |
 
 Le Go-1 sera acté le 4 janvier 2027 sur la même table, avec les sept conditions cochées ou non. La vision a été amendée et re-validée au gate ① le 2026-10-24.
 

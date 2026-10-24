@@ -2,6 +2,7 @@
 
 > Priorisé de haut en bas. Tenu par le Director-General (fonction Product Owner). Amorcé au `/bootstrap` le 2026-10-23, **réordonné le 2026-10-24 après le pivot vers l'accueil premium via les agences réceptives** (vision amendée au gate ①). Affiné à chaque `/sprint-plan`.
 > P1 = indispensable au palier 1 sous 6 mois · P2 = prépare le palier 2 ou la seconde cible · P3 = second temps.
+> **Go-0 validé par le fondateur le 2026-10-24** : la phase de vérification (items 1 à 13 bis) est ouverte, budget ≤ 150 k XPF, jusqu'au 3 janvier 2027.
 > Règle du challenger (A9), adoptée : **une seule cible prospectée à la fois** ; date limite de qualification du canal accueil : **15 décembre 2026** ; au-delà sans décideur nommé ni prix accepté, retour explicite aux excursionnistes (A5) ou aux hôtels en direct.
 
 | # | Item | Priorité | Statut | Owner | Notes |
