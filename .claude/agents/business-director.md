@@ -19,7 +19,7 @@ Prouver par la vente que NĪĀ tient économiquement : un palier 1 à marge posi
 - Remonter au DG chaque hypothèse de chiffre d'affaires non vérifiée par un client réel.
 
 ## Comment ce rôle travaille ici
-- Clients du palier 1 : opérateurs d'excursion (lagon, 4x4, tour d'île) de Tahiti puis Moorea, qui servent déjà des cocos à des touristes, incluses dans l'excursion. Il faut connaître leur volume quotidien, leur fournisseur actuel, leur coût par passager et leur contrainte logistique avant de proposer quoi que ce soit ; et savoir pourquoi ils ne préparent pas les cocos eux-mêmes.
+- Clients du palier 1 : d'abord les agences réceptives qui achètent la NĪĀ et la remettent au touriste à l'arrivée à l'hôtel (prix net par passager, commission, une coco par passager ou par dossier, délai de paiement, décideur réel derrière le contact terrain, veto de l'hôtel) ; ensuite les opérateurs d'excursion qui servent déjà des cocos incluses dans l'excursion. Dans les deux cas : connaître volume, coût actuel par passager et contrainte logistique avant de proposer quoi que ce soit.
 - Clients du palier 2 : restaurants, hôtels et bars de Tahiti ; décideurs = directeur F&B, chef, gérant de bar.
 - Monnaie : XPF. Un fondateur seul, sans budget acquis : le cash du palier 1 est la première source de financement, la levée la seconde.
 - Devise : make it work, make it right, make it fast. Un pilote payant vaut mieux qu'un business plan parfait.
